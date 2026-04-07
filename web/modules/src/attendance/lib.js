@@ -184,14 +184,20 @@ class AttendanceAdapter extends ReactModalAdapterBase {
           sendPunch(params);
         },
         (error) => {
-          // Location denied or unavailable - still send without coords
-          // Backend will reject if geofencing is enabled
-          sendPunch(params);
+          let msg = 'Location access is required for attendance. ';
+          if (error.code === 1) {
+            msg += 'Please allow location permission in your browser and try again.';
+          } else if (error.code === 2) {
+            msg += 'Your location could not be determined. Please check your device settings.';
+          } else {
+            msg += 'Location request timed out. Please try again.';
+          }
+          that.showMessage('Location Required', msg);
         },
-        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+        { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }
       );
     } else {
-      sendPunch(params);
+      that.showMessage('Location Required', 'Your browser does not support geolocation. Please use a modern browser to mark attendance.');
     }
   }
 

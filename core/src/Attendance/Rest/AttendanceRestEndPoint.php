@@ -299,9 +299,11 @@ class AttendanceRestEndPoint extends RestEndPoint
         $inDateArr = explode(" ", $inDateTime);
         $inDate = $inDateArr[0];
 
-        // Geofence validation
-        $geofencingEnabled = SettingsManager::getInstance()->getSetting('Attendance: Geofencing Enabled') === '1';
-        if ($geofencingEnabled) {
+        // Geofence validation - enforced when active geofence locations exist
+        $geofenceLocation = new GeofenceLocation();
+        $activeLocations = $geofenceLocation->Find("status = ?", array('Active'));
+
+        if (!empty($activeLocations)) {
             if (empty($latitude) || empty($longitude)) {
                 return new IceResponse(
                     IceResponse::ERROR,
@@ -309,28 +311,23 @@ class AttendanceRestEndPoint extends RestEndPoint
                 );
             }
 
-            $geofenceLocation = new GeofenceLocation();
-            $activeLocations = $geofenceLocation->Find("status = ?", array('Active'));
-
-            if (!empty($activeLocations)) {
-                $withinGeofence = false;
-                foreach ($activeLocations as $loc) {
-                    $distance = $this->calculateHaversineDistance(
-                        floatval($latitude), floatval($longitude),
-                        floatval($loc->latitude), floatval($loc->longitude)
-                    );
-                    if ($distance <= floatval($loc->radius)) {
-                        $withinGeofence = true;
-                        break;
-                    }
+            $withinGeofence = false;
+            foreach ($activeLocations as $loc) {
+                $distance = $this->calculateHaversineDistance(
+                    floatval($latitude), floatval($longitude),
+                    floatval($loc->latitude), floatval($loc->longitude)
+                );
+                if ($distance <= floatval($loc->radius)) {
+                    $withinGeofence = true;
+                    break;
                 }
+            }
 
-                if (!$withinGeofence) {
-                    return new IceResponse(
-                        IceResponse::ERROR,
-                        "You are not within the allowed attendance area. Please move to an approved location and try again."
-                    );
-                }
+            if (!$withinGeofence) {
+                return new IceResponse(
+                    IceResponse::ERROR,
+                    "You are not within the allowed attendance area. Please move to an approved location and try again."
+                );
             }
         }
 

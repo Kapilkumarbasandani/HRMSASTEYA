@@ -93,41 +93,38 @@ class AttendanceActionManager extends SubActionManager
 
         $employee = $this->baseService->getElement('Employee', $this->getCurrentProfileId(), null, true);
 
-        // Geofence validation
-        $geofencingEnabled = SettingsManager::getInstance()->getSetting('Attendance: Geofencing Enabled') === '1';
-        if ($geofencingEnabled) {
+        // Geofence validation - enforced when active geofence locations exist
+        $geofenceLocation = new GeofenceLocation();
+        $activeLocations = $geofenceLocation->Find("status = ?", array('Active'));
+
+        if (!empty($activeLocations)) {
             $latitude = isset($req->latitude) ? floatval($req->latitude) : null;
             $longitude = isset($req->longitude) ? floatval($req->longitude) : null;
 
             if (empty($latitude) || empty($longitude)) {
                 return new IceResponse(
                     IceResponse::ERROR,
-                    "Location is required for attendance. Please enable location services and try again."
+                    "Location is required for attendance. Please enable location services in your browser and try again."
                 );
             }
 
-            $geofenceLocation = new GeofenceLocation();
-            $activeLocations = $geofenceLocation->Find("status = ?", array('Active'));
-
-            if (!empty($activeLocations)) {
-                $withinGeofence = false;
-                foreach ($activeLocations as $loc) {
-                    $distance = $this->calculateHaversineDistance(
-                        $latitude, $longitude,
-                        floatval($loc->latitude), floatval($loc->longitude)
-                    );
-                    if ($distance <= floatval($loc->radius)) {
-                        $withinGeofence = true;
-                        break;
-                    }
+            $withinGeofence = false;
+            foreach ($activeLocations as $loc) {
+                $distance = $this->calculateHaversineDistance(
+                    $latitude, $longitude,
+                    floatval($loc->latitude), floatval($loc->longitude)
+                );
+                if ($distance <= floatval($loc->radius)) {
+                    $withinGeofence = true;
+                    break;
                 }
+            }
 
-                if (!$withinGeofence) {
-                    return new IceResponse(
-                        IceResponse::ERROR,
-                        "You are not within the allowed attendance area. Please move to an approved location and try again."
-                    );
-                }
+            if (!$withinGeofence) {
+                return new IceResponse(
+                    IceResponse::ERROR,
+                    "You are not within the allowed attendance area. Please move to an approved location and try again."
+                );
             }
         }
 
