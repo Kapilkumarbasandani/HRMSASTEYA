@@ -44,7 +44,7 @@ class UsersEmailSender
         if (!empty($emailTo)) {
             if (!empty($this->emailSender)) {
                 LogManager::getInstance()->info("[sendWelcomeUserEmail] sending email to $emailTo : ".$email);
-                return $this->emailSender->sendEmail("Your IceHrm account is ready", $emailTo, $email, $params);
+                return $this->emailSender->sendEmail("Your Asteya HRMS account is ready", $emailTo, $email, $params);
             }
         } else {
             LogManager::getInstance()->info("[sendWelcomeUserEmail] email is empty");
@@ -61,7 +61,7 @@ class UsersEmailSender
 		$companyName = SettingsManager::getInstance()->getSetting('Company: Name');
 		$companyName = substr($companyName,0,40);
 		if(empty($companyName) || $companyName == "Sample Company Pvt Ltd"){
-			$companyName = 'IceHrm';
+			$companyName = 'Asteya HRMS';
 		}
 
 		if (empty($inviter)) {
@@ -79,7 +79,7 @@ class UsersEmailSender
 		if (!empty($userInvitation->email)) {
 			if (!empty($this->emailSender)) {
 				LogManager::getInstance()->info("[sendInviteUserEmail] sending email to $userInvitation->email : ".$email);
-				return $this->emailSender->sendEmail(sprintf('%s invites you to IceHrm', $inviterName), $userInvitation->email, $email, $params);
+				return $this->emailSender->sendEmail(sprintf('%s invites you to Asteya HRMS', $inviterName), $userInvitation->email, $email, $params);
 			}
 		} else {
 			LogManager::getInstance()->info("[sendInviteUserEmail] email is empty");

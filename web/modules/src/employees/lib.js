@@ -865,7 +865,7 @@ class ApiAccessAdapter extends AdapterBase {
   }
 
   loginCodeFailCallBack(callBackData) {
-    this.showMessage('Error', 'Error occurred while requesting login code. Please contact team@icehrm.com.')
+    this.showMessage('Error', 'Error occurred while requesting login code. Please contact your administrator.')
   }
 
   get() {

@@ -108,9 +108,9 @@ class DashboardAdapter extends AdapterBase {
                 alt="Asteya"
                 style={{ maxWidth: 180, height: 'auto', marginBottom: 20 }}
               />
-              <h3 style={{ marginBottom: 12, color: '#333' }}>Connect to IceHrm.com</h3>
+              <h3 style={{ marginBottom: 12, color: '#333' }}>Connect to Asteya HRMS</h3>
               <p style={{ color: '#666', marginBottom: 16 }}>
-                Your IceHrm installation is not connected to IceHrm.com.
+                Your Asteya HRMS installation is not connected.
               </p>
               <p style={{ color: '#666', marginBottom: 8 }}>Connect to access:</p>
               <ul style={{ textAlign: 'left', display: 'inline-block', color: '#666' }}>

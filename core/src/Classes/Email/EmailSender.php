@@ -50,7 +50,7 @@ abstract class EmailSender
 
             if ($delayed) {
                 $this->sendEmailDelayed(
-                    'IceHrm Notification from '.$notification->type,
+                    'Asteya HRMS Notification from '.$notification->type,
                     $user->email,
                     $emailBody,
                     array(),
@@ -59,7 +59,7 @@ abstract class EmailSender
                 );
             } else {
                 $this->sendEmail(
-                    'IceHrm Notification from '.$notification->type,
+                    'Asteya HRMS Notification from '.$notification->type,
                     $user->email,
                     $emailBody,
                     array(),
@@ -123,7 +123,7 @@ abstract class EmailSender
         $fromEmail = $this->settings->getSetting("Email: Email From");
         $companyName = $this->settings->getSetting("Company: Name");
         if ($companyName == "" || $companyName == 'Sample Company Pvt Ltd') {
-            $companyName = "IceHrm";
+            $companyName = "Asteya HRMS";
         }
 
         //Convert to a html email
@@ -152,7 +152,7 @@ abstract class EmailSender
 
 
         $params['year'] = date("Y");
-        $params['icehrm_url'] = 'https://icehrm.com';
+        $params['icehrm_url'] = CLIENT_BASE_URL;
         $params['company_name'] = $companyName;
         $params['logourl'] = UIManager::getInstance()->getCompanyLogoUrl();
 

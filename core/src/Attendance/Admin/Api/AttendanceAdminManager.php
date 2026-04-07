@@ -31,6 +31,7 @@ class AttendanceAdminManager extends AbstractModuleManager
     {
         $this->addModelClass('Attendance');
         $this->addModelClass('AttendanceStatus');
+        $this->addModelClass('GeofenceLocation');
     }
 
     public function setupRestEndPoints()

@@ -376,4 +376,74 @@ class AttendanceStatusAdapter extends ReactModalAdapterBase {
   }
 }
 
-module.exports = { AttendanceAdapter, AttendanceStatusAdapter };
+
+/*
+ Geofence Locations
+ */
+
+class GeofenceLocationAdapter extends ReactModalAdapterBase {
+  getDataMapping() {
+    return [
+      'id',
+      'name',
+      'latitude',
+      'longitude',
+      'radius',
+      'status',
+    ];
+  }
+
+  getHeaders() {
+    return [
+      { sTitle: 'ID', bVisible: false },
+      { sTitle: 'Name' },
+      { sTitle: 'Latitude' },
+      { sTitle: 'Longitude' },
+      { sTitle: 'Radius (m)' },
+      { sTitle: 'Status' },
+    ];
+  }
+
+  getTableColumns() {
+    return [
+      {
+        title: 'Name',
+        dataIndex: 'name',
+        sorter: true,
+      },
+      {
+        title: 'Latitude',
+        dataIndex: 'latitude',
+      },
+      {
+        title: 'Longitude',
+        dataIndex: 'longitude',
+      },
+      {
+        title: 'Radius (m)',
+        dataIndex: 'radius',
+      },
+      {
+        title: 'Status',
+        dataIndex: 'status',
+        render: (text) => (
+          <Tag color={text === 'Active' ? 'green' : 'default'}>{text}</Tag>
+        ),
+        sorter: true,
+      },
+    ];
+  }
+
+  getFormFields() {
+    return [
+      ['id', { label: 'ID', type: 'hidden' }],
+      ['name', { label: 'Location Name', type: 'text', validation: '' }],
+      ['latitude', { label: 'Latitude', type: 'text', validation: 'float' }],
+      ['longitude', { label: 'Longitude', type: 'text', validation: 'float' }],
+      ['radius', { label: 'Radius (meters)', type: 'text', validation: 'number' }],
+      ['status', { label: 'Status', type: 'select', source: [['Active', 'Active'], ['Inactive', 'Inactive']] }],
+    ];
+  }
+}
+
+module.exports = { AttendanceAdapter, AttendanceStatusAdapter, GeofenceLocationAdapter };

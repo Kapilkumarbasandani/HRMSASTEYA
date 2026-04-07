@@ -159,18 +159,40 @@ class AttendanceAdapter extends ReactModalAdapterBase {
 
   add(object, getFunctionCallBackData, callGetFunction, successCallback) {
     const that = this;
-    let params = object;
-    params = this.forceInjectValuesBeforeSave(params);
-    params.cdate = this.getClientDate(new Date()).toISOString().slice(0, 19).replace('T', ' ');
-    const reqJson = JSON.stringify(params);
-    const callBackData = [];
-    callBackData.callBackData = [];
-    callBackData.callBackSuccess = 'saveSuccessCallback';
-    callBackData.callBackFail = 'getPunchFailCallBack';
 
-    this.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
-    callGetFunction();
-    successCallback();
+    const sendPunch = (params) => {
+      params = that.forceInjectValuesBeforeSave(params);
+      params.cdate = that.getClientDate(new Date()).toISOString().slice(0, 19).replace('T', ' ');
+      const reqJson = JSON.stringify(params);
+      const callBackData = [];
+      callBackData.callBackData = [];
+      callBackData.callBackSuccess = 'saveSuccessCallback';
+      callBackData.callBackFail = 'getPunchFailCallBack';
+
+      that.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
+      callGetFunction();
+      successCallback();
+    };
+
+    let params = object;
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          params.latitude = position.coords.latitude;
+          params.longitude = position.coords.longitude;
+          sendPunch(params);
+        },
+        (error) => {
+          // Location denied or unavailable - still send without coords
+          // Backend will reject if geofencing is enabled
+          sendPunch(params);
+        },
+        { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+      );
+    } else {
+      sendPunch(params);
+    }
   }
 
   saveSuccessCallback(callBackData) {

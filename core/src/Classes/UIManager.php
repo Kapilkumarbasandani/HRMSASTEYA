@@ -320,11 +320,11 @@ class UIManager
             return CLIENT_BASE_URL.'logo.png';
         }
 
-        return  BASE_URL."images/logo.png";
+        return  BASE_URL."images/Asteya.png";
     }
 
     public function get_random_login_image() {
-        return  'https://icehrm-public.s3.amazonaws.com/images/login_page.png';
+        return  BASE_URL.'images/Asteya.png';
     }
 
     /**

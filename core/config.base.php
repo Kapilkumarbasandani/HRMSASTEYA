@@ -1,9 +1,9 @@
 <?php
 if(!defined('SIGN_IN_ELEMENT_MAPPING_FIELD_NAME')){define('SIGN_IN_ELEMENT_MAPPING_FIELD_NAME','employee');}
 
-if(!defined('APP_NAME')){define('APP_NAME','ICE Hrm');}
-if(!defined('FB_URL')){define('FB_URL', 'https://www.facebook.com/icehrm');};
-if(!defined('TWITTER_URL')){define('TWITTER_URL', 'https://twitter.com/icehrmapp');};
+if(!defined('APP_NAME')){define('APP_NAME','Asteya HRMS');}
+if(!defined('FB_URL')){define('FB_URL', '');};
+if(!defined('TWITTER_URL')){define('TWITTER_URL', '');};
 
 if(!defined('HOME_LINK_ADMIN')){
     define('HOME_LINK_ADMIN', CLIENT_BASE_URL . "?g=admin&n=dashboard&m=admin_Admin");
@@ -18,8 +18,8 @@ define('CACHE_VALUE', '35.0.0.2026-02-07-0547');
 define('VERSION_NUMBER', '350000');
 define('VERSION_DATE', '07/02/2026');
 
-if(!defined('CONTACT_EMAIL')){define('CONTACT_EMAIL','icehrm@gamonoid.com');}
-if(!defined('KEY_PREFIX')){define('KEY_PREFIX','IceHrm');}
+if(!defined('CONTACT_EMAIL')){define('CONTACT_EMAIL','kkbasandani74@gmail.com');}
+if(!defined('KEY_PREFIX')){define('KEY_PREFIX','Asteya');}
 
 define('UI_SHOW_SWITCH_PROFILE', true);
 define('CRON_LOG', ini_get('error_log'));
@@ -37,7 +37,7 @@ define('LDAP_ENABLED', true);
 define('SAML_ENABLED', true);
 define('LEAVE_ENABLED', true);
 define('RECRUITMENT_ENABLED', true);
-if(!defined('APP_WEB_URL')) {define('APP_WEB_URL', 'https://icehrm.com');}
+if(!defined('APP_WEB_URL')) {define('APP_WEB_URL', CLIENT_BASE_URL);}
 
 if (!defined('EXTENSIONS_URL')) {
     define('EXTENSIONS_URL', str_replace('/web/', '/extensions/', BASE_URL));

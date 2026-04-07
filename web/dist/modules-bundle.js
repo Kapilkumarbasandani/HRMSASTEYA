@@ -5953,12 +5953,12 @@ var DashboardAdapter = /*#__PURE__*/function (_AdapterBase) {
                 marginBottom: 12,
                 color: '#333'
               }
-            }, "Connect to IceHrm.com"), /*#__PURE__*/_react["default"].createElement("p", {
+            }, "Connect to Asteya HRMS"), /*#__PURE__*/_react["default"].createElement("p", {
               style: {
                 color: '#666',
                 marginBottom: 16
               }
-            }, "Your IceHrm installation is not connected to IceHrm.com."), /*#__PURE__*/_react["default"].createElement("p", {
+            }, "Your Asteya HRMS installation is not connected."), /*#__PURE__*/_react["default"].createElement("p", {
               style: {
                 color: '#666',
                 marginBottom: 8
@@ -20166,17 +20166,39 @@ var AttendanceAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
     key: "add",
     value: function add(object, getFunctionCallBackData, callGetFunction, successCallback) {
       var that = this;
+
+      var sendPunch = function sendPunch(params) {
+        params = that.forceInjectValuesBeforeSave(params);
+        params.cdate = that.getClientDate(new Date()).toISOString().slice(0, 19).replace('T', ' ');
+        var reqJson = JSON.stringify(params);
+        var callBackData = [];
+        callBackData.callBackData = [];
+        callBackData.callBackSuccess = 'saveSuccessCallback';
+        callBackData.callBackFail = 'getPunchFailCallBack';
+        that.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
+        callGetFunction();
+        successCallback();
+      };
+
       var params = object;
-      params = this.forceInjectValuesBeforeSave(params);
-      params.cdate = this.getClientDate(new Date()).toISOString().slice(0, 19).replace('T', ' ');
-      var reqJson = JSON.stringify(params);
-      var callBackData = [];
-      callBackData.callBackData = [];
-      callBackData.callBackSuccess = 'saveSuccessCallback';
-      callBackData.callBackFail = 'getPunchFailCallBack';
-      this.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
-      callGetFunction();
-      successCallback();
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+          params.latitude = position.coords.latitude;
+          params.longitude = position.coords.longitude;
+          sendPunch(params);
+        }, function (error) {
+          // Location denied or unavailable - still send without coords
+          // Backend will reject if geofencing is enabled
+          sendPunch(params);
+        }, {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 0
+        });
+      } else {
+        sendPunch(params);
+      }
     }
   }, {
     key: "saveSuccessCallback",
@@ -23178,7 +23200,7 @@ var ApiAccessAdapter = /*#__PURE__*/function (_AdapterBase2) {
   }, {
     key: "loginCodeFailCallBack",
     value: function loginCodeFailCallBack(callBackData) {
-      this.showMessage('Error', 'Error occurred while requesting login code. Please contact team@icehrm.com.');
+      this.showMessage('Error', 'Error occurred while requesting login code. Please contact your administrator.');
     }
   }, {
     key: "get",

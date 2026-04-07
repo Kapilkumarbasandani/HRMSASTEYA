@@ -19,5 +19,5 @@ define('APP_CON_STR', 'mysqli://'.APP_USERNAME.':'.APP_PASSWORD.'@'.APP_HOST.'/'
 //file upload
 define('FILE_TYPES', 'jpg,png,jpeg');
 define('MAX_FILE_SIZE_KB', 10 * 1024);
-if(!defined('APP_WEB_URL')) {define('APP_WEB_URL', 'https://icehrm.com');}
+if(!defined('APP_WEB_URL')) {define('APP_WEB_URL', 'http://localhost:9080');}
 if(!defined('EXT_SRC_PATH')) {define('EXT_SRC_PATH', '/src/');}

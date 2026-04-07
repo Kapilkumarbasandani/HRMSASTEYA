@@ -2,6 +2,7 @@
 namespace Attendance\Rest;
 
 use Attendance\Common\Model\Attendance;
+use Attendance\Common\Model\GeofenceLocation;
 use Classes\BaseService;
 use Classes\Data\Query\DataQuery;
 use Classes\Data\Query\Filter;
@@ -298,6 +299,41 @@ class AttendanceRestEndPoint extends RestEndPoint
         $inDateArr = explode(" ", $inDateTime);
         $inDate = $inDateArr[0];
 
+        // Geofence validation
+        $geofencingEnabled = SettingsManager::getInstance()->getSetting('Attendance: Geofencing Enabled') === '1';
+        if ($geofencingEnabled) {
+            if (empty($latitude) || empty($longitude)) {
+                return new IceResponse(
+                    IceResponse::ERROR,
+                    "Location is required for attendance. Please enable location services and try again."
+                );
+            }
+
+            $geofenceLocation = new GeofenceLocation();
+            $activeLocations = $geofenceLocation->Find("status = ?", array('Active'));
+
+            if (!empty($activeLocations)) {
+                $withinGeofence = false;
+                foreach ($activeLocations as $loc) {
+                    $distance = $this->calculateHaversineDistance(
+                        floatval($latitude), floatval($longitude),
+                        floatval($loc->latitude), floatval($loc->longitude)
+                    );
+                    if ($distance <= floatval($loc->radius)) {
+                        $withinGeofence = true;
+                        break;
+                    }
+                }
+
+                if (!$withinGeofence) {
+                    return new IceResponse(
+                        IceResponse::ERROR,
+                        "You are not within the allowed attendance area. Please move to an approved location and try again."
+                    );
+                }
+            }
+        }
+
         $outDate = "";
         if (!empty($outDateTime)) {
             $outDateArr = explode(" ", $outDateTime);
@@ -414,5 +450,17 @@ class AttendanceRestEndPoint extends RestEndPoint
         }
 
         return null;
+    }
+
+    protected function calculateHaversineDistance($lat1, $lng1, $lat2, $lng2)
+    {
+        $earthRadius = 6371000; // meters
+        $dLat = deg2rad($lat2 - $lat1);
+        $dLng = deg2rad($lng2 - $lng1);
+        $a = sin($dLat / 2) * sin($dLat / 2)
+            + cos(deg2rad($lat1)) * cos(deg2rad($lat2))
+            * sin($dLng / 2) * sin($dLng / 2);
+        $c = 2 * atan2(sqrt($a), sqrt(1 - $a));
+        return $earthRadius * $c;
     }
 }

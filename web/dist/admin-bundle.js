@@ -2437,6 +2437,10 @@ function init(data) {
   modJsList.tabAttendanceStatus.setObjectTypeName('Attendance');
   modJsList.tabAttendanceStatus.setDataPipe(new _IceDataPipe["default"](modJsList.tabAttendanceStatus));
   modJsList.tabAttendanceStatus.setAccess(data.permissions.AttendanceStatus);
+  modJsList.tabGeofenceLocation = new _lib.GeofenceLocationAdapter('GeofenceLocation', 'GeofenceLocation', '', 'name');
+  modJsList.tabGeofenceLocation.setObjectTypeName('GeofenceLocation');
+  modJsList.tabGeofenceLocation.setDataPipe(new _IceDataPipe["default"](modJsList.tabGeofenceLocation));
+  modJsList.tabGeofenceLocation.setAccess(data.permissions.GeofenceLocation || ['get', 'element', 'save', 'delete']);
   window.modJs = modJsList.tabAttendance;
   window.modJsList = modJsList;
 }
@@ -2916,10 +2920,109 @@ var AttendanceStatusAdapter = /*#__PURE__*/function (_ReactModalAdapterBas2) {
 
   return AttendanceStatusAdapter;
 }(_ReactModalAdapterBase["default"]);
+/*
+ Geofence Locations
+ */
+
+
+var GeofenceLocationAdapter = /*#__PURE__*/function (_ReactModalAdapterBas3) {
+  _inherits(GeofenceLocationAdapter, _ReactModalAdapterBas3);
+
+  var _super3 = _createSuper(GeofenceLocationAdapter);
+
+  function GeofenceLocationAdapter() {
+    _classCallCheck(this, GeofenceLocationAdapter);
+
+    return _super3.apply(this, arguments);
+  }
+
+  _createClass(GeofenceLocationAdapter, [{
+    key: "getDataMapping",
+    value: function getDataMapping() {
+      return ['id', 'name', 'latitude', 'longitude', 'radius', 'status'];
+    }
+  }, {
+    key: "getHeaders",
+    value: function getHeaders() {
+      return [{
+        sTitle: 'ID',
+        bVisible: false
+      }, {
+        sTitle: 'Name'
+      }, {
+        sTitle: 'Latitude'
+      }, {
+        sTitle: 'Longitude'
+      }, {
+        sTitle: 'Radius (m)'
+      }, {
+        sTitle: 'Status'
+      }];
+    }
+  }, {
+    key: "getTableColumns",
+    value: function getTableColumns() {
+      return [{
+        title: 'Name',
+        dataIndex: 'name',
+        sorter: true
+      }, {
+        title: 'Latitude',
+        dataIndex: 'latitude'
+      }, {
+        title: 'Longitude',
+        dataIndex: 'longitude'
+      }, {
+        title: 'Radius (m)',
+        dataIndex: 'radius'
+      }, {
+        title: 'Status',
+        dataIndex: 'status',
+        render: function render(text) {
+          return /*#__PURE__*/_react["default"].createElement(_antd.Tag, {
+            color: text === 'Active' ? 'green' : 'default'
+          }, text);
+        },
+        sorter: true
+      }];
+    }
+  }, {
+    key: "getFormFields",
+    value: function getFormFields() {
+      return [['id', {
+        label: 'ID',
+        type: 'hidden'
+      }], ['name', {
+        label: 'Location Name',
+        type: 'text',
+        validation: ''
+      }], ['latitude', {
+        label: 'Latitude',
+        type: 'text',
+        validation: 'float'
+      }], ['longitude', {
+        label: 'Longitude',
+        type: 'text',
+        validation: 'float'
+      }], ['radius', {
+        label: 'Radius (meters)',
+        type: 'text',
+        validation: 'number'
+      }], ['status', {
+        label: 'Status',
+        type: 'select',
+        source: [['Active', 'Active'], ['Inactive', 'Inactive']]
+      }]];
+    }
+  }]);
+
+  return GeofenceLocationAdapter;
+}(_ReactModalAdapterBase["default"]);
 
 module.exports = {
   AttendanceAdapter: AttendanceAdapter,
-  AttendanceStatusAdapter: AttendanceStatusAdapter
+  AttendanceStatusAdapter: AttendanceStatusAdapter,
+  GeofenceLocationAdapter: GeofenceLocationAdapter
 };
 
 },{"../../../api/ReactModalAdapterBase":90,"./components/AttendanceModal":5,"@ant-design/icons":"@ant-design/icons","antd":"antd","react":"react"}],8:[function(require,module,exports){
@@ -5021,12 +5124,12 @@ var DashboardAdapter = /*#__PURE__*/function (_AdapterBase) {
                 marginBottom: 12,
                 color: '#333'
               }
-            }, "Connect to IceHrm.com"), /*#__PURE__*/_react["default"].createElement("p", {
+            }, "Connect to Asteya HRMS"), /*#__PURE__*/_react["default"].createElement("p", {
               style: {
                 color: '#666',
                 marginBottom: 16
               }
-            }, "Your IceHrm installation is not connected to IceHrm.com."), /*#__PURE__*/_react["default"].createElement("p", {
+            }, "Your Asteya HRMS installation is not connected."), /*#__PURE__*/_react["default"].createElement("p", {
               style: {
                 color: '#666',
                 marginBottom: 8

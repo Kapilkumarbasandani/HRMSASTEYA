@@ -37,7 +37,16 @@ class SwiftMailer extends EmailSender
             if (empty($port)) {
                 $port = '25';
             }
-            $transport = new \Swift_SmtpTransport($host, $port);
+
+            // Enable TLS for port 587 (STARTTLS), SSL for port 465
+            if ($port == '587') {
+                $transport = new \Swift_SmtpTransport($host, $port, 'tls');
+            } elseif ($port == '465') {
+                $transport = new \Swift_SmtpTransport($host, $port, 'ssl');
+            } else {
+                $transport = new \Swift_SmtpTransport($host, $port);
+            }
+
             $mail = new \Swift_Message();
 
             if ($this->settings->getSetting("Email: SMTP Authentication Required") === "1") {
@@ -51,7 +60,7 @@ class SwiftMailer extends EmailSender
             $mail->setSubject($subject);
             $mail->setCc($ccList);
             $mail->setBcc($bccList);
-            $mail->setBody($body);
+            $mail->setBody($body, 'text/html');
 
             $mailer = new \Swift_Mailer($transport);
             return $mailer->send($mail);

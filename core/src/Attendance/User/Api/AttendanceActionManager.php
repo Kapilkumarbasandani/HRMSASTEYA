@@ -9,6 +9,7 @@
 namespace Attendance\User\Api;
 
 use Attendance\Common\Model\Attendance;
+use Attendance\Common\Model\GeofenceLocation;
 use AttendanceSheets\Common\Model\EmployeeAttendanceSheet;
 use Classes\BaseService;
 use Classes\IceConstants;
@@ -92,6 +93,44 @@ class AttendanceActionManager extends SubActionManager
 
         $employee = $this->baseService->getElement('Employee', $this->getCurrentProfileId(), null, true);
 
+        // Geofence validation
+        $geofencingEnabled = SettingsManager::getInstance()->getSetting('Attendance: Geofencing Enabled') === '1';
+        if ($geofencingEnabled) {
+            $latitude = isset($req->latitude) ? floatval($req->latitude) : null;
+            $longitude = isset($req->longitude) ? floatval($req->longitude) : null;
+
+            if (empty($latitude) || empty($longitude)) {
+                return new IceResponse(
+                    IceResponse::ERROR,
+                    "Location is required for attendance. Please enable location services and try again."
+                );
+            }
+
+            $geofenceLocation = new GeofenceLocation();
+            $activeLocations = $geofenceLocation->Find("status = ?", array('Active'));
+
+            if (!empty($activeLocations)) {
+                $withinGeofence = false;
+                foreach ($activeLocations as $loc) {
+                    $distance = $this->calculateHaversineDistance(
+                        $latitude, $longitude,
+                        floatval($loc->latitude), floatval($loc->longitude)
+                    );
+                    if ($distance <= floatval($loc->radius)) {
+                        $withinGeofence = true;
+                        break;
+                    }
+                }
+
+                if (!$withinGeofence) {
+                    return new IceResponse(
+                        IceResponse::ERROR,
+                        "You are not within the allowed attendance area. Please move to an approved location and try again."
+                    );
+                }
+            }
+        }
+
         //check if dates are differnet
         $arr = explode(" ", $openPunch->in_time);
         $inDate = $arr[0];
@@ -155,6 +194,10 @@ class AttendanceActionManager extends SubActionManager
             $openPunch->image_out = $req->image;
             $openPunch->out_ip = NetworkUtils::getClientIp();
             $openPunch->work_from_home = !empty($req->work_from_home) ? 1 : 0;
+            if (isset($req->latitude) && isset($req->longitude)) {
+                $openPunch->map_out_lat = $req->latitude;
+                $openPunch->map_out_lng = $req->longitude;
+            }
             $this->baseService->audit(IceConstants::AUDIT_ACTION, "Punch Out \ time:".$openPunch->out_time);
         } else {
             $openPunch->in_time = $dateTime;
@@ -163,6 +206,10 @@ class AttendanceActionManager extends SubActionManager
             $openPunch->employee = $employee->id;
             $openPunch->in_ip = NetworkUtils::getClientIp();
             $openPunch->work_from_home = !empty($req->work_from_home) ? 1 : 0;
+            if (isset($req->latitude) && isset($req->longitude)) {
+                $openPunch->map_lat = $req->latitude;
+                $openPunch->map_lng = $req->longitude;
+            }
             $this->baseService->audit(IceConstants::AUDIT_ACTION, "Punch In \ time:".$openPunch->in_time);
         }
         $ok = $openPunch->Save();
@@ -172,6 +219,18 @@ class AttendanceActionManager extends SubActionManager
         }
         return new IceResponse(IceResponse::SUCCESS, $openPunch);
     }
+
+	private function calculateHaversineDistance($lat1, $lng1, $lat2, $lng2)
+	{
+		$earthRadius = 6371000; // meters
+		$dLat = deg2rad($lat2 - $lat1);
+		$dLng = deg2rad($lng2 - $lng1);
+		$a = sin($dLat / 2) * sin($dLat / 2)
+			+ cos(deg2rad($lat1)) * cos(deg2rad($lat2))
+			* sin($dLng / 2) * sin($dLng / 2);
+		$c = 2 * atan2(sqrt($a), sqrt(1 - $a));
+		return $earthRadius * $c;
+	}
 
 	private function ensureAttendanceTimeIsValid($time, $type = 'in') {
 		$settingPrefix = 'Attendance: Punch ' . ucfirst($type) . ' ';

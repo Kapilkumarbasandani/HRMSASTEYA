@@ -286,7 +286,7 @@ $slashFix = IS_CLOUD ? '' : '/';
               <!-- cta-content start -->
               <div class="pb-xl-0 pb-9 text-xl-left text-center">
                 <h2 class="text-white font-size-8 mb-4"><?=$companyName?></h2>
-                  <p class="text-hit-gray font-size-5 mb-0">Built with ❤️ using <a href="https://icehrm.com">IceHrm</a></p>
+                  <p class="text-hit-gray font-size-5 mb-0">Powered by Asteya HRMS</p>
               </div>
               <!-- cta-content end -->
             </div>

@@ -5,6 +5,7 @@
  */
 
 use Attendance\Common\Model\Attendance;
+use Attendance\Common\Model\GeofenceLocation;
 use Classes\PermissionManager;
 use Classes\SettingsManager;
 
@@ -20,6 +21,7 @@ $overtimeStartHours = SettingsManager::getInstance()->getSetting('Attendance: Ov
 	<ul class="nav nav-tabs" id="modTab" style="margin-bottom:0px;margin-left:5px;border-bottom: none;">
 		<li class="active"><a id="tabAttendance" href="#tabPageAttendance"><?=t('Monitor Attendance')?></a></li>
         <li class=""><a id="tabAttendanceStatus" href="#tabPageAttendanceStatus"><?=t('Current Clocked In Status')?></a></li>
+        <li class=""><a id="tabGeofenceLocation" href="#tabPageGeofenceLocation"><?=t('Geofence Locations')?></a></li>
 	</ul>
 
 	<div class="tab-content">
@@ -32,6 +34,10 @@ $overtimeStartHours = SettingsManager::getInstance()->getSetting('Attendance: Ov
             <div id="AttendanceStatusTable" class="reviewBlock" data-content="List" style="padding-left:5px;"></div>
             <div id="AttendanceStatusForm"></div>
             <div id="AttendanceStatusFilterForm"></div>
+        </div>
+        <div class="tab-pane" id="tabPageGeofenceLocation">
+            <div id="GeofenceLocationTable" class="reviewBlock" data-content="List" style="padding-left:5px;"></div>
+            <div id="GeofenceLocationForm"></div>
         </div>
 
 	</div>
@@ -94,6 +100,7 @@ $moduleData = [
     'permissions' => [
         'Attendance' => PermissionManager::checkGeneralAccess(new Attendance()),
         'AttendanceStatus' => [],
+        'GeofenceLocation' => PermissionManager::checkGeneralAccess(new GeofenceLocation()),
     ],
     'overtimeStartHour' => (int)$overtimeStartHours,
 ];
