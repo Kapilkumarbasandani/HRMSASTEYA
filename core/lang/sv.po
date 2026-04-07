@@ -1,0 +1,2808 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-08-08T06:20:21+05:30\n"
+"PO-Revision-Date: 2018-08-08T06:20:21+05:30\n"
+"Language: Swedish\n"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Cancel"
+msgstr "Annullera"
+
+msgid "Done"
+msgstr "Gjort"
+
+msgid "Clocked In Employees"
+msgstr "Klockade i anställda"
+
+msgid "Candidates"
+msgstr "kandidater"
+
+msgid "View Employees"
+msgstr "Visa anställda"
+
+msgid "Add a New Employee"
+msgstr "Lägg till en ny anställd"
+
+msgid "Leave Calendar"
+msgstr "Lämna kalender"
+
+msgid "Manage Client/Projects"
+msgstr "Hantera klient / projekt"
+
+msgid "Home"
+msgstr "Hem"
+
+msgid "Quick Access"
+msgstr "Snabb åtkomst"
+
+msgid "Switch"
+msgstr "Växla"
+
+msgid "Profile"
+msgstr "Profil"
+
+msgid "Sign out"
+msgstr "Logga ut"
+
+msgid "Help"
+msgstr "Hjälp"
+
+msgid "About"
+msgstr "Handla om"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Release Date"
+msgstr "Utgivningsdatum"
+
+msgid "Logged In"
+msgstr "Inloggad"
+
+msgid "Admin"
+msgstr "Administration"
+
+msgid "Dashboard"
+msgstr "instrumentbräda"
+
+msgid "Company Structure"
+msgstr "Företagsstruktur"
+
+msgid "Job Details Setup"
+msgstr "Inställningar för jobbinformation"
+
+msgid "Qualifications Setup"
+msgstr "Inställningar för kvalifikationer"
+
+msgid "Training Setup"
+msgstr "Utbildningsinställningar"
+
+msgid "Projects/Client Setup"
+msgstr "Projekt / Client Setup"
+
+msgid "Leave Settings"
+msgstr "Lämna inställningar"
+
+msgid "Company Loans"
+msgstr "Företagslån"
+
+msgid "Audit Log"
+msgstr "Revisionslogg"
+
+msgid "Employees"
+msgstr "anställda"
+
+msgid "Employee History"
+msgstr "Anställd historia"
+
+msgid "Document Management"
+msgstr "Dokumenthantering"
+
+msgid "Travel Administration"
+msgstr "Travel Administration"
+
+msgid "Expense Administration"
+msgstr "Expense Administration"
+
+msgid "Monitor Attendance"
+msgstr "Monitor Attendance"
+
+msgid "Performance Charts"
+msgstr "Prestanda diagram"
+
+msgid "Overtime Administration"
+msgstr "Övertidsadministration"
+
+msgid "Admin Reports"
+msgstr "Admin rapporter"
+
+msgid "Reports"
+msgstr "rapporter"
+
+msgid "Report Files"
+msgstr "Rapportera filer"
+
+msgid "System"
+msgstr "Systemet"
+
+msgid "Settings"
+msgstr "inställningar"
+
+msgid "Users"
+msgstr "användare"
+
+msgid "Manage Modules"
+msgstr "Hantera moduler"
+
+msgid "Manage Permissions"
+msgstr "Hantera behörigheter"
+
+msgid "Upgrade"
+msgstr "uppgradering"
+
+msgid "Manage Metadata"
+msgstr "Hantera metadata"
+
+msgid "Field Names Setup"
+msgstr "Fältnamn Setup"
+
+msgid "Payroll"
+msgstr "Löner"
+
+msgid "Salary"
+msgstr "Lön"
+
+msgid "Payroll Reports"
+msgstr "Löneskalder"
+
+msgid "Recruitment"
+msgstr "Rekrytering"
+
+msgid "Recruitment Setup"
+msgstr "Rekrytering Setup"
+
+msgid "Job Positions"
+msgstr "Jobb positioner"
+
+msgid "Personal Information"
+msgstr "Personlig information"
+
+msgid "Basic Information"
+msgstr "Grundläggande information"
+
+msgid "Qualifications"
+msgstr "kvalifikationer"
+
+msgid "Dependents"
+msgstr "anhöriga"
+
+msgid "Emergency Contacts"
+msgstr "Nödkontakter"
+
+msgid "Leave"
+msgstr "Lämna"
+
+msgid "Leave Management"
+msgstr "Lämna ledningen"
+
+msgid "Time Management"
+msgstr "Tidsplanering"
+
+msgid "Projects"
+msgstr "projekt"
+
+msgid "Attendance"
+msgstr "Närvaro"
+
+msgid "Time Sheets"
+msgstr "Tidsschema"
+
+msgid "Attendance Sheets"
+msgstr "Deltagande ark"
+
+msgid "Overtime Requests"
+msgstr "Övertidsbegäran"
+
+msgid "Documents"
+msgstr "Dokument"
+
+msgid "My Documents"
+msgstr "Mina dokument"
+
+msgid "Company"
+msgstr "Företag"
+
+msgid "Staff Directory"
+msgstr "Staff Directory"
+
+msgid "Training"
+msgstr "Träning"
+
+msgid "Travel Management"
+msgstr "Travel Management"
+
+msgid "Travel"
+msgstr "Resa"
+
+msgid "Finance"
+msgstr "Finansiera"
+
+msgid "Expenses"
+msgstr "kostnader"
+
+msgid "Loans"
+msgstr "lån"
+
+msgid "User Reports"
+msgstr "Användarrapporter"
+
+msgid "People"
+msgstr "människor"
+
+msgid "Manage"
+msgstr "Hantera"
+
+msgid "Departments"
+msgstr "avdelningar"
+
+msgid "Active Projects"
+msgstr "Aktiva projekt"
+
+msgid "Update Clients/Projects"
+msgstr "Uppdatera klienter / projekt"
+
+msgid "Entries Last Week"
+msgstr "Inlägg förra veckan"
+
+msgid "Upcoming"
+msgstr "kommande"
+
+msgid "View / Download Reports"
+msgstr "Visa / Hämta rapporter"
+
+msgid "Generate a Report"
+msgstr "Skapa en rapport"
+
+msgid "Configure"
+msgstr "konfigurera"
+
+msgid "Update"
+msgstr "Uppdatering"
+
+msgid "Applicants"
+msgstr "sökande"
+
+msgid "Active Jobs"
+msgstr "Aktiva jobb"
+
+msgid "Jobs Posted"
+msgstr "Jobb Postat"
+
+msgid "Jobs"
+msgstr "jobb"
+
+msgid "Courses"
+msgstr "Kurser"
+
+msgid "Requests"
+msgstr "Begäran"
+
+msgid "Document"
+msgstr "Dokumentera"
+
+msgid "Management"
+msgstr "Förvaltning"
+
+msgid "Expense"
+msgstr "Bekostnad"
+
+msgid "Permission"
+msgstr "Lov"
+
+msgid "Permissions"
+msgstr "Behörigheter"
+
+msgid "and"
+msgstr "och"
+
+msgid "Invoices"
+msgstr "fakturor"
+
+msgid "Make a Payment"
+msgstr "Betala"
+
+msgid "Switch Employee"
+msgstr "Byt anställd"
+
+msgid "Select The Employee to Switch Into"
+msgstr "Välj medarbetaren att byta till"
+
+msgid "Close"
+msgstr "Stänga"
+
+msgid "My Profile"
+msgstr "Min profil"
+
+msgid "Edit Details"
+msgstr "Redigera detaljer"
+
+msgid "View/Edit Profile"
+msgstr "Visa / Redigera Profil"
+
+msgid "Punch In"
+msgstr "Slå in"
+
+msgid "or"
+msgstr "eller"
+
+msgid "Punch Out"
+msgstr "Punch Out"
+
+msgid "Record Attendance"
+msgstr "Spela in närvaro"
+
+msgid "Pending Leaves"
+msgstr "Väntar på blad"
+
+msgid "Check Leave Status"
+msgstr "Kontrollera lämningsstatus"
+
+msgid "Hours worked Last Week"
+msgstr "Timmar arbetade i förra veckan"
+
+msgid "Update Time Sheet"
+msgstr "Uppdatera tidskriften"
+
+msgid "My Projects"
+msgstr "Mina projekt"
+
+msgid "Projects Assigned"
+msgstr "Projekt Tilldelade"
+
+msgid "More info"
+msgstr "Mer information"
+
+msgid "Store"
+msgstr "Lagra"
+
+msgid "My Travel"
+msgstr "Min resa"
+
+msgid "My Expenses"
+msgstr "Mina utgifter"
+
+msgid "Manage Expenses"
+msgstr "Hantera utgifter"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Name"
+msgstr "namn"
+
+msgid "Address"
+msgstr "Adress"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Time Zone"
+msgstr "Tidszon"
+
+msgid "Parent Structure"
+msgstr "Föräldrastruktur"
+
+msgid "Details"
+msgstr "detaljer"
+
+msgid "Heads"
+msgstr "Beger sig"
+
+msgid "Code"
+msgstr "Koda"
+
+msgid "Job Title Code"
+msgstr "Jobbtitelkod"
+
+msgid "Job Title"
+msgstr "Jobbtitel"
+
+msgid "Description"
+msgstr "Beskrivning"
+
+msgid "Specification"
+msgstr "Specifikation"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Min Salary"
+msgstr "Min lön"
+
+msgid "Max Salary"
+msgstr "Max lön"
+
+msgid "Pay Grade Name"
+msgstr "Betalningsnamn"
+
+msgid "Employment Status"
+msgstr "anställningsstatus"
+
+msgid "Coordinator"
+msgstr "Samordnare"
+
+msgid "Trainer"
+msgstr "Tränare"
+
+msgid "Trainer Details"
+msgstr "Trainer detaljer"
+
+msgid "Payment Type"
+msgstr "Betalnings typ"
+
+msgid "Cost"
+msgstr "Kosta"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Course"
+msgstr "Kurs"
+
+msgid "Scheduled Time"
+msgstr "Schemalagd tid"
+
+msgid "Assignment Due Date"
+msgstr "Uppdragets förfallodatum"
+
+msgid "Delivery Method"
+msgstr "leverans metod"
+
+msgid "Delivery Location"
+msgstr "Leveransplats"
+
+msgid "Attendance Type"
+msgstr "Närvarotyp"
+
+msgid "Attachment"
+msgstr "Bilaga"
+
+msgid "Training Certificate Required"
+msgstr "Utbildningscertifikat krävs"
+
+msgid "Employee"
+msgstr "Anställd"
+
+msgid "Training Session"
+msgstr "Träningspass"
+
+msgid "Contact Number"
+msgstr "Kontaktnummer"
+
+msgid "Contact Email"
+msgstr "Kontakta E-post"
+
+msgid "Company Url"
+msgstr "Företagets Url"
+
+msgid "First Contact Date"
+msgstr "Första kontaktdatum"
+
+msgid "Client"
+msgstr "Klient"
+
+msgid "Project"
+msgstr "Projekt"
+
+msgid "Leave Name"
+msgstr "Lämna namn"
+
+msgid "Leave Accrue Enabled"
+msgstr "Lämna upplupning aktiverad"
+
+msgid "Leave Carried Forward"
+msgstr "Lämna Carried Framåt"
+
+msgid "Leaves Per Year"
+msgstr "Löv per år"
+
+msgid "Leaves Group"
+msgstr "Leaves Group"
+
+msgid "Leaves Per Leave Period"
+msgstr "Blad per lösenperiod"
+
+msgid "Admin can assign leave to employees"
+msgstr "Admin kan tilldela ledighet till anställda"
+
+msgid "Employees can apply for this leave type"
+msgstr "Anställda kan ansöka om denna semesterort"
+
+msgid "Employees can apply beyond the current leave balance"
+msgstr "Anställda kan ansöka utöver den nuvarande semesterbalansen"
+
+msgid "Percentage of Leaves Carried Forward"
+msgstr "Procentandel av blad som transporteras framåt"
+
+msgid "Maximum Carried Forward Amount"
+msgstr "Maximalt framåtriktat belopp"
+
+msgid "Carried Forward Leave Availability Period"
+msgstr "Flyttas framåt Lämna ledighetsperioden"
+
+msgid "Proportionate leaves on Joined Date"
+msgstr "Proportionella löv på anmälningsdatum"
+
+msgid "Send Notification Emails"
+msgstr "Skicka meddelande om e-post"
+
+msgid "Leave Group"
+msgstr "Lämna gruppen"
+
+msgid "Leave Color"
+msgstr "Lämna färg"
+
+msgid "Period Start"
+msgstr "Periodstart"
+
+msgid "Period End"
+msgstr "Periodslut"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "For All Countries"
+msgstr "För alla länder"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Leave Type"
+msgstr "Lämna typ"
+
+msgid "Propotionate leaves on Joined Date"
+msgstr "Propotionate lämnar på Inledningsdatum"
+
+msgid "Leaves Period"
+msgstr "Lövperiod"
+
+msgid "Leave Amount"
+msgstr "Lämna belopp"
+
+msgid "Leave Period"
+msgstr "Lämningsperiod"
+
+msgid "Note"
+msgstr "Notera"
+
+msgid "All Employees"
+msgstr "Alla anställda"
+
+msgid "All Leave Types"
+msgstr "Alla lämna typer"
+
+msgid "Loan Type"
+msgstr "Låntyp"
+
+msgid "Loan Start Date"
+msgstr "Lånets startdatum"
+
+msgid "Loan Period (Months)"
+msgstr "Lånperiod (månader)"
+
+msgid "Amount"
+msgstr "Belopp"
+
+msgid "Last Installment Date"
+msgstr "Senast avbetalningsdatum"
+
+msgid "Loan Amount"
+msgstr "Lånebelopp"
+
+msgid "Monthly Installment"
+msgstr "Månadsavbetalning"
+
+msgid "Employee Number"
+msgstr "Anställningsnummer"
+
+msgid "First Name"
+msgstr "Förnamn"
+
+msgid "Middle Name"
+msgstr "Mellannamn"
+
+msgid "Last Name"
+msgstr "Efternamn"
+
+msgid "Nationality"
+msgstr "Nationalitet"
+
+msgid "Date of Birth"
+msgstr "Födelsedatum"
+
+msgid "Gender"
+msgstr "Kön"
+
+msgid "Marital Status"
+msgstr "Civilstånd"
+
+msgid "Ethnicity"
+msgstr "Etnicitet"
+
+msgid "Immigration Status"
+msgstr "Invandringsstatus"
+
+msgid "SSN/NRIC"
+msgstr "SSN / NRIC"
+
+msgid "NIC"
+msgstr "NIC"
+
+msgid "Other ID"
+msgstr "Annat ID"
+
+msgid "Driving License No"
+msgstr "Körkort nr"
+
+msgid "Pay Grade"
+msgstr "Lönegrad"
+
+msgid "Work Station Id"
+msgstr "Arbetsstationens ID"
+
+msgid "Address Line 1"
+msgstr "Adress Linje 1"
+
+msgid "Address Line 2"
+msgstr "Adress Linje 2"
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Province"
+msgstr "Provins"
+
+msgid "Postal/Zip Code"
+msgstr "Postnummer"
+
+msgid "Home Phone"
+msgstr "Hemtelefon"
+
+msgid "Mobile Phone"
+msgstr "Mobiltelefon"
+
+msgid "Work Phone"
+msgstr "Jobbtelefon"
+
+msgid "Work Email"
+msgstr "Arbets Email"
+
+msgid "Private Email"
+msgstr "Privat e-post"
+
+msgid "Joined Date"
+msgstr "Anslutningsdatum"
+
+msgid "Confirmation Date"
+msgstr "Bekräftelsedatum"
+
+msgid "Termination Date"
+msgstr "Slutdatum"
+
+msgid "Department"
+msgstr "Avdelning"
+
+msgid "Supervisor"
+msgstr "Handledare"
+
+msgid "Indirect Supervisors"
+msgstr "Indirekta tillsynsmyndigheter"
+
+msgid "First Level Approver"
+msgstr "Första nivå godkännare"
+
+msgid "Second Level Approver"
+msgstr "Andra nivå godkännare"
+
+msgid "Third Level Approver"
+msgstr "Tredje nivå godkännare"
+
+msgid "Notes"
+msgstr "anteckningar"
+
+msgid "Time (GMT)"
+msgstr "Tid (GMT)"
+
+msgid "User"
+msgstr "Användare"
+
+msgid "IP Address"
+msgstr "IP-adress"
+
+msgid "Logged In Employee"
+msgstr "Inloggad Medarbetare"
+
+msgid "Skill"
+msgstr "Skicklighet"
+
+msgid "Qualification"
+msgstr "Kompetens"
+
+msgid "Institute"
+msgstr "Inleda"
+
+msgid "Start Date"
+msgstr "Start datum"
+
+msgid "Completed On"
+msgstr "Avslutad på"
+
+msgid "Certification"
+msgstr "certifiering"
+
+msgid "Granted On"
+msgstr "Beviljas på"
+
+msgid "Valid Thru"
+msgstr "Giltig till och med"
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "Reading"
+msgstr "Läsning"
+
+msgid "Speaking"
+msgstr "Tala"
+
+msgid "Writing"
+msgstr "Skrift"
+
+msgid "Understanding"
+msgstr "Förståelse"
+
+msgid "Date Added"
+msgstr "datum tillagt"
+
+msgid "Valid Until"
+msgstr "Giltig till"
+
+msgid "Relationship"
+msgstr "Relation"
+
+msgid "Id Number"
+msgstr "Id nummer"
+
+msgid "All Job Titles"
+msgstr "Alla jobbtitel"
+
+msgid "All Departments"
+msgstr "Alla avdelningar"
+
+msgid "Anyone"
+msgstr "Någon"
+
+msgid "Field"
+msgstr "Fält"
+
+msgid "Old Value"
+msgstr "Gammalt värde"
+
+msgid "New Value"
+msgstr "Nytt värde"
+
+msgid "Modified By"
+msgstr "Modifierad av"
+
+msgid "Created"
+msgstr "Skapad"
+
+msgid "Notify Expiry"
+msgstr "Meddela utgången"
+
+msgid "Notify Expiry Before One Month"
+msgstr "Meddela utgången före en månad"
+
+msgid "Notify Expiry Before One Week"
+msgstr "Meddela upphörande före en vecka"
+
+msgid "Notify Expiry Before One Day"
+msgstr "Meddela utgången före en dag"
+
+msgid "Travel Type"
+msgstr "Rese typ"
+
+msgid "Purpose of Travel"
+msgstr "Mening med resa"
+
+msgid "Travel From"
+msgstr "Resa från"
+
+msgid "Travel To"
+msgstr "Resa till"
+
+msgid "Travel Date"
+msgstr "Resedatum"
+
+msgid "Return Date"
+msgstr "Återlämningsdatum"
+
+msgid "Total Funding Proposed"
+msgstr "Totalt finansierat förslag"
+
+msgid "Itinerary / Cab Receipt"
+msgstr "Resväg / hyttmottagning"
+
+msgid "Other Attachment 1"
+msgstr "Annan bilaga 1"
+
+msgid "Other Attachment 2"
+msgstr "Annan bilaga 2"
+
+msgid "Payment Method"
+msgstr "Betalningsmetod"
+
+msgid "Transaction / Ref No"
+msgstr "Transaktion / Ref nr"
+
+msgid "Payee"
+msgstr "Betalningsmottagare"
+
+msgid "Expense Category"
+msgstr "Kostnadskategori"
+
+msgid "Receipt"
+msgstr "Mottagande"
+
+msgid "Time-In"
+msgstr "Time-In"
+
+msgid "Time-Out"
+msgstr "Paus"
+
+msgid "Clocked In Status"
+msgstr "Klockad i status"
+
+msgid "End Date"
+msgstr "Slutdatum"
+
+msgid "Category"
+msgstr "Kategori"
+
+msgid "Start Time"
+msgstr "Starttid"
+
+msgid "End Time"
+msgstr "Sluttid"
+
+msgid "Leave Status"
+msgstr "Lämna status"
+
+msgid "Select Client"
+msgstr "Välj Client"
+
+msgid "Not Selected"
+msgstr "Ej valt"
+
+msgid "Or Project"
+msgstr "Eller projekt"
+
+msgid "All Projects"
+msgstr "Alla projekt"
+
+msgid "All Status"
+msgstr "All status"
+
+msgid "Value"
+msgstr "Värde"
+
+msgid "Logo"
+msgstr "Logotyp"
+
+msgid "User Name"
+msgstr "Användarnamn"
+
+msgid "Authentication Email"
+msgstr "Autentiseringsadress"
+
+msgid "User Level"
+msgstr "Användarnivå"
+
+msgid "Email"
+msgstr "E-post"
+
+msgid "User Roles"
+msgstr "Användarroller"
+
+msgid "Default Module"
+msgstr "Standardmodul"
+
+msgid "No Default Module"
+msgstr "Ingen standardmodul"
+
+msgid "Menu"
+msgstr "Meny"
+
+msgid "Group"
+msgstr "Grupp"
+
+msgid "Order"
+msgstr "Beställa"
+
+msgid "Path"
+msgstr "Väg"
+
+msgid "Label"
+msgstr "Märka"
+
+msgid "User Levels"
+msgstr "Användarnivåer"
+
+msgid "Module"
+msgstr "Modul"
+
+msgid "All Modules"
+msgstr "Alla moduler"
+
+msgid "Invoice Period Start"
+msgstr "Faktura Period Start"
+
+msgid "Invoice Period End"
+msgstr "Faktura Period Slut"
+
+msgid "Due date"
+msgstr "Förfallodatum"
+
+msgid "Url"
+msgstr "url"
+
+msgid "Original Text"
+msgstr "Original text"
+
+msgid "Mapped Text"
+msgstr "Mappad text"
+
+msgid "Display Status"
+msgstr "Visningsstatus"
+
+msgid "Field Type"
+msgstr "Fälttyp"
+
+msgid "Field Label"
+msgstr "Fältetikett"
+
+msgid "Validation"
+msgstr "Godkännande"
+
+msgid "Field Options"
+msgstr "Fältalternativ"
+
+msgid "Priority"
+msgstr "Prioritet"
+
+msgid "Display Section"
+msgstr "Display avsnitt"
+
+msgid "Salary Component Type"
+msgstr "Lönkomponenttyp"
+
+msgid "Salary Component"
+msgstr "Lönkomponent"
+
+msgid "Pay Frequency"
+msgstr "Betalfrekvens"
+
+msgid "Calculation Group"
+msgstr "Beräkningsgrupp"
+
+msgid "None"
+msgstr "Ingen"
+
+msgid "Calculation Exemptions"
+msgstr "Beräkningsbefrielser"
+
+msgid "Calculations Assigned"
+msgstr "Beräkningar Tilldelade"
+
+msgid "Date Start"
+msgstr "Datum Start"
+
+msgid "Date End"
+msgstr "Datum Slut"
+
+msgid "Payslip Template"
+msgstr "Payslip Mall"
+
+msgid "Payroll Columns"
+msgstr "Lönekolumner"
+
+msgid "Calculation Method"
+msgstr "Beräkningsmetod"
+
+msgid "Editable"
+msgstr "redigerbar"
+
+msgid "Enabled"
+msgstr "Aktiverad"
+
+msgid "Predefined Calculations"
+msgstr "Fördefinierade beräkningar"
+
+msgid "Salary Components"
+msgstr "Lönkomponenter"
+
+msgid "Columns to Add"
+msgstr "Kolumner att lägga till"
+
+msgid "Columns to Subtract"
+msgstr "Kolumner att subtrahera"
+
+msgid "Column Order"
+msgstr "Kolumnorder"
+
+msgid "Default Value"
+msgstr "Standardvärde"
+
+msgid "Calculation Columns"
+msgstr "Beräkningskolonner"
+
+msgid "Function"
+msgstr "Fungera"
+
+msgid "Payroll Report Column"
+msgstr "Löneskalans kolumn"
+
+msgid "Calculation Process"
+msgstr "Beräkningsprocess"
+
+msgid "Payslip Fields"
+msgstr "Payslip Fields"
+
+msgid "Payroll Column"
+msgstr "Lönekolumn"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Lower Limit Condition"
+msgstr "Nedre gränsvärdet"
+
+msgid "Lower Limit"
+msgstr "Lägre gräns"
+
+msgid "Upper Limit Condition"
+msgstr "Övre gräns"
+
+msgid "Upper Limit"
+msgstr "Övre gräns"
+
+msgid "Column"
+msgstr "Kolumn"
+
+msgid "Job Code"
+msgstr "Jobbkod"
+
+msgid "Short Description"
+msgstr "kort beskrivning"
+
+msgid "Requirements"
+msgstr "Krav"
+
+msgid "Benefits"
+msgstr "fördelar"
+
+msgid "Employment Type"
+msgstr "Anställnings typ"
+
+msgid "Any Employment Type"
+msgstr "Eventuell anställningstyp"
+
+msgid "Experience Level"
+msgstr "Erfarenhetsnivå"
+
+msgid "Any Experience Level"
+msgstr "Eventuella erfarenhetsnivåer"
+
+msgid "Job Function"
+msgstr "Jobb Funktion"
+
+msgid "Any Job Function"
+msgstr "Alla jobbfunktioner"
+
+msgid "Education Level"
+msgstr "utbildningsnivå"
+
+msgid "Any Education Level"
+msgstr "Alla utbildningsnivåer"
+
+msgid "Show Salary"
+msgstr "Visa Lön"
+
+msgid "Salary Min"
+msgstr "Lön Min"
+
+msgid "Salary Max"
+msgstr "Lön Max"
+
+msgid "Keywords"
+msgstr "Nyckelord"
+
+msgid "Closing Date"
+msgstr "Slutdatum"
+
+msgid "Image"
+msgstr "Bild"
+
+msgid "Display Type"
+msgstr "Bildskärmstyp"
+
+msgid "Profile Image"
+msgstr "Profilbild"
+
+msgid "Telephone"
+msgstr "Telefon"
+
+msgid "Resume Title"
+msgstr "Återuppta Titel"
+
+msgid "Resume"
+msgstr "Återuppta"
+
+msgid "Resume Headline"
+msgstr "Fortsätt rubrik"
+
+msgid "Profile Summary"
+msgstr "profil Sammanfattning"
+
+msgid "Work History"
+msgstr "Jobbhistorik"
+
+msgid "Education"
+msgstr "Utbildning"
+
+msgid "Skills"
+msgstr "Kompetens"
+
+msgid "Referees"
+msgstr "domare"
+
+msgid "From Year"
+msgstr "Från år"
+
+msgid "From Month"
+msgstr "Från Månad"
+
+msgid "To Year"
+msgstr "Till år"
+
+msgid "To Month"
+msgstr "Till månaden"
+
+msgid "Currently Work Here"
+msgstr "För närvarande arbetar här"
+
+msgid "Degree/Diploma"
+msgstr "Examensbevis"
+
+msgid "Currently Studying"
+msgstr "Studerar för tillfället"
+
+msgid "Skill Level"
+msgstr "Skicklighetsnivå"
+
+msgid "Last Used Year"
+msgstr "Senast använt år"
+
+msgid "Last Used Month"
+msgstr "Senast använda månaden"
+
+msgid "Years of Experience"
+msgstr "År av erfarenhet"
+
+msgid "Designation"
+msgstr "Beteckning"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Job"
+msgstr "Jobb"
+
+msgid "Candidate"
+msgstr "Kandidat"
+
+msgid "Referred By"
+msgstr "Refererad av"
+
+msgid "Leave Start Date"
+msgstr "Lämna startdatum"
+
+msgid "Leave End Date"
+msgstr "Lämna slutdatum"
+
+msgid "Reason"
+msgstr "Anledning"
+
+msgid "Available Leaves"
+msgstr "Tillgängliga löv"
+
+msgid "Approved Leaves"
+msgstr "Godkända blad"
+
+msgid "Rejected Leaves"
+msgstr "Avvisade blad"
+
+msgid "Leaves to be Accrued"
+msgstr "Löv att upplupa"
+
+msgid "Leaves Carried Forward"
+msgstr "Bladen transporteras framåt"
+
+msgid "Apply Leave"
+msgstr "Ansök Lämna"
+
+msgid "Filter"
+msgstr "Filtrera"
+
+msgid "Add New"
+msgstr "Lägg till ny"
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "Purpose"
+msgstr "Syfte"
+
+msgid "From"
+msgstr "Från"
+
+msgid "To"
+msgstr "Till"
+
+msgid "Created (GMT)"
+msgstr "Skapat (GMT)"
+
+msgid "Download"
+msgstr "Ladda ner"
+
+msgid "Submit"
+msgstr "Lämna"
+
+msgid "Upload"
+msgstr "Ladda upp"
+
+msgid "Remove"
+msgstr "Avlägsna"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "Reset"
+msgstr "Återställa"
+
+msgid "Add Time Entry"
+msgstr "Lägg till tidsinmatning"
+
+msgid "Current Clocked In Status"
+msgstr "Aktuell klockad i status"
+
+msgid "Attendance entry should be within a single day"
+msgstr "Deltagande bör vara inom en enda dag"
+
+msgid "Account Balance"
+msgstr "Kontobalans"
+
+msgid "Plan"
+msgstr "Planen"
+
+msgid "Transactions"
+msgstr "transaktioner"
+
+msgid "Applications"
+msgstr "tillämpningar"
+
+msgid "Attendance Graph"
+msgstr "Närvaro graf"
+
+msgid "Hours in Office vs Hours Worked Graph"
+msgstr "Hours in Office vs Hours Worked Graph"
+
+msgid "Company Graph"
+msgstr "Företagsdiagram"
+
+msgid "Company Documents"
+msgstr "Företagsdokument"
+
+msgid "Document Types"
+msgstr "Dokumenttyper"
+
+msgid "Employee Documents"
+msgstr "Medarbetarhandlingar"
+
+msgid "Employee Basic Details"
+msgstr "Medarbetarnas grundläggande detaljer"
+
+msgid "Employees (Direct Reports)"
+msgstr "Anställda (Direktrapporter)"
+
+msgid "Certifications"
+msgstr "Certifieringar"
+
+msgid "Languages"
+msgstr "språk"
+
+msgid "Deactivated Employees"
+msgstr "Deaktiverade anställda"
+
+msgid "Temporarily Deactivated Employees"
+msgstr "Tillfälligt avaktiverade anställda"
+
+msgid "Terminated Employee Data"
+msgstr "Avslutade anställda data"
+
+msgid "Employee Saved Successfully"
+msgstr "Medarbetare sparad framgångsrikt"
+
+msgid "Employee needs a User to login to IceHrm. Do you want to create a user for this employee now?"
+msgstr "Anställd behöver en användare för att logga in på IceHrm. Vill du skapa en användare för den här anställde nu?"
+
+msgid "You can do this later through Users module if required."
+msgstr "Du kan göra det senare genom användarmodulen om det behövs."
+
+msgid "Expenses Categories"
+msgstr "Utgifter Kategorier"
+
+msgid "Payment Methods"
+msgstr "Betalningsmetoder"
+
+msgid "Employee Expenses"
+msgstr "Anställningsutgifter"
+
+msgid "Salary Component Types"
+msgstr "Lönkomponenttyper"
+
+msgid "Employee Salary Components"
+msgstr "Anställdas lönekomponenter"
+
+msgid "Company Payroll"
+msgstr "Företagslön"
+
+msgid "Calculation Groups"
+msgstr "Beräkningsgrupper"
+
+msgid "Calculation Methods"
+msgstr "Beräkningsmetoder"
+
+msgid "Payslip Templates"
+msgstr "Payslip Mallar"
+
+msgid "Edit Employment Types"
+msgstr "Redigera sysselsättningstyper"
+
+msgid "Edit Experience Levels"
+msgstr "Redigera erfarenhetsnivåer"
+
+msgid "Edit Job Functions"
+msgstr "Redigera jobbfunktioner"
+
+msgid "Edit Education Levels"
+msgstr "Redigera utbildningsnivåer"
+
+msgid "Edit Benefits"
+msgstr "Ändra fördelar"
+
+msgid "Application"
+msgstr "Ansökan"
+
+msgid "Job Titles"
+msgstr "Jobb titlar"
+
+msgid "Pay Grades"
+msgstr "Betala betyg"
+
+msgid "Training Sessions"
+msgstr "Träningspass"
+
+msgid "Employee Training Sessions"
+msgstr "Medarbetarutbildningar"
+
+msgid "Clients"
+msgstr "kunder"
+
+msgid "Employee Projects"
+msgstr "Medarbetarprojekt"
+
+msgid "Leave Types"
+msgstr "Lämna typer"
+
+msgid "Work Week"
+msgstr "Arbetsvecka"
+
+msgid "Holidays"
+msgstr "Högtider"
+
+msgid "Leave Rules"
+msgstr "Lämna regler"
+
+msgid "Paid Time Off"
+msgstr "Betald ledighet"
+
+msgid "Leave Groups"
+msgstr "Lämna grupper"
+
+msgid "Edit Leave Groups"
+msgstr "Redigera lämna grupper"
+
+msgid "Leave Group Employees"
+msgstr "Lämna koncernens anställda"
+
+msgid "Employee Leave List"
+msgstr "Anställdslista"
+
+msgid "Loan Types"
+msgstr "Låntyper"
+
+msgid "Employee Loans"
+msgstr "Anställda Lån"
+
+msgid "Travel Requests"
+msgstr "Travel Requests"
+
+msgid "Overtime Categories"
+msgstr "Övertidskategorier"
+
+msgid "Leave / PTO"
+msgstr "Lämna / PTO"
+
+msgid "Other"
+msgstr "Andra"
+
+msgid "Modules"
+msgstr "moduler"
+
+msgid "Countries"
+msgstr "Länder"
+
+msgid "Provinces"
+msgstr "provinser"
+
+msgid "Currency Types"
+msgstr "Valuta Typer"
+
+msgid "Employee Custom Fields"
+msgstr "Anställda anpassade fält"
+
+msgid "Employee Field Names"
+msgstr "Anställningsfältnamn"
+
+msgid "My Details"
+msgstr "Mina detaljer"
+
+msgid "All My Leaves"
+msgstr "Alla mina löv"
+
+msgid "Leave Entitlement"
+msgstr "Lämna rätten"
+
+msgid "Approved Leave"
+msgstr "Godkänt avgång"
+
+msgid "Pending Leave"
+msgstr "Avvaktande Lämna"
+
+msgid "Subordinate Leave"
+msgstr "Underordnad ledighet"
+
+msgid "Cancellation Requests"
+msgstr "Avbeställningsbegäran"
+
+msgid "Approval Requests"
+msgstr "Godkännandeanmälan"
+
+msgid "Approved TimeSheets"
+msgstr "Godkända tidsschema"
+
+msgid "All My TimeSheets"
+msgstr "Alla mina TimeSheets"
+
+msgid "Pending TimeSheets"
+msgstr "Väntar på TimeSheets"
+
+msgid "Subordinate TimeSheets"
+msgstr "Underordnade tidsschema"
+
+msgid "Approved Attendance Sheets"
+msgstr "Godkända deltagande ark"
+
+msgid "All My Attendance Sheets"
+msgstr "Alla mina deltagande ark"
+
+msgid "Pending Attendance Sheets"
+msgstr "Väntar på deltagande ark"
+
+msgid "Subordinate Attendance Sheets"
+msgstr "Underordnat deltagande ark"
+
+msgid "Subordinate Overtime Requests"
+msgstr "Underordnade övertidsförfrågningar"
+
+msgid "Overtime Request Approval"
+msgstr "Övertidsförfrågan godkännande"
+
+msgid "My Training Sessions"
+msgstr "Mina träningssessioner"
+
+msgid "All Training Sessions"
+msgstr "Alla träningssessioner"
+
+msgid "Training Sessions of Direct Reports"
+msgstr "Utbildnings sessioner av direktrapporter"
+
+msgid "Subordinate Travel Requests"
+msgstr "Underordnad reseanmälan"
+
+msgid "Travel Request Approval"
+msgstr "Travel Request Approval"
+
+msgid "Subordinate Expenses"
+msgstr "Underliggande kostnader"
+
+msgid "Expenses Approval"
+msgstr "Kostnader Godkännande"
+
+msgid "Loans Taken"
+msgstr "Lån som tagits"
+
+msgid "Change Leave Status"
+msgstr "Ändra ledighetsstatus"
+
+msgid "Status Change Note"
+msgstr "Status Ändra Not"
+
+msgid "Leave Summary"
+msgstr "Lämna sammanfattning"
+
+msgid "Approved Leave Count"
+msgstr "Godkänd avstånd"
+
+msgid "Pending Leave Count"
+msgstr "Avvaktad ledighet"
+
+msgid "Available Leave Count"
+msgstr "Tillgänglig ledighet"
+
+msgid "Leave Dates"
+msgstr "Lämna datum"
+
+msgid "Leave Date"
+msgstr "Lämna datum"
+
+msgid "Leave Notes"
+msgstr "Lämna anteckningar"
+
+msgid "Apply"
+msgstr "Tillämpa"
+
+msgid "Back"
+msgstr "Tillbaka"
+
+msgid "Hours in Time Sheets"
+msgstr "Hours in Time Sheets"
+
+msgid "HR form"
+msgstr "HR-form"
+
+msgid "HR Form Management"
+msgstr "HR Form Management"
+
+msgid "Form Name"
+msgstr "Form Namn"
+
+msgid "Fields"
+msgstr "Fields"
+
+msgid "Employee Froms"
+msgstr "Anställd Froms"
+
+msgid "Share Departments"
+msgstr "Dela avdelningar"
+
+msgid "Share Employees"
+msgstr "Dela medarbetare"
+
+msgid "Data Importers"
+msgstr "Dataimportörer"
+
+msgid "Data Import Files"
+msgstr "Dataimportfiler"
+
+msgid "Data Type"
+msgstr "Data typ"
+
+msgid "Columns"
+msgstr "kolumner"
+
+msgid "Field Title"
+msgstr "Fälttitel"
+
+msgid "Depends On"
+msgstr "Beror på"
+
+msgid "Depends On Field"
+msgstr "Beror på fält"
+
+msgid "is Key Field"
+msgstr "är nyckelfältet"
+
+msgid "is ID Field"
+msgstr "är ID-fält"
+
+msgid "Data Import Definitions"
+msgstr "Data Import Definitioner"
+
+msgid "File to Import"
+msgstr "Fil att importera"
+
+msgid "Last Export Results"
+msgstr "Senaste exportresultat"
+
+msgid "Time and Attendance"
+msgstr "Tid och närvaro"
+
+msgid "Leave Timeline"
+msgstr "Lämna tidslinje"
+
+msgid "Insights"
+msgstr "Insights"
+
+msgid "Api Access"
+msgstr "Api Access"
+
+msgid "Change User Password"
+msgstr "Ändra användarlösenord"
+
+msgid "New Password"
+msgstr "nytt lösenord"
+
+msgid "Confirm Password"
+msgstr "Bekräfta lösenord"
+
+msgid "Change Password"
+msgstr "Ändra lösenord"
+
+msgid "Not Now"
+msgstr "Inte nu"
+
+msgid "Contact Information"
+msgstr "Kontakt information"
+
+msgid "Job Details"
+msgstr "Jobb detaljer"
+
+msgid "Edit Info"
+msgstr "Redigera Info"
+
+msgid "Upload Profile Image"
+msgstr "Ladda upp profilbild"
+
+msgid "Delete Profile Image"
+msgstr "Ta bort profilbild"
+
+msgid "Direct Reports"
+msgstr "Direktrapporter"
+
+msgid "Other Details"
+msgstr "Andra detaljer"
+
+msgid "Family"
+msgstr "Familj"
+
+msgid "Custom Fields"
+msgstr "Anpassade fält"
+
+msgid "Means of Transportation"
+msgstr "Transportmedel"
+
+msgid "Plane"
+msgstr "Plan"
+
+msgid "Rail"
+msgstr "Järnväg"
+
+msgid "Taxi"
+msgstr "Taxi"
+
+msgid "Own Vehicle"
+msgstr "Eget fordon"
+
+msgid "Rented Vehicle"
+msgstr "Hyrbil"
+
+msgid "Female"
+msgstr "Kvinna"
+
+msgid "Male"
+msgstr "Manlig"
+
+msgid "Active"
+msgstr "Aktiva"
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgid "Draft"
+msgstr "Förslag"
+
+msgid "Not Clocked In"
+msgstr "Inte klockad i"
+
+msgid "Clocked In"
+msgstr "Klockad In"
+
+msgid "File"
+msgstr "Fil"
+
+msgid "Active Employee Report"
+msgstr "Aktiv medarbetarrapport"
+
+msgid "Employee Attendance Report"
+msgstr "Anställd närvaro rapport"
+
+msgid "Employee Details Report"
+msgstr "Anställningsdetaljerrapport"
+
+msgid "Employee Leave Entitlement"
+msgstr "Medarbetarrättighet"
+
+msgid "Employee Leaves Report"
+msgstr "Anställdbladsrapport"
+
+msgid "Employee Time Entry Report"
+msgstr "Anställd tidsrapport"
+
+msgid "Employee Time Sheet Report"
+msgstr "Anställd tidrapport"
+
+msgid "Employee Time Tracking Report"
+msgstr "Anställd tidspårningsrapport"
+
+msgid "Expense Report"
+msgstr "Kostnads ​​rapport"
+
+msgid "New Hires Employee Report"
+msgstr "Ny anställningsberättelse för anställda"
+
+msgid "Overtime Report"
+msgstr "Övertidsrapport"
+
+msgid "Overtime Request Report"
+msgstr "Övertidsförfrågningsrapport"
+
+msgid "Overtime Summary Report"
+msgstr "Sammanfattningsrapport för övertid"
+
+msgid "Payroll Meta Data Export"
+msgstr "Lön Meta Data Export"
+
+msgid "Terminated Employee Report"
+msgstr "Avslutad anställningsrapport"
+
+msgid "Travel Request Report"
+msgstr "Travel Request Report"
+
+msgid "Attendance Report"
+msgstr "Närvaro rapport"
+
+msgid "Client Project Time Report"
+msgstr "Client Project Time Report"
+
+msgid "Download Payslips"
+msgstr "Ladda ner lönebetalningar"
+
+msgid "Leaves Report"
+msgstr "Bladrapport"
+
+msgid "Time Entry Report"
+msgstr "Tidrapport"
+
+msgid "Time Sheet Report"
+msgstr "Tidrapport"
+
+msgid "Time Tracking Report"
+msgstr "Tidspårningsrapport"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Processed"
+msgstr "Bearbetade"
+
+msgid "Not Processed"
+msgstr "Ej bearbetad"
+
+msgid "Elementary Proficiency"
+msgstr "Grundläggande kunskaper"
+
+msgid "Limited Working Proficiency"
+msgstr "Begränsad arbetsförmåga"
+
+msgid "Professional Working Proficiency"
+msgstr "Professionell arbetsfärdighet"
+
+msgid "Full Professional Proficiency"
+msgstr "Full yrkesskicklighet"
+
+msgid "Native or Bilingual Proficiency"
+msgstr "Modersmåls-eller tvåspråkig nivå"
+
+msgid "Pending"
+msgstr "Avvaktan"
+
+msgid "Approved"
+msgstr "Godkänd"
+
+msgid "Rejected"
+msgstr "avvisade"
+
+msgid "Cancelled"
+msgstr "Avbokad"
+
+msgid "Continue"
+msgstr "Fortsätta"
+
+msgid "Cancellation Requested"
+msgstr "Avbeställningsansökan"
+
+msgid "Completed"
+msgstr "Avslutad"
+
+msgid "Discussions"
+msgstr "diskussioner"
+
+msgid "Load More"
+msgstr "Ladda mer"
+
+msgid "Show More"
+msgstr "Visa mer"
+
+msgid "Show Less"
+msgstr "Visa mindre"
+
+msgid "Publish"
+msgstr "Publicera"
+
+msgid "Announcements"
+msgstr "Meddelanden"
+
+msgid "Send"
+msgstr "Skicka"
+
+msgid "Display"
+msgstr "Visa"
+
+msgid "Public"
+msgstr "offentlig"
+
+msgid "View Announcements"
+msgstr "Visa meddelanden"
+
+msgid "Conversations"
+msgstr "samtal"
+
+msgid "Start Now"
+msgstr "Börja nu"
+
+msgid "Company Assets"
+msgstr "Bolagets tillgångar"
+
+msgid "Asset Types"
+msgstr "Tillgångstyp"
+
+msgid "Asset Name"
+msgstr "Asset Name"
+
+msgid "Performance"
+msgstr "Prestanda"
+
+msgid "Performance Review"
+msgstr "Utvecklingssamtal"
+
+msgid "Performance Reviews"
+msgstr "Prestanda recensioner"
+
+msgid "Review"
+msgstr "Recension"
+
+msgid "Reviews"
+msgstr "recensioner"
+
+msgid "Review Feedback"
+msgstr "Granska feedback"
+
+msgid "Review Template"
+msgstr "Granska mallen"
+
+msgid "Template"
+msgstr "Mall"
+
+msgid "Review Date"
+msgstr "Gransknings datum"
+
+msgid "Self Assessment Due On"
+msgstr "Självbedömning på grund av"
+
+msgid "Review Period Start"
+msgstr "Granskningsperiod Start"
+
+msgid "Review Period End"
+msgstr "Granskningsperiodens slut"
+
+msgid "Attendees"
+msgstr "Deltagare"
+
+msgid "Performance Reviews Coordinated by Me"
+msgstr "Prestationsbedömningar Koordinerad av Mig"
+
+msgid "Provide Feedback"
+msgstr "Ge feedback"
+
+msgid "Review Status"
+msgstr "Granska status"
+
+msgid "Payroll Employees"
+msgstr "Löneanställda"
+
+msgid "Payroll Groups"
+msgstr "Lönegrupper"
+
+msgid "Saved Calculations"
+msgstr "Sparade beräkningar"
+
+msgid "Total Leave Days"
+msgstr "Totalt ledighet dagar"
+
+msgid "Actions"
+msgstr "Insatser"
+
+msgid "Edit"
+msgstr "Redigera"
+
+msgid "View"
+msgstr "Se"
+
+msgid "Delete"
+msgstr "Radera"
+
+msgid "Copy"
+msgstr "Kopiera"
+
+msgid "Employee Check-Ins"
+msgstr "Kontroller av anställda"
+
+msgid "Employee Distribution"
+msgstr "Fördelning av anställda"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "is required"
+msgstr "krävs."
+
+msgid "Use Employee Leave Period"
+msgstr "Använd arbetstagarens ledighetsperiod"
+
+msgid "Required Experience (Days)"
+msgstr "Erfarenhet som krävs (dagar)"
+
+msgid "LeaveGroup"
+msgstr "Lämna grupper"
+
+msgid "Expenses Category"
+msgstr "Kostnadskategori"
+
+msgid "Employee Expense"
+msgstr "Kostnader för anställda"
+
+msgid "Overtime"
+msgstr "Övertid"
+
+msgid "Employee Fields"
+msgstr "Fält för anställda"
+
+msgid "Asset Type"
+msgstr "Typ av tillgång"
+
+msgid "Asset"
+msgstr "Tillgångar"
+
+msgid "Custom Field"
+msgstr "Anpassat fält"
+
+msgid "Object Type"
+msgstr "Typ av objekt"
+
+msgid "Personal"
+msgstr "Personligt"
+
+msgid "Identification"
+msgstr "Identifiering"
+
+msgid "Work"
+msgstr "Arbete"
+
+msgid "Contact"
+msgstr "Kontakta"
+
+msgid "Report"
+msgstr "Rapportera"
+
+msgid "Login As"
+msgstr "Logga in som"
+
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+msgid "Employee Education"
+msgstr "Utbildning för anställda"
+
+msgid "Employee Certification"
+msgstr "Certifiering av anställda"
+
+msgid "Listening"
+msgstr "Lyssna"
+
+msgid "Employee Dependent"
+msgstr "Anställd beroende"
+
+msgid "Contacts"
+msgstr "Kontakter"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "Emergency Contact"
+msgstr "Kontaktperson för nödsituationer"
+
+msgid "Deactivated"
+msgstr "Inaktiverad"
+
+msgid "Archived"
+msgstr "Arkiverad"
+
+msgid "Updated By"
+msgstr "Uppdaterad av"
+
+msgid "Created Time (GMT)"
+msgstr "Skapad tid (GMT)"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Ingen"
+
+msgid "Share with Employee"
+msgstr "Dela med den anställde"
+
+msgid "Visible To"
+msgstr "Synlig för"
+
+msgid "ID Copy"
+msgstr "ID-kopia"
+
+msgid "Degree Certificate"
+msgstr "Examen Certifikat"
+
+msgid "Driving License"
+msgstr "Körkort"
+
+msgid "Owner"
+msgstr "Ägare"
+
+msgid "Manager"
+msgstr "Förvaltare"
+
+msgid "HR Forms"
+msgstr "HR-formulär"
+
+msgid "Employee Forms"
+msgstr "Formulär för anställda"
+
+msgid "Form"
+msgstr "Formulär"
+
+msgid "Submitted"
+msgstr "Inlämnat"
+
+msgid "Review Period Start Date"
+msgstr "Översynsperiodens startdatum"
+
+msgid "Review Period End Date"
+msgstr "Slutdatum för granskningsperioden"
+
+msgid "Self Assessment Due Date"
+msgstr "Förfallodag för självutvärdering"
+
+msgid "Due On"
+msgstr "Förfallodag den"
+
+msgid "Company Teams"
+msgstr "Företagets team"
+
+msgid "Lead"
+msgstr "Ledning"
+
+msgid "Teams"
+msgstr "Grupper"
+
+msgid "Team Name"
+msgstr "Lagets namn"
+
+msgid "Team Members"
+msgstr "Medlemmar i teamet"
+
+msgid "Member "
+msgstr "Medlem"
+
+msgid "Role"
+msgstr "Roll"
+
+msgid "Users Roles"
+msgstr "Användare Roller"
+
+msgid "User Role"
+msgstr "Användarroll"
+
+msgid "Additional Permissions"
+msgstr "Ytterligare behörigheter"
+
+msgid "Usage"
+msgstr "Användning"
+
+msgid "Last Export Result"
+msgstr "Senaste exportresultat"
+
+msgid "Employee Data Import"
+msgstr "Import av uppgifter om anställda"
+
+msgid "Attendance Data Import"
+msgstr "Import av närvarodata"
+
+msgid "Payroll Data Import"
+msgstr "Import av löneuppgifter"
+
+msgid "Supervisor and Approver Import"
+msgstr "Import av handledare och godkännare"
+
+msgid "You can drag the chart both sides to view other dates on timeline"
+msgstr "Du kan dra diagrammet på båda sidor för att visa andra datum på tidslinjen."
+
+msgid "Payroll Group"
+msgstr "Gruppen för löneadministration"
+
+msgid "Common"
+msgstr "Gemensam"
+
+msgid "Function Type"
+msgstr "Funktionstyp"
+
+msgid "Advanced"
+msgstr "Avancerad"
+
+msgid "Simple"
+msgstr "Enkel"
+
+msgid "Company Name"
+msgstr "Företagets namn"
+
+msgid "Hiring Manager"
+msgstr "Chef för rekrytering"
+
+msgid "Job Description"
+msgstr "Arbetsbeskrivning"
+
+msgid "Employement Type"
+msgstr "Typ av anställning"
+
+msgid "Postal Code"
+msgstr "Postnummer"
+
+msgid "Show Hiring Manager Name"
+msgstr "Visa den anställande chefens namn"
+
+msgid "Previous"
+msgstr "Tidigare"
+
+msgid "Position Applied"
+msgstr "Position Tillämpad"
+
+msgid "Hiring Stage"
+msgstr "Anställningsfas"
+
+msgid "Total Years of Experience"
+msgstr "Totalt antal år av erfarenhet"
+
+msgid "Expected Salary"
+msgstr "Förväntad lön"
+
+msgid "Attach File "
+msgstr "Bifoga fil "
+
+msgid "Update Password"
+msgstr "Uppdatera lösenordet"
+
+msgid "Employee Profile"
+msgstr "Anställdas profil"
+
+msgid "Contact details"
+msgstr "Kontaktuppgifter"
+
+msgid "Work related details"
+msgstr "Arbetsrelaterade uppgifter"
+
+msgid "ID Number"
+msgstr "ID-nummer"
+
+msgid "Leave Days from Current Leave Period"
+msgstr "Ledighetsdagar från pågående ledighetsperiod"
+
+msgid "Paid Time Off Adjustments"
+msgstr "Justeringar av betald ledighet"
+
+msgid "Leave Days Carried Forward Previous Period"
+msgstr "Ledighetsdagar som överförts till föregående period"
+
+msgid "Leave Days Available to Use"
+msgstr "Ledighetsdagar som kan användas"
+
+msgid "Approved Leave Days"
+msgstr "Godkända semesterdagar"
+
+msgid "Pending Leave Days"
+msgstr "Väntade ledighetsdagar"
+
+msgid "Rejected Leave Days"
+msgstr "Avvisade ledighetsdagar"
+
+msgid "Calculated by Leave Type"
+msgstr "Beräknat per typ av ledighet"
+
+msgid "Show Calculation"
+msgstr "Visa beräkning"
+
+msgid "Total Time"
+msgstr "Total tid"
+
+msgid "Personal Documents"
+msgstr "Personliga dokument"
+
+msgid "My Forms"
+msgstr "Mina formulär"
+
+msgid "Training Sessions of Coordinated by Me"
+msgstr "Utbildningssessioner av Coordinated by Me"
+
+msgid "Self Assessments"
+msgstr "Självbedömningar"
+
+msgid "Connection"
+msgstr "Anslutning"
+
+msgid "Data directory is accessible from outside."
+msgstr "Datakatalogen är tillgänglig från utsidan."
+
+msgid "Learn how to fix"
+msgstr "Lär dig hur du åtgärdar"
+
+msgid "Copy System Report"
+msgstr "Kopiera systemrapport"
+
+msgid "System Issues"
+msgstr "Systemfrågor"
+
+msgid "System Report"
+msgstr "Systemrapport"
+
+msgid "Here you can define the structure of the company by adding branches, departments, company units,etc. Each employee needs to be connected to a company structure."
+msgstr "Här kan du definiera företagets struktur genom att lägga till filialer, avdelningar, företagsenheter, etc. Varje anställd behöver vara kopplad till en företagsstruktur."
+
+msgid "Company graph provides a graphical overview of the company structure."
+msgstr "Företagsdiagram ger en grafisk översikt över företagsstrukturen."
+
+msgid "Here you can manage the job titles in your organization. Each employee needs to be assigned a job title."
+msgstr "Här kan du hantera jobbtitlarna i din organisation. Varje anställd måste tilldelas en befattning."
+
+msgid "Here you can define the different pay grades in your organization. "
+msgstr "Här kan du definiera de olika lönegraderna i din organisation."
+
+msgid "Here you can define the different type of employment states in your organization. Each employee should be assigned an employment state."
+msgstr "Här kan du definiera olika typer av anställningstillstånd i din organisation. Varje anställd bör tilldelas en anställningsstat."
+
+msgid "Here you can define the different types of skills an employee might have."
+msgstr "Här kan du definiera de olika typer av kompetens en anställd kan ha."
+
+msgid "Here you can define the different levels of education an employee might have."
+msgstr "Här kan du definiera de olika utbildningsnivåerna som en anställd kan ha."
+
+msgid "Here you can define the different types of certifications an employee might have completed."
+msgstr "Här kan du definiera de olika typerna av certifieringar som en anställd kan ha slutfört."
+
+msgid "Languages consists of most of the languages used globally."
+msgstr "Språk består av de flesta av de språk som används globalt."
+
+msgid "Here you can add details about a project such as project name, client, details and the status."
+msgstr "Här kan du lägga till detaljer om ett projekt som projektnamn, klient, detaljer och status."
+
+msgid "Here you can assign projects to employees."
+msgstr "Här kan du tilldela projekt till anställda."
+
+msgid "Here you can add and manage clients your organization is working with. You can choose the correct client when adding a project in IceHrm."
+msgstr "Här kan du lägga till och hantera kunder som din organisation arbetar med. Du kan välja rätt klient när du lägger till ett projekt i ICEHRM."
+
+msgid "Here you can define custom fields for assets, company struture, employee, travel request or expense forms."
+msgstr "Här kan du definiera anpassade fält för tillgångar, företagsstruktur, anställd, reseförfrågan eller kostnadsformulär."
+
+msgid "Here you can view records of all the activities performed by different users in the system."
+msgstr "Här kan du se register över alla aktiviteter som utförs av olika användare i systemet."
+
+msgid "Here you can to add new employees, view employee details and filter employees."
+msgstr "Här kan du för att lägga till nya anställda, visa anställdas detaljer och filtrera anställda."
+
+msgid "Here you can record the work history of your employees."
+msgstr "Här kan du spela in dina anställdas arbetshistoria."
+
+msgid "Here you can add the skills each employee in your organization has."
+msgstr "Här kan du lägga till de färdigheter som varje anställd i din organisation har."
+
+msgid "Here you can record the level of education each employee in your organization has."
+msgstr "Här kan du registrera den utbildningsnivå som varje anställd i din organisation har."
+
+msgid "Here you can define the certifications each of your employee has completed so far."
+msgstr "Här kan du definiera certifieringarna som var och en av din anställd har slutfört hittills."
+
+msgid "Here you can keep track of all the languages each employee knows."
+msgstr "Här kan du hålla reda på alla språk som varje anställd vet."
+
+msgid "Here you can add all the dependents of each employee."
+msgstr "Här kan du lägga till alla anhöriga från varje anställd."
+
+msgid "Here you can record emergency contacts of employees."
+msgstr "Här kan du spela in nödkontakter hos anställda."
+
+msgid "Here you can view all the deativated employees. You can still recover data of a deactivated employee by clicking on Activate."
+msgstr "Här kan du se alla de inställda anställda. Du kan fortfarande återställa data om en inaktiverad anställd genom att klicka på Aktivera."
+
+msgid "Here you can view the deleted employees. Click on Download to download employee data as a JSON."
+msgstr "Här kan du se de borttagna anställda. Klicka på Ladda ner för att ladda ner anställdas data som JSON."
+
+msgid "Here you can views how employee data changed overtime."
+msgstr "Här kan du se hur anställdas data ändrades övertid."
+
+msgid "Here you can define any teams in your organization."
+msgstr "Här kan du definiera alla team i din organisation."
+
+msgid "Here you can add employees to the correct team."
+msgstr "Här kan du lägga till anställda i rätt team."
+
+msgid "Here you can add company documents to share announcements, policies, procedures, etc. with employees. These documents can be shared with specific employees or departments."
+msgstr "Här kan du lägga till företagsdokument för att dela tillkännagivanden, policyer, rutiner etc. med anställda. Dessa dokument kan delas med specifika anställda eller avdelningar."
+
+msgid "Here you can define the document types employees can add to the system."
+msgstr "Här kan du definiera de dokumenttyper som anställda kan lägga till i systemet."
+
+msgid "Here you can add personal employee documents. The visibility of the employee document can be defined when adding the document."
+msgstr "Här kan du lägga till personliga anställdas dokument. Synligheten för medarbetarnas dokument kan definieras när du lägger till dokumentet."
+
+msgid "Here all the payslips generated through the payroll module. Click on Add New to manually add a payslip."
+msgstr "Här är alla lönesätt som genereras via lönemodulen. Klicka på Lägg till nytt för att manuellt lägga till ett lönesätt."
+
+msgid "Here you can attendance records of employees and to view, edit, filter employee attendance records."
+msgstr "Här kan du delta i anställda och för att se, redigera, filtrera anställdas närvaroregister."
+
+msgid "Here you can view whether employees are Clocked In, Clocked Out or Not Clocked In."
+msgstr "Här kan du se om anställda är klockade in, klockas ut eller inte klockas in."
+
+msgid "Here you can assign performance reviews to employees and manage, view, and edit performance reviews."
+msgstr "Här kan du tilldela prestationsrecensioner till anställda och hantera, visa och redigera prestationsgranskningar."
+
+msgid "Here you can request review feedback from a supervisor/peer."
+msgstr "Här kan du begära granskningsåterkoppling från en handledare/peer."
+
+msgid "Here you can create custom review templates for the performance review process."
+msgstr "Här kan du skapa anpassade granskningsmallar för Performance Review -processen."
+
+msgid "Here you can monitor the progress of all employee goals."
+msgstr "Här kan du övervaka framstegen för alla anställdas mål."
+
+msgid "Here you can define leave types available in your organization."
+msgstr "Här kan du definiera ledighetstyper tillgängliga i din organisation."
+
+msgid "Here you can define leave periods by providing a name for the period and by selecting the correct start and end dates."
+msgstr "Här kan du definiera ledighetsperioder genom att tillhandahålla ett namn för perioden och genom att välja rätt start- och slutdatum."
+
+msgid "Here you can define the working and non-working days according to your organization or by country."
+msgstr "Här kan du definiera de arbetande och icke-arbetande dagarna enligt din organisation eller per land."
+
+msgid "Here you need to add all the holidays relevant to a leave period."
+msgstr "Här måste du lägga till alla helgdagar som är relevanta för en ledighetsperiod."
+
+msgid "Here you can override the behavior of a leave type for job titles, employment statuses, or even individual employees by adding a leave rule."
+msgstr "Här kan du åsidosätta beteendet hos en ledighetstyp för jobbtitlar, anställningsstatus eller till och med enskilda anställda genom att lägga till en ledighet."
+
+msgid "Here you can keep track of employee PTO. This can be used to compensate an employee and adjust leave balance from previous years."
+msgstr "Här kan du hålla reda på anställdas PTO. Detta kan användas för att kompensera en anställd och anpassa lämnade balans från tidigare år."
+
+msgid "Here you can create a leave group so you can group employees and create leave types or leave rules affecting the employees in the group."
+msgstr "Här kan du skapa en ledighetsgrupp så att du kan gruppera anställda och skapa ledighetstyper eller lämna regler som påverkar de anställda i gruppen."
+
+msgid "Here you can add employees to the correct leave group."
+msgstr "Här kan du lägga till anställda i rätt ledighetsgrupp."
+
+msgid "Here you can view all employee leaves and approve leave requests."
+msgstr "Här kan du se alla anställdas blad och godkänna förfrågningar om ledighet."
+
+msgid "Here you can define the types of assets in your organization so you can easily categorize the assets."
+msgstr "Här kan du definiera de typer av tillgångar i din organisation så att du enkelt kan kategorisera tillgångarna."
+
+msgid "Here you can add and manage company assets each employee or department has."
+msgstr "Här kan du lägga till och hantera företagstillgångar som varje anställd eller avdelning har."
+
+msgid "Here you can define the different types of expenses in an organization."
+msgstr "Här kan du definiera de olika typerna av utgifter i en organisation."
+
+msgid "Here you can add the different types of payment methods used for expenses in an organization."
+msgstr "Här kan du lägga till de olika typerna av betalningsmetoder som används för utgifter i en organisation."
+
+msgid "Here you can add employee expenses, edit and approve expense requests."
+msgstr "Här kan du lägga till anställdas utgifter, redigera och godkänna kostnadsförfrågningar."
+
+msgid "Here you can create custom forms to collect data from employees."
+msgstr "Här kan du skapa anpassade formulär för att samla in data från anställda."
+
+msgid "Here you can assign forms to employees, fill and download forms."
+msgstr "Här kan du tilldela formulär till anställda, fylla och ladda ner formulär."
+
+msgid "Here you can add courses."
+msgstr "Här kan du lägga till kurser."
+
+msgid "Here you can add different training sessions to a particular course. You can let employees sign up for training sessions or assign training sessions by changing the attendance type."
+msgstr "Här kan du lägga till olika träningspass till en viss kurs. Du kan låta anställda registrera sig för träningssessioner eller tilldela träningssessioner genom att ändra närvarotypen."
+
+msgid "Here you can assign training sessions to employees."
+msgstr "Här kan du tilldela utbildningssessioner till anställda."
+
+msgid "Here you can add employee travel requests and view and edit travel requests."
+msgstr "Här kan du lägga till anställdas reseförfrågningar och visa och redigera reseförfrågningar."
+
+msgid "Here you can define the different types of overtime available in your organization."
+msgstr "Här kan du definiera de olika typerna av övertid som finns i din organisation."
+
+msgid "Here you can add and manage employee overtime requests."
+msgstr "Här kan du lägga till och hantera anställdas övertidsförfrågningar."
+
+msgid "Here you can define different types of loans employees are eligible for."
+msgstr "Här kan du definiera olika typer av lån som anställda är berättigade till."
+
+msgid "Here you can add employee loans."
+msgstr "Här kan du lägga till anställdslån."
+
+msgid "Here you can generate different admin reports."
+msgstr "Här kan du generera olika administratörsrapporter."
+
+msgid "Here you can export payroll meta data."
+msgstr "Här kan du exportera metadata för lön."
+
+msgid "Here you can view all the admin reports generated."
+msgstr "Här kan du se alla administratörsrapporter som genereras."
+
+msgid "Here you can create user accounts for employees for them to login to their IceHrm accounts."
+msgstr "Här kan du skapa användarkonton för anställda för att de ska logga in på sina ICEHRM -konton."
+
+msgid "Here you can create user roles to give or deny access to certain modules."
+msgstr "Här kan du skapa användarroller för att ge eller förneka åtkomst till vissa moduler."
+
+msgid "Here you can Enable or Disable modules."
+msgstr "Här kan du aktivera eller inaktivera moduler."
+
+msgid "Here you can manage what permissions each user level has."
+msgstr "Här kan du hantera vilka behörigheter varje användarnivå har."
+
+msgid "Here you can view details about your current IceHrm plan."
+msgstr "Här kan du se detaljer om din nuvarande ICEHRM -plan."
+
+msgid "Here you can view all your pending transactions."
+msgstr "Här kan du se alla dina väntande transaktioner."
+
+msgid "Here you can view details about prepaid credit and other IceHrm transactions."
+msgstr "Här kan du se detaljer om förbetald kredit och andra ICEHRM -transaktioner."
+
+msgid "Here you can manage the countries you will be able to select within the system."
+msgstr "Här kan du hantera de länder du kan välja inom systemet."
+
+msgid "Here you can manage all the provinces you will be able to select within the system."
+msgstr "Här kan du hantera alla provinser du kan välja inom systemet."
+
+msgid "Here you can manage all the currencies you will be able to select within the system."
+msgstr "Här kan du hantera alla valutor du kan välja inom systemet."
+
+msgid "Here you can manage all the nationalities you will be able to select within the system."
+msgstr "Här kan du hantera alla nationaliteter du kommer att kunna välja inom systemet."
+
+msgid "Here you can manage all the ethnicities you will be able to select within the system."
+msgstr "Här kan du hantera alla etniciteter du kommer att kunna välja inom systemet."
+
+msgid "Here you can manage all the immigration status options you will be able to select within the system."
+msgstr "Här kan du hantera alla alternativ för invandringsstatus som du kan välja inom systemet."
+
+msgid "Here you can add data importers that can be used to import data to the system."
+msgstr "Här kan du lägga till datamotor som kan användas för att importera data till systemet."
+
+msgid "Here you can import data using the data importers defined in the system."
+msgstr "Här kan du importera data med hjälp av de dataimportörer som definieras i systemet."
+
+msgid "Here you can make changes to the fields available in the employee form."
+msgstr "Här kan du göra ändringar i fälten tillgängliga i anställdas formulär."
+
+msgid "Here you can check attendance time recorded every day for all the employees or a specific employee."
+msgstr "Här kan du kontrollera närvaron som registreras varje dag för alla anställda eller en specifik anställd."
+
+msgid "Here you can check how much of a percentage of attendance time goes into timesheets for each employee."
+msgstr "Här kan du kontrollera hur mycket av en procentandel av närvarotiden som går in i tidtabeller för varje anställd."
+
+msgid "Here you can view approved employee leaves of employees with the leave dates."
+msgstr "Här kan du se godkända anställda blad av anställda med ledighetsdatum."
+
+msgid "Here you can define different type of salary components in your organization."
+msgstr "Här kan du definiera olika typer av lönekomponenter i din organisation."
+
+msgid "Here you can define all the salary components related to the defined salary component types."
+msgstr "Här kan du definiera alla lönekomponenter relaterade till de definierade lönekomponenttyperna."
+
+msgid "Here you can add all salary components related to each of your employees."
+msgstr "Här kan du lägga till alla lönekomponenter relaterade till var och en av dina anställda."
+
+msgid "Here you can add all the employees to the correct payroll group. Each employee should belong to a payroll group."
+msgstr "Här kan du lägga till alla anställda i rätt lönegrupp. Varje anställd bör tillhöra en lönegrupp."
+
+msgid "Here you can create payroll reports for a specific time period."
+msgstr "Här kan du skapa lönerapporter under en viss tidsperiod."
+
+msgid "Here you can define the payroll columns that will be used to generate payroll reports."
+msgstr "Här kan du definiera lönekolumnerna som kommer att användas för att generera lönerapporter."
+
+msgid "Here you can define different payroll groups if you have different payroll calculations for different employees."
+msgstr "Här kan du definiera olika lönegrupper om du har olika lönberäkningar för olika anställda."
+
+msgid "Here you can define different calculation such as tax that can be used in payroll columns."
+msgstr "Här kan du definiera olika beräkningar såsom skatt som kan användas i lönekolumner."
+
+msgid "Here you can create custom payslip templates."
+msgstr "Här kan du skapa anpassade betalningsmallar."
+
+msgid "Here you can add employment types that will be used when creating job posts."
+msgstr "Här kan du lägga till sysselsättningstyper som kommer att användas när du skapar jobbposter."
+
+msgid "Here you can add different experience levels that will be used when creating job posts."
+msgstr "Här kan du lägga till olika erfarenhetsnivåer som kommer att användas när du skapar jobbposter."
+
+msgid "Here you can add job functions that will be used when creating job posts."
+msgstr "Här kan du lägga till jobbfunktioner som kommer att användas när du skapar jobbposter."
+
+msgid "Here you can add education levels that will be used when creating job posts."
+msgstr "Här kan du lägga till utbildningsnivåer som kommer att användas när du skapar jobbposter."
+
+msgid "Here you can define the benefits that will be given by your organization to candidates."
+msgstr "Här kan du definiera de fördelar som din organisation kommer att ges till kandidater."
+
+msgid "Here you can create job posts and generate job links."
+msgstr "Här kan du skapa jobbposter och generera jobblänkar."
+
+msgid "Here you can view all the candidates that have applied for job positions through the job links. You can manually candidates by clicking on Add New."
+msgstr "Här kan du se alla kandidater som har ansökt om jobbpositioner genom jobblänkarna. Du kan manuellt kandidater genom att klicka på Lägg till nya."
+
+msgid "Here you can manage of all the candidates with the hiring stage New."
+msgstr "Här kan du hantera alla kandidater med den nya anställningsstadiet."
+
+msgid "Here you can manage all the candidates in the Phone Screen hiring stage."
+msgstr "Här kan du hantera alla kandidater i telefonskärmens anställningsstadium."
+
+msgid "Here you can manage all the candidates in the Assessment hiring stage."
+msgstr "Här kan du hantera alla kandidater i bedömningsanställningsstadiet."
+
+msgid "Here you can manage all the candidates of the candidates in the Interview hiring stage. The candidate will be moved to this stage when an interview is scheduled."
+msgstr "Här kan du hantera alla kandidater till kandidaterna i intervjuutarbetningsstadiet. Kandidaten kommer att flyttas till detta skede när en intervju är planerad."
+
+msgid "Here you can manage all the candidates in the Offer Sent hiring stage."
+msgstr "Här kan du hantera alla kandidater i erbjudandet som skickas anställningsfas."
+
+msgid "Here you can manage all the candidate in the Hired hiring stage."
+msgstr "Här kan du hantera all kandidat i den anställda anställningsstadiet."
+
+msgid "Here you can manage all the rejected candidates."
+msgstr "Här kan du hantera alla avvisade kandidater."
+
+msgid "Here you can add all the skills you have."
+msgstr "Här kan du lägga till alla färdigheter du har."
+
+msgid "Here you can add details about your education levels."
+msgstr "Här kan du lägga till information om dina utbildningsnivåer."
+
+msgid "Here you can add all the certifications you have completed."
+msgstr "Här kan du lägga till alla certifieringar du har slutfört."
+
+msgid "Here you can add all the languages you are fluent in."
+msgstr "Här kan du lägga till alla språk du är flytande i."
+
+msgid "Here you can add details about your dependents."
+msgstr "Här kan du lägga till information om dina beroende."
+
+msgid "Here you can add details about your emergency contacts."
+msgstr "Här kan du lägga till information om dina nödkontakter."
+
+msgid "Here you can add and manage your leave requests."
+msgstr "Här kan du lägga till och hantera dina förfrågningar om ledighet."
+
+msgid "Here you can view a summary of all leave balances."
+msgstr "Här kan du se en sammanfattning av alla lämnande balanser."
+
+msgid "Here you can view all your approved leave requests."
+msgstr "Här kan du se alla dina godkända förfrågningar om ledighet."
+
+msgid "Here you can view all your pending leave requests."
+msgstr "Här kan du se alla dina väntande förfrågningar om väntan."
+
+msgid "Here you can view and approve leave requests from your subordinates."
+msgstr "Här kan du visa och godkänna ledighetsförfrågningar från dina underordnade."
+
+msgid "Here you can view all cancellation requests from your subordinates."
+msgstr "Här kan du se alla avbokningsförfrågningar från dina underordnade."
+
+msgid "Here you can view and approve leave requests if you are an approver to an employee."
+msgstr "Här kan du visa och godkänna ledighetsförfrågningar om du är en godkännande till en anställd."
+
+msgid "Here you can view all your leave requests on a calendar."
+msgstr "Här kan du se alla dina ledighetsförfrågningar i en kalender."
+
+msgid "Here you can add and manage projects you are working on or assigned to."
+msgstr "Här kan du lägga till och hantera projekt du arbetar med eller tilldelas."
+
+msgid "Here you can mark your attendance by punching in and punching out."
+msgstr "Här kan du markera ditt närvaro genom att slå in och slå ut."
+
+msgid "Here you can view and manage all pending, approved, rejected and submitted timesheets."
+msgstr "Här kan du se och hantera alla väntande, godkända, avvisade och inlämnade tidtabeller."
+
+msgid "Here you can manage of all your approved timesheets."
+msgstr "Här kan du hantera alla dina godkända tidtabeller."
+
+msgid "Here you can manage of all your pending timesheets."
+msgstr "Här kan du hantera alla dina väntande tidtabeller."
+
+msgid "Here you can view and approve timesheetes of your subordinates."
+msgstr "Här kan du se och godkänna tidsblad från dina underordnade."
+
+msgid "Here you can view and manage all your pending, approved, rejected and submitted attendance sheets."
+msgstr "Här kan du se och hantera alla dina väntande, godkända, avvisade och inlämnade närvaroblad."
+
+msgid "Here you can view all your approved attendance sheets."
+msgstr "Här kan du se alla dina godkända närvaroblad."
+
+msgid "Here you can view all your pending attendance sheets."
+msgstr "Här kan du se alla dina väntande närvaroblad."
+
+msgid "Here you can manage and approve attendance sheets of your subordinates."
+msgstr "Här kan du hantera och godkänna närvaroblad i dina underordnade."
+
+msgid "Here you add an overtime request and view previous overtime requests."
+msgstr "Här lägger du till en övertidsförfrågan och visar tidigare övertidsförfrågningar."
+
+msgid "Here you can manage and approve overtime requests of your subordinates."
+msgstr "Här kan du hantera och godkänna övertidsförfrågningar från dina underordnade."
+
+msgid "Here you can upload your personal documents to the system."
+msgstr "Här kan du ladda upp dina personliga dokument till systemet."
+
+msgid "Here you can view all the company documents that are shared with you."
+msgstr "Här kan du se alla företagsdokument som delas med dig."
+
+msgid "Here you can view all your payslips. You can download your payslips as PDFs."
+msgstr "Här kan du se alla dina lönesätt. Du kan ladda ner dina lönesätt som PDF -filer."
+
+msgid "Here you will find all the forms you need to fill out and all previous completed forms."
+msgstr "Här hittar du alla formulär du behöver fylla i och alla tidigare ifyllda formulär."
+
+msgid "Here you can view all contact information of employees in the organization."
+msgstr "Här kan du se all kontaktinformation om anställda i organisationen."
+
+msgid "Here you can view all the training sessions available."
+msgstr "Här kan du se alla tillgängliga träningssessioner."
+
+msgid "Here you can view all training sessions you have signed up for or assigned to."
+msgstr "Här kan du se alla träningspass som du har registrerat dig för eller tilldelats."
+
+msgid "Here you can manage all the training sessions of your subordinates."
+msgstr "Här kan du hantera alla träningspass i dina underordnade."
+
+msgid "Here you can view all the training sessions coordinated by you."
+msgstr "Här kan du se alla träningspass som är samordnade av dig."
+
+msgid "Here you can manage all the self assessments you need to work on for your performance reviews."
+msgstr "Här kan du hantera alla självbedömningar du behöver arbeta med för dina prestationsrecensioner."
+
+msgid "Here you can provide feedback to your peers or subordinates."
+msgstr "Här kan du ge feedback till dina kamrater eller underordnade."
+
+msgid "Here you can submit and manage your travel requests."
+msgstr "Här kan du skicka och hantera dina reseförfrågningar."
+
+msgid "Here you can view and approve travel requests of your subordinates."
+msgstr "Här kan du visa och godkänna reseförfrågningar från dina underordnade."
+
+msgid "Here you can approve travel requests if you are an approver to certain employees."
+msgstr "Här kan du godkänna reseförfrågningar om du är en godkännare för vissa anställda."
+
+msgid "Here you can submit and manage your expense requests."
+msgstr "Här kan du skicka och hantera dina kostnadsförfrågningar."
+
+msgid "Here you can manage and approve expenses requests of your subordinates."
+msgstr "Här kan du hantera och godkänna utgifter för dina underordnade."
+
+msgid "Here you can approve expense requests if you are an approver to certain employees."
+msgstr "Här kan du godkänna kostnadsförfrågningar om du är en godkännare för vissa anställda."
+
+msgid "Here you can view details of all your salary components."
+msgstr "Här kan du se detaljer om alla dina lönekomponenter."
+
+msgid "Here you can view details of all the loans you have taken from the company."
+msgstr "Här kan du se detaljer om alla lån du har tagit från företaget."
+
+msgid "Position"
+msgstr "Placera"
+
+msgid "Application Date"
+msgstr "Ansökningsdatum"
+
+msgid "Basic"
+msgstr "Grundläggande"
+
+msgid "All Candidates"
+msgstr "Alla kandidater"
+
+msgid "New"
+msgstr "Ny"
+
+msgid "Screening"
+msgstr "Undersökning"
+
+msgid "Assessment"
+msgstr "bedömning"
+
+msgid "Interview Scheduled"
+msgstr "Intervju schemalagd"
+
+msgid "Offer"
+msgstr "Erbjudande"
+
+msgid "Hired"
+msgstr "Anlitade"
+
+msgid "Member"
+msgstr "Medlem"
+
+msgid "Attach File"
+msgstr "Bifoga fil "
+
+msgid "Here you can define the different pay grades in your organization."
+msgstr "Här kan du definiera de olika lönegraderna i din organisation."

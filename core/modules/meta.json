@@ -1,0 +1,14 @@
+{
+"About You":"fa-grip-horizontal",
+"Collaboration": "fa-th",
+"Company":"fa-building",
+"Leave":"fa-calendar-alt",
+"Time":"fa-hourglass-half",
+"My Tasks": "fa-list-check",
+"Documents":"fa-file-alt",
+"Training":"fa-briefcase",
+"Performance":"fa-bezier-curve",
+"Travel":"fa-globe",
+"Finance":"fa-calculator",
+"My Reports":"fa-window-maximize"
+}

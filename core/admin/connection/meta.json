@@ -1,0 +1,12 @@
+{
+    "label": "System Status",
+    "menu": "System",
+    "order": "9",
+    "icon": "fa-wifi",
+    "user_levels": [
+        "Admin"
+    ],
+    "permissions": [],
+    "model_namespace": "\\Connection\\Common\\Model",
+    "manager": "\\Connection\\Admin\\Api\\ConnectionAdminManager"
+}

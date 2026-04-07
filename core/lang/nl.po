@@ -1,0 +1,2808 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2018-08-08T06:20:21+05:30\n"
+"PO-Revision-Date: 2018-08-08T06:20:21+05:30\n"
+"Language: Dutch\n"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Done"
+msgstr "Gedaan"
+
+msgid "Clocked In Employees"
+msgstr "Geklokt in medewerkers"
+
+msgid "Candidates"
+msgstr "kandidaten"
+
+msgid "View Employees"
+msgstr "Bekijk medewerkers"
+
+msgid "Add a New Employee"
+msgstr "Voeg een nieuwe werknemer toe"
+
+msgid "Leave Calendar"
+msgstr "Verlaat de kalender"
+
+msgid "Manage Client/Projects"
+msgstr "Beheer klant / projecten"
+
+msgid "Home"
+msgstr "Huis"
+
+msgid "Quick Access"
+msgstr "Snelle toegang"
+
+msgid "Switch"
+msgstr "Schakelaar"
+
+msgid "Profile"
+msgstr "Profiel"
+
+msgid "Sign out"
+msgstr "Afmelden"
+
+msgid "Help"
+msgstr "Helpen"
+
+msgid "About"
+msgstr "Over"
+
+msgid "Version"
+msgstr "Versie"
+
+msgid "Release Date"
+msgstr "Datum van publicatie"
+
+msgid "Logged In"
+msgstr "Ingelogd"
+
+msgid "Admin"
+msgstr "beheerder"
+
+msgid "Dashboard"
+msgstr "Dashboard"
+
+msgid "Company Structure"
+msgstr "Bedrijfsstructuur"
+
+msgid "Job Details Setup"
+msgstr "Taakdetails instellen"
+
+msgid "Qualifications Setup"
+msgstr "Kwalificaties instellen"
+
+msgid "Training Setup"
+msgstr "Training instellen"
+
+msgid "Projects/Client Setup"
+msgstr "Projecten / Clientinstellingen"
+
+msgid "Leave Settings"
+msgstr "Laat instellingen staan"
+
+msgid "Company Loans"
+msgstr "Bedrijfsleningen"
+
+msgid "Audit Log"
+msgstr "Auditlog"
+
+msgid "Employees"
+msgstr "werknemers"
+
+msgid "Employee History"
+msgstr "Werknemersgeschiedenis"
+
+msgid "Document Management"
+msgstr "Document beheer"
+
+msgid "Travel Administration"
+msgstr "Reisadministratie"
+
+msgid "Expense Administration"
+msgstr "Onkostenadministratie"
+
+msgid "Monitor Attendance"
+msgstr "Monitor aanwezigheid"
+
+msgid "Performance Charts"
+msgstr "Prestatieschema's"
+
+msgid "Overtime Administration"
+msgstr "Overurenbeheer"
+
+msgid "Admin Reports"
+msgstr "Admin-rapporten"
+
+msgid "Reports"
+msgstr "rapporten"
+
+msgid "Report Files"
+msgstr "Rapportbestanden"
+
+msgid "System"
+msgstr "Systeem"
+
+msgid "Settings"
+msgstr "instellingen"
+
+msgid "Users"
+msgstr "gebruikers"
+
+msgid "Manage Modules"
+msgstr "Beheer modules"
+
+msgid "Manage Permissions"
+msgstr "Machtigingen beheren"
+
+msgid "Upgrade"
+msgstr "Upgrade"
+
+msgid "Manage Metadata"
+msgstr "Beheer metadata"
+
+msgid "Field Names Setup"
+msgstr "Setup van veldnamen"
+
+msgid "Payroll"
+msgstr "Loonlijst"
+
+msgid "Salary"
+msgstr "Salaris"
+
+msgid "Payroll Reports"
+msgstr "Payroll-rapporten"
+
+msgid "Recruitment"
+msgstr "Werving"
+
+msgid "Recruitment Setup"
+msgstr "Rekrutering instellen"
+
+msgid "Job Positions"
+msgstr "Functieposities"
+
+msgid "Personal Information"
+msgstr "Persoonlijke informatie"
+
+msgid "Basic Information"
+msgstr "Basis informatie"
+
+msgid "Qualifications"
+msgstr "kwalificaties"
+
+msgid "Dependents"
+msgstr "Dependents"
+
+msgid "Emergency Contacts"
+msgstr "Contactpersonen voor noodgevallen"
+
+msgid "Leave"
+msgstr "Het verlof"
+
+msgid "Leave Management"
+msgstr "Laat Management"
+
+msgid "Time Management"
+msgstr "Tijdsbeheer"
+
+msgid "Projects"
+msgstr "projecten"
+
+msgid "Attendance"
+msgstr "opkomst"
+
+msgid "Time Sheets"
+msgstr "Time Sheets"
+
+msgid "Attendance Sheets"
+msgstr "Aanwezigheidsbladen"
+
+msgid "Overtime Requests"
+msgstr "Overuren aanvragen"
+
+msgid "Documents"
+msgstr "documenten"
+
+msgid "My Documents"
+msgstr "Mijn Documenten"
+
+msgid "Company"
+msgstr "Bedrijf"
+
+msgid "Staff Directory"
+msgstr "Personeelgids"
+
+msgid "Training"
+msgstr "Opleiding"
+
+msgid "Travel Management"
+msgstr "Reismanagement"
+
+msgid "Travel"
+msgstr "Reizen"
+
+msgid "Finance"
+msgstr "Financiën"
+
+msgid "Expenses"
+msgstr "uitgaven"
+
+msgid "Loans"
+msgstr "Leningen"
+
+msgid "User Reports"
+msgstr "Gebruikersrapporten"
+
+msgid "People"
+msgstr "Mensen"
+
+msgid "Manage"
+msgstr "beheren"
+
+msgid "Departments"
+msgstr "afdelingen"
+
+msgid "Active Projects"
+msgstr "Actieve projecten"
+
+msgid "Update Clients/Projects"
+msgstr "Update klanten / projecten"
+
+msgid "Entries Last Week"
+msgstr "Invoer vorige week"
+
+msgid "Upcoming"
+msgstr "Aankomende"
+
+msgid "View / Download Reports"
+msgstr "Bekijk / download rapporten"
+
+msgid "Generate a Report"
+msgstr "Genereer een rapport"
+
+msgid "Configure"
+msgstr "configureren"
+
+msgid "Update"
+msgstr "Bijwerken"
+
+msgid "Applicants"
+msgstr "aanvragers"
+
+msgid "Active Jobs"
+msgstr "Actieve banen"
+
+msgid "Jobs Posted"
+msgstr "Geposte banen"
+
+msgid "Jobs"
+msgstr "Jobs"
+
+msgid "Courses"
+msgstr "cursussen"
+
+msgid "Requests"
+msgstr "verzoeken"
+
+msgid "Document"
+msgstr "Document"
+
+msgid "Management"
+msgstr "Beheer"
+
+msgid "Expense"
+msgstr "Kosten"
+
+msgid "Permission"
+msgstr "Toestemming"
+
+msgid "Permissions"
+msgstr "machtigingen"
+
+msgid "and"
+msgstr "en"
+
+msgid "Invoices"
+msgstr "facturen"
+
+msgid "Make a Payment"
+msgstr "Maak een betaling"
+
+msgid "Switch Employee"
+msgstr "Van werknemer wisselen"
+
+msgid "Select The Employee to Switch Into"
+msgstr "Selecteer De werknemer om in te schakelen"
+
+msgid "Close"
+msgstr "Dichtbij"
+
+msgid "My Profile"
+msgstr "Mijn profiel"
+
+msgid "Edit Details"
+msgstr "Details bewerken"
+
+msgid "View/Edit Profile"
+msgstr "Profiel bekijken / bewerken"
+
+msgid "Punch In"
+msgstr "Punch In"
+
+msgid "or"
+msgstr "of"
+
+msgid "Punch Out"
+msgstr "Punch Out"
+
+msgid "Record Attendance"
+msgstr "Recordaanwezigheid"
+
+msgid "Pending Leaves"
+msgstr "In afwachting van bladeren"
+
+msgid "Check Leave Status"
+msgstr "Controleer de verlofstatus"
+
+msgid "Hours worked Last Week"
+msgstr "Werkt afgelopen week"
+
+msgid "Update Time Sheet"
+msgstr "Update urenstaat"
+
+msgid "My Projects"
+msgstr "Mijn projecten"
+
+msgid "Projects Assigned"
+msgstr "Toegewezen projecten"
+
+msgid "More info"
+msgstr "Meer informatie"
+
+msgid "Store"
+msgstr "Op te slaan"
+
+msgid "My Travel"
+msgstr "Mijn reis"
+
+msgid "My Expenses"
+msgstr "Mijn uitgaven"
+
+msgid "Manage Expenses"
+msgstr "Beheer uitgaven"
+
+msgid "ID"
+msgstr "ID kaart"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Address"
+msgstr "Adres"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Country"
+msgstr "land"
+
+msgid "Time Zone"
+msgstr "Tijdzone"
+
+msgid "Parent Structure"
+msgstr "Bovenliggende structuur"
+
+msgid "Details"
+msgstr "Details"
+
+msgid "Heads"
+msgstr "Heads"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "Job Title Code"
+msgstr "Functiecode"
+
+msgid "Job Title"
+msgstr "Functietitel"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Specification"
+msgstr "Specificatie"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Min Salary"
+msgstr "Min salaris"
+
+msgid "Max Salary"
+msgstr "Max salaris"
+
+msgid "Pay Grade Name"
+msgstr "Betaal cijfer naam"
+
+msgid "Employment Status"
+msgstr "Werkstatus"
+
+msgid "Coordinator"
+msgstr "Coördinator"
+
+msgid "Trainer"
+msgstr "Trainer"
+
+msgid "Trainer Details"
+msgstr "Details van de trainer"
+
+msgid "Payment Type"
+msgstr "Betalingswijze"
+
+msgid "Cost"
+msgstr "Kosten"
+
+msgid "Status"
+msgstr "staat"
+
+msgid "Course"
+msgstr "Cursus"
+
+msgid "Scheduled Time"
+msgstr "Geplande tijd"
+
+msgid "Assignment Due Date"
+msgstr "Periode van toewijzing"
+
+msgid "Delivery Method"
+msgstr "Levering methode"
+
+msgid "Delivery Location"
+msgstr "Afleveradres"
+
+msgid "Attendance Type"
+msgstr "Aanwezigheidstype"
+
+msgid "Attachment"
+msgstr "gehechtheid"
+
+msgid "Training Certificate Required"
+msgstr "Trainingscertificaat vereist"
+
+msgid "Employee"
+msgstr "Werknemer"
+
+msgid "Training Session"
+msgstr "Trainingssessie"
+
+msgid "Contact Number"
+msgstr "Contact nummer"
+
+msgid "Contact Email"
+msgstr "contact email"
+
+msgid "Company Url"
+msgstr "Bedrijf Url"
+
+msgid "First Contact Date"
+msgstr "Eerste contactdatum"
+
+msgid "Client"
+msgstr "Cliënt"
+
+msgid "Project"
+msgstr "project"
+
+msgid "Leave Name"
+msgstr "Laat de naam achter"
+
+msgid "Leave Accrue Enabled"
+msgstr "Laat uitgroei ingeschakeld"
+
+msgid "Leave Carried Forward"
+msgstr "Verlaten doorgestuurd"
+
+msgid "Leaves Per Year"
+msgstr "Bladeren per jaar"
+
+msgid "Leaves Group"
+msgstr "Bladeren Groep"
+
+msgid "Leaves Per Leave Period"
+msgstr "Bladeren per verlofperiode"
+
+msgid "Admin can assign leave to employees"
+msgstr "Beheerder kan verlof toewijzen aan werknemers"
+
+msgid "Employees can apply for this leave type"
+msgstr "Medewerkers kunnen dit verloftype aanvragen"
+
+msgid "Employees can apply beyond the current leave balance"
+msgstr "Medewerkers kunnen zich aanmelden buiten het huidige verlofsaldo"
+
+msgid "Percentage of Leaves Carried Forward"
+msgstr "Percentage bladeren dat naar voren wordt gedragen"
+
+msgid "Maximum Carried Forward Amount"
+msgstr "Maximale doorgestuurde bedrag"
+
+msgid "Carried Forward Leave Availability Period"
+msgstr "Doorgestroomd Verlof Beschikbaarheid Periode"
+
+msgid "Proportionate leaves on Joined Date"
+msgstr "Proportioneel verlaat op toegetreden datum"
+
+msgid "Send Notification Emails"
+msgstr "Verzend notificatie-e-mails"
+
+msgid "Leave Group"
+msgstr "Verlaat groep"
+
+msgid "Leave Color"
+msgstr "Laat kleur achter"
+
+msgid "Period Start"
+msgstr "Periode Start"
+
+msgid "Period End"
+msgstr "Periode einde"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "For All Countries"
+msgstr "Voor alle landen"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Leave Type"
+msgstr "Laat Type"
+
+msgid "Propotionate leaves on Joined Date"
+msgstr "Propotioneel verlaat op toegetreden datum"
+
+msgid "Leaves Period"
+msgstr "Bladeren Periode"
+
+msgid "Leave Amount"
+msgstr "Verlofbedrag"
+
+msgid "Leave Period"
+msgstr "Verlofperiode"
+
+msgid "Note"
+msgstr "Notitie"
+
+msgid "All Employees"
+msgstr "Alle werknemers"
+
+msgid "All Leave Types"
+msgstr "Alle soorten verlof"
+
+msgid "Loan Type"
+msgstr "Type lening"
+
+msgid "Loan Start Date"
+msgstr "Startdatum lening"
+
+msgid "Loan Period (Months)"
+msgstr "Lening Periode (Maanden)"
+
+msgid "Amount"
+msgstr "Bedrag"
+
+msgid "Last Installment Date"
+msgstr "Laatste afleverdatum"
+
+msgid "Loan Amount"
+msgstr "Leenbedrag"
+
+msgid "Monthly Installment"
+msgstr "Maandelijkse installatie"
+
+msgid "Employee Number"
+msgstr "Werknemersnummer"
+
+msgid "First Name"
+msgstr "Voornaam"
+
+msgid "Middle Name"
+msgstr "Midden-naam"
+
+msgid "Last Name"
+msgstr "Achternaam"
+
+msgid "Nationality"
+msgstr "Nationaliteit"
+
+msgid "Date of Birth"
+msgstr "Geboortedatum"
+
+msgid "Gender"
+msgstr "Geslacht"
+
+msgid "Marital Status"
+msgstr "Burgerlijke staat"
+
+msgid "Ethnicity"
+msgstr "Afkomst"
+
+msgid "Immigration Status"
+msgstr "Immigratiestatus"
+
+msgid "SSN/NRIC"
+msgstr "SSN / NRIC"
+
+msgid "NIC"
+msgstr "NIC"
+
+msgid "Other ID"
+msgstr "Andere ID"
+
+msgid "Driving License No"
+msgstr "Rijbewijs nr"
+
+msgid "Pay Grade"
+msgstr "Betaal Grade"
+
+msgid "Work Station Id"
+msgstr "Werkstation-ID"
+
+msgid "Address Line 1"
+msgstr "Adres regel 1"
+
+msgid "Address Line 2"
+msgstr "Adres lijn 2"
+
+msgid "City"
+msgstr "stad"
+
+msgid "Province"
+msgstr "Provincie"
+
+msgid "Postal/Zip Code"
+msgstr "Postcode"
+
+msgid "Home Phone"
+msgstr "Telefoon thuis"
+
+msgid "Mobile Phone"
+msgstr "Mobiele telefoon"
+
+msgid "Work Phone"
+msgstr "Werktelefoon"
+
+msgid "Work Email"
+msgstr "Werk email"
+
+msgid "Private Email"
+msgstr "Privé e-mail"
+
+msgid "Joined Date"
+msgstr "Ingeschreven datum"
+
+msgid "Confirmation Date"
+msgstr "Bevestigingsdatum"
+
+msgid "Termination Date"
+msgstr "Beëindigingsdatum"
+
+msgid "Department"
+msgstr "afdeling"
+
+msgid "Supervisor"
+msgstr "Leidinggevende"
+
+msgid "Indirect Supervisors"
+msgstr "Indirecte toezichthouders"
+
+msgid "First Level Approver"
+msgstr "Eerste niveau Approver"
+
+msgid "Second Level Approver"
+msgstr "Second Level Approver"
+
+msgid "Third Level Approver"
+msgstr "Derde niveau goedkeurder"
+
+msgid "Notes"
+msgstr "Notes"
+
+msgid "Time (GMT)"
+msgstr "Tijd (GMT)"
+
+msgid "User"
+msgstr "Gebruiker"
+
+msgid "IP Address"
+msgstr "IP adres"
+
+msgid "Logged In Employee"
+msgstr "Ingelogde werknemer"
+
+msgid "Skill"
+msgstr "bekwaamheid"
+
+msgid "Qualification"
+msgstr "Kwalificatie"
+
+msgid "Institute"
+msgstr "Instituut"
+
+msgid "Start Date"
+msgstr "Begin datum"
+
+msgid "Completed On"
+msgstr "Voltooid op"
+
+msgid "Certification"
+msgstr "certificaat"
+
+msgid "Granted On"
+msgstr "Toegegeven"
+
+msgid "Valid Thru"
+msgstr "Geldig door"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Reading"
+msgstr "Lezing"
+
+msgid "Speaking"
+msgstr "sprekend"
+
+msgid "Writing"
+msgstr "schrift"
+
+msgid "Understanding"
+msgstr "Begrip"
+
+msgid "Date Added"
+msgstr "Datum toegevoegd"
+
+msgid "Valid Until"
+msgstr "Geldig tot"
+
+msgid "Relationship"
+msgstr "verwantschap"
+
+msgid "Id Number"
+msgstr "ID nummer"
+
+msgid "All Job Titles"
+msgstr "Alle jobtitels"
+
+msgid "All Departments"
+msgstr "Alle afdelingen"
+
+msgid "Anyone"
+msgstr "Iedereen"
+
+msgid "Field"
+msgstr "Veld"
+
+msgid "Old Value"
+msgstr "Oude waarde"
+
+msgid "New Value"
+msgstr "Nieuwe waarde"
+
+msgid "Modified By"
+msgstr "Aangepast door"
+
+msgid "Created"
+msgstr "gemaakt"
+
+msgid "Notify Expiry"
+msgstr "Expiry melden"
+
+msgid "Notify Expiry Before One Month"
+msgstr "Verwittig verstrijking vóór één maand"
+
+msgid "Notify Expiry Before One Week"
+msgstr "Verwittig verstrijken vóór een week"
+
+msgid "Notify Expiry Before One Day"
+msgstr "Verwittig verstrijken voor één dag"
+
+msgid "Travel Type"
+msgstr "Reistype"
+
+msgid "Purpose of Travel"
+msgstr "Doel van reizen"
+
+msgid "Travel From"
+msgstr "Reizen vanaf"
+
+msgid "Travel To"
+msgstr "Reizen naar"
+
+msgid "Travel Date"
+msgstr "Reis datum"
+
+msgid "Return Date"
+msgstr "Retourdatum"
+
+msgid "Total Funding Proposed"
+msgstr "Totale voorgestelde financiering"
+
+msgid "Itinerary / Cab Receipt"
+msgstr "Reisplan / Cab-bon"
+
+msgid "Other Attachment 1"
+msgstr "Andere bijlage 1"
+
+msgid "Other Attachment 2"
+msgstr "Andere bijlage 2"
+
+msgid "Payment Method"
+msgstr "Betalingsmiddel"
+
+msgid "Transaction / Ref No"
+msgstr "Transactie / Ref No"
+
+msgid "Payee"
+msgstr "begunstigde"
+
+msgid "Expense Category"
+msgstr "Uitgavencategorie"
+
+msgid "Receipt"
+msgstr "Bon"
+
+msgid "Time-In"
+msgstr "Tijd in"
+
+msgid "Time-Out"
+msgstr "Time-out"
+
+msgid "Clocked In Status"
+msgstr "Geklokte status"
+
+msgid "End Date"
+msgstr "Einddatum"
+
+msgid "Category"
+msgstr "Categorie"
+
+msgid "Start Time"
+msgstr "Starttijd"
+
+msgid "End Time"
+msgstr "Eindtijd"
+
+msgid "Leave Status"
+msgstr "Verlof status"
+
+msgid "Select Client"
+msgstr "Selecteer Client"
+
+msgid "Not Selected"
+msgstr "Niet geselecteerd"
+
+msgid "Or Project"
+msgstr "Of project"
+
+msgid "All Projects"
+msgstr "Alle projecten"
+
+msgid "All Status"
+msgstr "Alle status"
+
+msgid "Value"
+msgstr "Waarde"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+msgid "Authentication Email"
+msgstr "Authenticatie e-mail"
+
+msgid "User Level"
+msgstr "Gebruikers level"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "User Roles"
+msgstr "Gebruikersrollen"
+
+msgid "Default Module"
+msgstr "Standaard module"
+
+msgid "No Default Module"
+msgstr "Geen standaardmodule"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Group"
+msgstr "Groep"
+
+msgid "Order"
+msgstr "Bestellen"
+
+msgid "Path"
+msgstr "Pad"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "User Levels"
+msgstr "Gebruikersniveaus"
+
+msgid "Module"
+msgstr "module"
+
+msgid "All Modules"
+msgstr "Alle modules"
+
+msgid "Invoice Period Start"
+msgstr "Factuurperiode Start"
+
+msgid "Invoice Period End"
+msgstr "Factuurperiode einde"
+
+msgid "Due date"
+msgstr "Opleveringsdatum"
+
+msgid "Url"
+msgstr "url"
+
+msgid "Original Text"
+msgstr "Originele tekst"
+
+msgid "Mapped Text"
+msgstr "Toegewezen tekst"
+
+msgid "Display Status"
+msgstr "Weergavestatus"
+
+msgid "Field Type"
+msgstr "Veld soort"
+
+msgid "Field Label"
+msgstr "veld Label"
+
+msgid "Validation"
+msgstr "bevestiging"
+
+msgid "Field Options"
+msgstr "Veldopties"
+
+msgid "Priority"
+msgstr "Prioriteit"
+
+msgid "Display Section"
+msgstr "Display sectie"
+
+msgid "Salary Component Type"
+msgstr "Salaris Component Type"
+
+msgid "Salary Component"
+msgstr "Salariscomponent"
+
+msgid "Pay Frequency"
+msgstr "Betalingsfrequentie"
+
+msgid "Calculation Group"
+msgstr "Berekeningsgroep"
+
+msgid "None"
+msgstr "Geen"
+
+msgid "Calculation Exemptions"
+msgstr "Berekening vrijstellingen"
+
+msgid "Calculations Assigned"
+msgstr "Toegekende berekeningen"
+
+msgid "Date Start"
+msgstr "Datum Start"
+
+msgid "Date End"
+msgstr "Datum einde"
+
+msgid "Payslip Template"
+msgstr "Loonstrook sjabloon"
+
+msgid "Payroll Columns"
+msgstr "Salarislijsten"
+
+msgid "Calculation Method"
+msgstr "Rekenmethode"
+
+msgid "Editable"
+msgstr "bewerkbare"
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+msgid "Predefined Calculations"
+msgstr "Voorgedefinieerde berekeningen"
+
+msgid "Salary Components"
+msgstr "Salariscomponenten"
+
+msgid "Columns to Add"
+msgstr "Kolommen om toe te voegen"
+
+msgid "Columns to Subtract"
+msgstr "Kolommen die moeten worden verwijderd"
+
+msgid "Column Order"
+msgstr "Kolomvolgorde"
+
+msgid "Default Value"
+msgstr "Standaardwaarde"
+
+msgid "Calculation Columns"
+msgstr "Berekeningskolommen"
+
+msgid "Function"
+msgstr "Functie"
+
+msgid "Payroll Report Column"
+msgstr "Loonlijst kolom"
+
+msgid "Calculation Process"
+msgstr "Berekeningsproces"
+
+msgid "Payslip Fields"
+msgstr "Loonstrookvelden"
+
+msgid "Payroll Column"
+msgstr "Payroll Column"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Lower Limit Condition"
+msgstr "Ondergrensvoorwaarde"
+
+msgid "Lower Limit"
+msgstr "Ondergrens"
+
+msgid "Upper Limit Condition"
+msgstr "Bovengrens voorwaarde"
+
+msgid "Upper Limit"
+msgstr "Bovengrens"
+
+msgid "Column"
+msgstr "Kolom"
+
+msgid "Job Code"
+msgstr "Taakcode"
+
+msgid "Short Description"
+msgstr "korte beschrijving"
+
+msgid "Requirements"
+msgstr "Vereisten"
+
+msgid "Benefits"
+msgstr "Voordelen"
+
+msgid "Employment Type"
+msgstr "Type werk"
+
+msgid "Any Employment Type"
+msgstr "Elk type werk"
+
+msgid "Experience Level"
+msgstr "Ervaringsniveau"
+
+msgid "Any Experience Level"
+msgstr "Elk ervaringsniveau"
+
+msgid "Job Function"
+msgstr "Functie"
+
+msgid "Any Job Function"
+msgstr "Elke functie"
+
+msgid "Education Level"
+msgstr "Opleidingsniveau"
+
+msgid "Any Education Level"
+msgstr "Elk opleidingsniveau"
+
+msgid "Show Salary"
+msgstr "Salaris weergeven"
+
+msgid "Salary Min"
+msgstr "Salaris Min"
+
+msgid "Salary Max"
+msgstr "Salaris Max"
+
+msgid "Keywords"
+msgstr "trefwoorden"
+
+msgid "Closing Date"
+msgstr "Sluitingsdatum"
+
+msgid "Image"
+msgstr "Beeld"
+
+msgid "Display Type"
+msgstr "Weergavetype"
+
+msgid "Profile Image"
+msgstr "Profielfoto"
+
+msgid "Telephone"
+msgstr "Telefoon"
+
+msgid "Resume Title"
+msgstr "Titel hervatten"
+
+msgid "Resume"
+msgstr "Hervat"
+
+msgid "Resume Headline"
+msgstr "CV-kop hervatten"
+
+msgid "Profile Summary"
+msgstr "profiel samenvatting"
+
+msgid "Work History"
+msgstr "Werk geschiedenis"
+
+msgid "Education"
+msgstr "Onderwijs"
+
+msgid "Skills"
+msgstr "Vaardigheden"
+
+msgid "Referees"
+msgstr "scheidsrechters"
+
+msgid "From Year"
+msgstr "Van jaar"
+
+msgid "From Month"
+msgstr "Vanaf maand"
+
+msgid "To Year"
+msgstr "Naar jaar"
+
+msgid "To Month"
+msgstr "Naar maand"
+
+msgid "Currently Work Here"
+msgstr "Werk hier momenteel"
+
+msgid "Degree/Diploma"
+msgstr "Degree / Diploma"
+
+msgid "Currently Studying"
+msgstr "Aan het studeren"
+
+msgid "Skill Level"
+msgstr "Vaardigheidsniveau"
+
+msgid "Last Used Year"
+msgstr "Laatst gebruikt jaar"
+
+msgid "Last Used Month"
+msgstr "Laatst gebruikte maand"
+
+msgid "Years of Experience"
+msgstr "Jarenlange ervaring"
+
+msgid "Designation"
+msgstr "Aanwijzing"
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "Job"
+msgstr "job"
+
+msgid "Candidate"
+msgstr "Kandidaat"
+
+msgid "Referred By"
+msgstr "Doorverwezen door"
+
+msgid "Leave Start Date"
+msgstr "Vertrekdatum verlaten"
+
+msgid "Leave End Date"
+msgstr "Einddatum verlaten"
+
+msgid "Reason"
+msgstr "Reden"
+
+msgid "Available Leaves"
+msgstr "Beschikbare bladeren"
+
+msgid "Approved Leaves"
+msgstr "Goedgekeurde bladeren"
+
+msgid "Rejected Leaves"
+msgstr "Geweigerde bladeren"
+
+msgid "Leaves to be Accrued"
+msgstr "Laat opgroeien"
+
+msgid "Leaves Carried Forward"
+msgstr "Bladeren naar voren gedragen"
+
+msgid "Apply Leave"
+msgstr "Verlof toepassen"
+
+msgid "Filter"
+msgstr "Filter"
+
+msgid "Add New"
+msgstr "Voeg nieuw toe"
+
+msgid "Time"
+msgstr "Tijd"
+
+msgid "Purpose"
+msgstr "Doel"
+
+msgid "From"
+msgstr "Van"
+
+msgid "To"
+msgstr "Naar"
+
+msgid "Created (GMT)"
+msgstr "Gemaakt (GMT)"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Submit"
+msgstr "voorleggen"
+
+msgid "Upload"
+msgstr "Uploaden"
+
+msgid "Remove"
+msgstr "Verwijderen"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Add Time Entry"
+msgstr "Tijdinvoer toevoegen"
+
+msgid "Current Clocked In Status"
+msgstr "Huidige geklokte status"
+
+msgid "Attendance entry should be within a single day"
+msgstr "Aanwezigheidsregistratie moet binnen een dag plaatsvinden"
+
+msgid "Account Balance"
+msgstr "Accountsaldo"
+
+msgid "Plan"
+msgstr "Plan"
+
+msgid "Transactions"
+msgstr "transacties"
+
+msgid "Applications"
+msgstr "toepassingen"
+
+msgid "Attendance Graph"
+msgstr "Aanwezigheid Grafiek"
+
+msgid "Hours in Office vs Hours Worked Graph"
+msgstr "Uren in Office versus uren bewerkte grafiek"
+
+msgid "Company Graph"
+msgstr "Bedrijfsgrafiek"
+
+msgid "Company Documents"
+msgstr "Bedrijfsdocumenten"
+
+msgid "Document Types"
+msgstr "Documenttypes"
+
+msgid "Employee Documents"
+msgstr "Werknemersdocumenten"
+
+msgid "Employee Basic Details"
+msgstr "Medewerker Basisgegevens"
+
+msgid "Employees (Direct Reports)"
+msgstr "Medewerkers (Directe rapporten)"
+
+msgid "Certifications"
+msgstr "Certificaten"
+
+msgid "Languages"
+msgstr "talen"
+
+msgid "Deactivated Employees"
+msgstr "Gedeactiveerde werknemers"
+
+msgid "Temporarily Deactivated Employees"
+msgstr "Tijdelijk gedeactiveerde werknemers"
+
+msgid "Terminated Employee Data"
+msgstr "Ontslagen werknemersgegevens"
+
+msgid "Employee Saved Successfully"
+msgstr "Medewerker met succes gered"
+
+msgid "Employee needs a User to login to IceHrm. Do you want to create a user for this employee now?"
+msgstr "Werknemer heeft een gebruiker nodig om in te loggen bij IceHrm. Wilt u nu een gebruiker voor deze medewerker maken?"
+
+msgid "You can do this later through Users module if required."
+msgstr "U kunt dit later doen via de module Gebruikers, indien nodig."
+
+msgid "Expenses Categories"
+msgstr "Kostencategorieën"
+
+msgid "Payment Methods"
+msgstr "Betaalmethoden"
+
+msgid "Employee Expenses"
+msgstr "Personeelskosten"
+
+msgid "Salary Component Types"
+msgstr "Salaris Component Types"
+
+msgid "Employee Salary Components"
+msgstr "Medewerker Salariscomponenten"
+
+msgid "Company Payroll"
+msgstr "Bedrijf Payroll"
+
+msgid "Calculation Groups"
+msgstr "Berekeningsgroepen"
+
+msgid "Calculation Methods"
+msgstr "Berekeningsmethoden"
+
+msgid "Payslip Templates"
+msgstr "Loonstrooksjablonen"
+
+msgid "Edit Employment Types"
+msgstr "Bewerk werkgelegenheidstypes"
+
+msgid "Edit Experience Levels"
+msgstr "Bewerk ervaringsniveaus"
+
+msgid "Edit Job Functions"
+msgstr "Bewerk jobfuncties"
+
+msgid "Edit Education Levels"
+msgstr "Bewerk opleidingsniveaus"
+
+msgid "Edit Benefits"
+msgstr "Voordelen bewerken"
+
+msgid "Application"
+msgstr "Toepassing"
+
+msgid "Job Titles"
+msgstr "Taaktitels"
+
+msgid "Pay Grades"
+msgstr "Betaal cijfers"
+
+msgid "Training Sessions"
+msgstr "Oefensessies"
+
+msgid "Employee Training Sessions"
+msgstr "Trainingssessies voor werknemers"
+
+msgid "Clients"
+msgstr "cliënten"
+
+msgid "Employee Projects"
+msgstr "Werknemersprojecten"
+
+msgid "Leave Types"
+msgstr "Laat typen"
+
+msgid "Work Week"
+msgstr "Werkweek"
+
+msgid "Holidays"
+msgstr "Vakantie"
+
+msgid "Leave Rules"
+msgstr "Verlaat regels"
+
+msgid "Paid Time Off"
+msgstr "Betaald verlof"
+
+msgid "Leave Groups"
+msgstr "Laat groepen achter"
+
+msgid "Edit Leave Groups"
+msgstr "Verlofgroepen bewerken"
+
+msgid "Leave Group Employees"
+msgstr "Laat groepmedewerkers weg"
+
+msgid "Employee Leave List"
+msgstr "Verloflijst voor werknemers"
+
+msgid "Loan Types"
+msgstr "Leningstypes"
+
+msgid "Employee Loans"
+msgstr "Leningen aan werknemers"
+
+msgid "Travel Requests"
+msgstr "Reisverzoeken"
+
+msgid "Overtime Categories"
+msgstr "Overuren Categorieën"
+
+msgid "Leave / PTO"
+msgstr "Verlaten / aftakas"
+
+msgid "Other"
+msgstr "anders"
+
+msgid "Modules"
+msgstr "modules"
+
+msgid "Countries"
+msgstr "landen"
+
+msgid "Provinces"
+msgstr "provincies"
+
+msgid "Currency Types"
+msgstr "Valutatypen"
+
+msgid "Employee Custom Fields"
+msgstr "Aangepaste velden voor werknemers"
+
+msgid "Employee Field Names"
+msgstr "Namen van werknemersvelden"
+
+msgid "My Details"
+msgstr "Mijn details"
+
+msgid "All My Leaves"
+msgstr "All My Leaves"
+
+msgid "Leave Entitlement"
+msgstr "Verlaat het recht"
+
+msgid "Approved Leave"
+msgstr "Goedgekeurd verlof"
+
+msgid "Pending Leave"
+msgstr "In afwachting van verlof"
+
+msgid "Subordinate Leave"
+msgstr "Ondergeschikt verlof"
+
+msgid "Cancellation Requests"
+msgstr "Annulering aanvragen"
+
+msgid "Approval Requests"
+msgstr "Goedkeuringsverzoeken"
+
+msgid "Approved TimeSheets"
+msgstr "Goedgekeurde tijdbladen"
+
+msgid "All My TimeSheets"
+msgstr "All My TimeSheets"
+
+msgid "Pending TimeSheets"
+msgstr "In afwachting van TimeSheets"
+
+msgid "Subordinate TimeSheets"
+msgstr "Ondergeschikte tijdbladen"
+
+msgid "Approved Attendance Sheets"
+msgstr "Goedgekeurde aanwezigheidspreadsheets"
+
+msgid "All My Attendance Sheets"
+msgstr "Al mijn aanwezigheidsbladen"
+
+msgid "Pending Attendance Sheets"
+msgstr "In afwachting van aanwezigheidspreadsheets"
+
+msgid "Subordinate Attendance Sheets"
+msgstr "Ondergeschikte aanwezigheidsbladen"
+
+msgid "Subordinate Overtime Requests"
+msgstr "Ondergeschikte overurenaanvragen"
+
+msgid "Overtime Request Approval"
+msgstr "Goedkeuring van overuren aanvragen"
+
+msgid "My Training Sessions"
+msgstr "Mijn trainingssessies"
+
+msgid "All Training Sessions"
+msgstr "Alle trainingssessies"
+
+msgid "Training Sessions of Direct Reports"
+msgstr "Trainingssessies van directe rapporten"
+
+msgid "Subordinate Travel Requests"
+msgstr "Ondergeschikte reisaanvragen"
+
+msgid "Travel Request Approval"
+msgstr "Goedkeuring voor reisaanvraag"
+
+msgid "Subordinate Expenses"
+msgstr "Ondergeschikte kosten"
+
+msgid "Expenses Approval"
+msgstr "Goedkeuring van uitgaven"
+
+msgid "Loans Taken"
+msgstr "Genomen leningen"
+
+msgid "Change Leave Status"
+msgstr "Verander verlofstatus"
+
+msgid "Status Change Note"
+msgstr "Status Change Note"
+
+msgid "Leave Summary"
+msgstr "Laat samenvatting achter"
+
+msgid "Approved Leave Count"
+msgstr "Goedgekeurd verlof tellen"
+
+msgid "Pending Leave Count"
+msgstr "In afwachting van verlof tellen"
+
+msgid "Available Leave Count"
+msgstr "Beschikbaar verlof tellen"
+
+msgid "Leave Dates"
+msgstr "Verlaat de data"
+
+msgid "Leave Date"
+msgstr "Verlof datum"
+
+msgid "Leave Notes"
+msgstr "Laat notities achter"
+
+msgid "Apply"
+msgstr "Van toepassing zijn"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Hours in Time Sheets"
+msgstr "Uren in tijdbladen"
+
+msgid "HR form"
+msgstr "HR-vorm"
+
+msgid "HR Form Management"
+msgstr "HR Form Management"
+
+msgid "Form Name"
+msgstr "Formulier naam"
+
+msgid "Fields"
+msgstr "Fields"
+
+msgid "Employee Froms"
+msgstr "Werknemer Froms"
+
+msgid "Share Departments"
+msgstr "Deel afdelingen"
+
+msgid "Share Employees"
+msgstr "Deel werknemers"
+
+msgid "Data Importers"
+msgstr "Gegevensimporteurs"
+
+msgid "Data Import Files"
+msgstr "Gegevens importeren bestanden"
+
+msgid "Data Type"
+msgstr "Data type"
+
+msgid "Columns"
+msgstr "columns"
+
+msgid "Field Title"
+msgstr "Veldtitel"
+
+msgid "Depends On"
+msgstr "Hangt af van"
+
+msgid "Depends On Field"
+msgstr "Afhankelijk van het veld"
+
+msgid "is Key Field"
+msgstr "is Sleutelveld"
+
+msgid "is ID Field"
+msgstr "is ID-veld"
+
+msgid "Data Import Definitions"
+msgstr "Definities van gegevensimport"
+
+msgid "File to Import"
+msgstr "Bestand om te importeren"
+
+msgid "Last Export Results"
+msgstr "Laatste exportresultaten"
+
+msgid "Time and Attendance"
+msgstr "Tijd en aanwezigheid"
+
+msgid "Leave Timeline"
+msgstr "Verlaat tijdlijn"
+
+msgid "Insights"
+msgstr "inzichten"
+
+msgid "Api Access"
+msgstr "Api Access"
+
+msgid "Change User Password"
+msgstr "Wijzig gebruikerswachtwoord"
+
+msgid "New Password"
+msgstr "nieuw paswoord"
+
+msgid "Confirm Password"
+msgstr "bevestig wachtwoord"
+
+msgid "Change Password"
+msgstr "Verander wachtwoord"
+
+msgid "Not Now"
+msgstr "Niet nu"
+
+msgid "Contact Information"
+msgstr "Contactgegevens"
+
+msgid "Job Details"
+msgstr "Details van de baan"
+
+msgid "Edit Info"
+msgstr "Bewerk informatie"
+
+msgid "Upload Profile Image"
+msgstr "Upload profielafbeelding"
+
+msgid "Delete Profile Image"
+msgstr "Profielafbeelding verwijderen"
+
+msgid "Direct Reports"
+msgstr "Directe verslagen"
+
+msgid "Other Details"
+msgstr "Andere details"
+
+msgid "Family"
+msgstr "Familie"
+
+msgid "Custom Fields"
+msgstr "Aangepaste velden"
+
+msgid "Means of Transportation"
+msgstr "Vervoersmiddelen"
+
+msgid "Plane"
+msgstr "Vlak"
+
+msgid "Rail"
+msgstr "Het spoor"
+
+msgid "Taxi"
+msgstr "Taxi"
+
+msgid "Own Vehicle"
+msgstr "Eigen voertuig"
+
+msgid "Rented Vehicle"
+msgstr "Huur voertuig"
+
+msgid "Female"
+msgstr "Vrouw"
+
+msgid "Male"
+msgstr "Mannetje"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "Inactive"
+msgstr "Inactief"
+
+msgid "Draft"
+msgstr "Droogte"
+
+msgid "Not Clocked In"
+msgstr "Niet geklokt"
+
+msgid "Clocked In"
+msgstr "Geklokt"
+
+msgid "File"
+msgstr "het dossier"
+
+msgid "Active Employee Report"
+msgstr "Actief Medewerkersrapport"
+
+msgid "Employee Attendance Report"
+msgstr "Werknemers Aanwezigheidsrapport"
+
+msgid "Employee Details Report"
+msgstr "Medewerkersdetailsrapport"
+
+msgid "Employee Leave Entitlement"
+msgstr "Verlof van werknemer verlof"
+
+msgid "Employee Leaves Report"
+msgstr "Werknemers laat rapport"
+
+msgid "Employee Time Entry Report"
+msgstr "Werknemer tijdinvoer rapport"
+
+msgid "Employee Time Sheet Report"
+msgstr "Werknemer urenstaat rapport"
+
+msgid "Employee Time Tracking Report"
+msgstr "Employee Time Tracking Report"
+
+msgid "Expense Report"
+msgstr "Onkostennota"
+
+msgid "New Hires Employee Report"
+msgstr "New Hires Medewerkersrapport"
+
+msgid "Overtime Report"
+msgstr "Overwerk rapport"
+
+msgid "Overtime Request Report"
+msgstr "Overwerkaanvraagrapport"
+
+msgid "Overtime Summary Report"
+msgstr "Overwerk Samenvattend rapport"
+
+msgid "Payroll Meta Data Export"
+msgstr "Payroll Meta Data Export"
+
+msgid "Terminated Employee Report"
+msgstr "Beëindigd werknemersrapport"
+
+msgid "Travel Request Report"
+msgstr "Reisverzoekrapport"
+
+msgid "Attendance Report"
+msgstr "Aanwezigheidsrapport"
+
+msgid "Client Project Time Report"
+msgstr "Tijd projectrapport klant"
+
+msgid "Download Payslips"
+msgstr "Download loonstroken"
+
+msgid "Leaves Report"
+msgstr "Bladeren rapport"
+
+msgid "Time Entry Report"
+msgstr "Tijdinvoer rapport"
+
+msgid "Time Sheet Report"
+msgstr "Urenstaat rapport"
+
+msgid "Time Tracking Report"
+msgstr "Time Tracking Report"
+
+msgid "Data"
+msgstr "Gegevens"
+
+msgid "Processed"
+msgstr "verwerkte"
+
+msgid "Not Processed"
+msgstr "Niet verwerkt"
+
+msgid "Elementary Proficiency"
+msgstr "Elementaire vaardigheid"
+
+msgid "Limited Working Proficiency"
+msgstr "Beperkte werkvaardigheid"
+
+msgid "Professional Working Proficiency"
+msgstr "Professionele werkvaardigheid"
+
+msgid "Full Professional Proficiency"
+msgstr "Volledige professionele vaardigheid"
+
+msgid "Native or Bilingual Proficiency"
+msgstr "Native of tweetalige taalvaardigheid"
+
+msgid "Pending"
+msgstr "In afwachting"
+
+msgid "Approved"
+msgstr "aangenomen"
+
+msgid "Rejected"
+msgstr "Verworpen"
+
+msgid "Cancelled"
+msgstr "Geannuleerd"
+
+msgid "Continue"
+msgstr "Doorgaan met"
+
+msgid "Cancellation Requested"
+msgstr "Annulering aangevraagd"
+
+msgid "Completed"
+msgstr "Voltooid"
+
+msgid "Discussions"
+msgstr "discussies"
+
+msgid "Load More"
+msgstr "Meer laden"
+
+msgid "Show More"
+msgstr "Laat meer zien"
+
+msgid "Show Less"
+msgstr "Laat minder zien"
+
+msgid "Publish"
+msgstr "Publiceren"
+
+msgid "Announcements"
+msgstr "Mededelingen"
+
+msgid "Send"
+msgstr "Sturen"
+
+msgid "Display"
+msgstr "tonen"
+
+msgid "Public"
+msgstr "Openbaar"
+
+msgid "View Announcements"
+msgstr "Bekijk aankondigingen"
+
+msgid "Conversations"
+msgstr "conversaties"
+
+msgid "Start Now"
+msgstr "Begin nu"
+
+msgid "Company Assets"
+msgstr "Bedrijfsactiva"
+
+msgid "Asset Types"
+msgstr "Asset Types"
+
+msgid "Asset Name"
+msgstr "Activumnaam"
+
+msgid "Performance"
+msgstr "Prestatie"
+
+msgid "Performance Review"
+msgstr "Prestatiebeoordeling"
+
+msgid "Performance Reviews"
+msgstr "Functioneringsgesprekken"
+
+msgid "Review"
+msgstr "Beoordeling"
+
+msgid "Reviews"
+msgstr "beoordelingen"
+
+msgid "Review Feedback"
+msgstr "Feedback beoordelen"
+
+msgid "Review Template"
+msgstr "Sjabloon bekijken"
+
+msgid "Template"
+msgstr "Sjabloon"
+
+msgid "Review Date"
+msgstr "Beoordelingsdatum"
+
+msgid "Self Assessment Due On"
+msgstr "Zelfbeoordeling op"
+
+msgid "Review Period Start"
+msgstr "Review Periode Start"
+
+msgid "Review Period End"
+msgstr "Review Period End"
+
+msgid "Attendees"
+msgstr "Deelnemers"
+
+msgid "Performance Reviews Coordinated by Me"
+msgstr "Prestatiebeoordelingen gecoördineerd door mij"
+
+msgid "Provide Feedback"
+msgstr "Geef feedback"
+
+msgid "Review Status"
+msgstr "Status bekijken"
+
+msgid "Payroll Employees"
+msgstr "Loonlijstwerknemers"
+
+msgid "Payroll Groups"
+msgstr "Salarisgroepen"
+
+msgid "Saved Calculations"
+msgstr "Opgeslagen berekeningen"
+
+msgid "Total Leave Days"
+msgstr "Totaal aantal verlofdagen"
+
+msgid "Actions"
+msgstr "Acties"
+
+msgid "Edit"
+msgstr "Bewerk"
+
+msgid "View"
+msgstr "Bekijk"
+
+msgid "Delete"
+msgstr "Verwijder"
+
+msgid "Copy"
+msgstr "Kopieer"
+
+msgid "Employee Check-Ins"
+msgstr "Werknemer Check-Ins"
+
+msgid "Employee Distribution"
+msgstr "Werknemersverdeling"
+
+msgid "Total"
+msgstr "Totaal"
+
+msgid "is required"
+msgstr "is vereist"
+
+msgid "Use Employee Leave Period"
+msgstr "Gebruik Verlofperiode werknemer"
+
+msgid "Required Experience (Days)"
+msgstr "Vereiste ervaring (dagen)"
+
+msgid "LeaveGroup"
+msgstr "Laat groepen achter"
+
+msgid "Expenses Category"
+msgstr "Uitgaven Categorie"
+
+msgid "Employee Expense"
+msgstr "Werknemersuitgaven"
+
+msgid "Overtime"
+msgstr "Overuren"
+
+msgid "Employee Fields"
+msgstr "Werknemer Velden"
+
+msgid "Asset Type"
+msgstr "Type activa"
+
+msgid "Asset"
+msgstr "Activa"
+
+msgid "Custom Field"
+msgstr "Aangepast veld"
+
+msgid "Object Type"
+msgstr "Object Type"
+
+msgid "Personal"
+msgstr "Persoonlijk"
+
+msgid "Identification"
+msgstr "Identificatie"
+
+msgid "Work"
+msgstr "Werk"
+
+msgid "Contact"
+msgstr "Contact"
+
+msgid "Report"
+msgstr "Verslag"
+
+msgid "Login As"
+msgstr "Inloggen als"
+
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+msgid "Employee Education"
+msgstr "Opleiding van werknemers"
+
+msgid "Employee Certification"
+msgstr "Werknemerscertificering"
+
+msgid "Listening"
+msgstr "Luisteren"
+
+msgid "Employee Dependent"
+msgstr "Werknemer Afhankelijke"
+
+msgid "Contacts"
+msgstr "Contacten"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Emergency Contact"
+msgstr "Contactpersoon voor noodgevallen"
+
+msgid "Deactivated"
+msgstr "Gedeactiveerd"
+
+msgid "Archived"
+msgstr "Gearchiveerd"
+
+msgid "Updated By"
+msgstr "Bijgewerkt door"
+
+msgid "Created Time (GMT)"
+msgstr "Gecreëerde tijd (GMT)"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No"
+msgstr "Geen"
+
+msgid "Share with Employee"
+msgstr "Delen met werknemer"
+
+msgid "Visible To"
+msgstr "Zichtbaar voor"
+
+msgid "ID Copy"
+msgstr "ID kopie"
+
+msgid "Degree Certificate"
+msgstr "Graad Certificaat"
+
+msgid "Driving License"
+msgstr "Rijbewijs"
+
+msgid "Owner"
+msgstr "Eigenaar"
+
+msgid "Manager"
+msgstr "Manager"
+
+msgid "HR Forms"
+msgstr "HR-formulieren"
+
+msgid "Employee Forms"
+msgstr "Werknemer Formulieren"
+
+msgid "Form"
+msgstr "Formulier"
+
+msgid "Submitted"
+msgstr "Ingediend"
+
+msgid "Review Period Start Date"
+msgstr "Begindatum herzieningsperiode"
+
+msgid "Review Period End Date"
+msgstr "Einddatum herzieningsperiode"
+
+msgid "Self Assessment Due Date"
+msgstr "Vervaldatum zelfevaluatie"
+
+msgid "Due On"
+msgstr "Op"
+
+msgid "Company Teams"
+msgstr "Bedrijfsteams"
+
+msgid "Lead"
+msgstr "Lead"
+
+msgid "Teams"
+msgstr "Teams"
+
+msgid "Team Name"
+msgstr "Teamnaam"
+
+msgid "Team Members"
+msgstr "Teamleden"
+
+msgid "Member "
+msgstr "Lid"
+
+msgid "Role"
+msgstr "Rol"
+
+msgid "Users Roles"
+msgstr "Gebruikers Rollen"
+
+msgid "User Role"
+msgstr "Gebruikers Rol"
+
+msgid "Additional Permissions"
+msgstr "Extra Rechten"
+
+msgid "Usage"
+msgstr "Gebruik"
+
+msgid "Last Export Result"
+msgstr "Laatste exportresultaat"
+
+msgid "Employee Data Import"
+msgstr "Importeren werknemersgegevens"
+
+msgid "Attendance Data Import"
+msgstr "Aanwezigheidsgegevens Importeren"
+
+msgid "Payroll Data Import"
+msgstr "Importeren loonlijstgegevens"
+
+msgid "Supervisor and Approver Import"
+msgstr "Importeren toezichthouder en goedkeurder"
+
+msgid "You can drag the chart both sides to view other dates on timeline"
+msgstr "U kunt de grafiek naar beide zijden slepen om andere data op de tijdlijn te zien"
+
+msgid "Payroll Group"
+msgstr "Loonlijst Groep"
+
+msgid "Common"
+msgstr "Gemeenschappelijk"
+
+msgid "Function Type"
+msgstr "Functie Type"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "Simple"
+msgstr "Eenvoudig"
+
+msgid "Company Name"
+msgstr "Bedrijfsnaam"
+
+msgid "Hiring Manager"
+msgstr "Manager"
+
+msgid "Job Description"
+msgstr "Functiebeschrijving"
+
+msgid "Employement Type"
+msgstr "Type dienstverband"
+
+msgid "Postal Code"
+msgstr "Postcode"
+
+msgid "Show Hiring Manager Name"
+msgstr "Toon Naam Aanwervende Manager"
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid "Position Applied"
+msgstr "Toegepaste positie"
+
+msgid "Hiring Stage"
+msgstr "Stadium aanwerving"
+
+msgid "Total Years of Experience"
+msgstr "Totaal aantal jaren ervaring"
+
+msgid "Expected Salary"
+msgstr "Verwacht salaris"
+
+msgid "Attach File "
+msgstr "Bestand bijvoegen "
+
+msgid "Update Password"
+msgstr "Wachtwoord bijwerken"
+
+msgid "Employee Profile"
+msgstr "Werknemer Profiel"
+
+msgid "Contact details"
+msgstr "Contact gegevens"
+
+msgid "Work related details"
+msgstr "Werkgerelateerde gegevens"
+
+msgid "ID Number"
+msgstr "ID-nummer"
+
+msgid "Leave Days from Current Leave Period"
+msgstr "Verlofdagen van huidige verlofperiode"
+
+msgid "Paid Time Off Adjustments"
+msgstr "Aanpassingen betaald verlof"
+
+msgid "Leave Days Carried Forward Previous Period"
+msgstr "Vooruit overgedragen verlofdagen vorige periode"
+
+msgid "Leave Days Available to Use"
+msgstr "Te gebruiken verlofdagen"
+
+msgid "Approved Leave Days"
+msgstr "Goedgekeurde verlofdagen"
+
+msgid "Pending Leave Days"
+msgstr "Nog te gebruiken verlofdagen"
+
+msgid "Rejected Leave Days"
+msgstr "Afgewezen verlofdagen"
+
+msgid "Calculated by Leave Type"
+msgstr "Berekend per verloftype"
+
+msgid "Show Calculation"
+msgstr "Berekening tonen"
+
+msgid "Total Time"
+msgstr "Totale tijd"
+
+msgid "Personal Documents"
+msgstr "Persoonlijke documenten"
+
+msgid "My Forms"
+msgstr "Mijn formulieren"
+
+msgid "Training Sessions of Coordinated by Me"
+msgstr "Opleidingssessies van Coordinated by Me"
+
+msgid "Self Assessments"
+msgstr "Zelfevaluaties"
+
+msgid "Connection"
+msgstr "Aansluiting"
+
+msgid "Data directory is accessible from outside."
+msgstr "Gegevensmap is van buitenaf toegankelijk."
+
+msgid "Learn how to fix"
+msgstr "Leer hoe u"
+
+msgid "Copy System Report"
+msgstr "Kopieer systeem rapport"
+
+msgid "System Issues"
+msgstr "Systeem problemen"
+
+msgid "System Report"
+msgstr "Systeem Rapport"
+
+msgid "Here you can define the structure of the company by adding branches, departments, company units,etc. Each employee needs to be connected to a company structure."
+msgstr "Hier kunt u de structuur van het bedrijf definiëren door filialen, afdelingen, bedrijfseenheden, enz. toe te voegen. Elke werknemer moet verbonden zijn met een bedrijfsstructuur."
+
+msgid "Company graph provides a graphical overview of the company structure."
+msgstr "Bedrijfsgrafiek geeft een grafisch overzicht van de bedrijfsstructuur."
+
+msgid "Here you can manage the job titles in your organization. Each employee needs to be assigned a job title."
+msgstr "Hier kunt u de functietitels in uw organisatie beheren. Elke medewerker moet een functietitel krijgen."
+
+msgid "Here you can define the different pay grades in your organization. "
+msgstr "Hier kunt u de verschillende salarisschalen in uw organisatie definiëren."
+
+msgid "Here you can define the different type of employment states in your organization. Each employee should be assigned an employment state."
+msgstr "Hier kunt u de verschillende soorten dienstverbanden in uw organisatie definiëren. Elke werknemer moet een tewerkstellingsstaat toegewezen krijgen."
+
+msgid "Here you can define the different types of skills an employee might have."
+msgstr "Hier kunt u de verschillende soorten vaardigheden definiëren die een werknemer kan hebben."
+
+msgid "Here you can define the different levels of education an employee might have."
+msgstr "Hier kunt u de verschillende niveaus van opleiding definiëren die een werknemer heeft."
+
+msgid "Here you can define the different types of certifications an employee might have completed."
+msgstr "Hier kunt u de verschillende soorten certificeringen definiëren die een werknemer mogelijk heeft voltooid."
+
+msgid "Languages consists of most of the languages used globally."
+msgstr "Talen bestaat uit de meeste talen die wereldwijd worden gebruikt."
+
+msgid "Here you can add details about a project such as project name, client, details and the status."
+msgstr "Hier kunt u details toevoegen over een project zoals projectnaam, client, details en de status."
+
+msgid "Here you can assign projects to employees."
+msgstr "Hier kunt u projecten toewijzen aan werknemers."
+
+msgid "Here you can add and manage clients your organization is working with. You can choose the correct client when adding a project in IceHrm."
+msgstr "Hier kunt u klanten toevoegen en beheren waarmee uw organisatie werkt. U kunt de juiste client kiezen bij het toevoegen van een project in IceHRM."
+
+msgid "Here you can define custom fields for assets, company struture, employee, travel request or expense forms."
+msgstr "Hier kunt u aangepaste velden definiëren voor activa, bedrijfstrutuur, werknemer, reisverzoek of kostenformulieren."
+
+msgid "Here you can view records of all the activities performed by different users in the system."
+msgstr "Hier kunt u records bekijken van alle activiteiten die door verschillende gebruikers in het systeem worden uitgevoerd."
+
+msgid "Here you can to add new employees, view employee details and filter employees."
+msgstr "Hier kunt u nieuwe werknemers toevoegen, werknemersgegevens bekijken en werknemers filteren."
+
+msgid "Here you can record the work history of your employees."
+msgstr "Hier kunt u de werkgeschiedenis van uw werknemers opnemen."
+
+msgid "Here you can add the skills each employee in your organization has."
+msgstr "Hier kunt u de vaardigheden toevoegen die elke werknemer in uw organisatie heeft."
+
+msgid "Here you can record the level of education each employee in your organization has."
+msgstr "Hier kunt u het opleidingsniveau registreren dat elke werknemer in uw organisatie heeft."
+
+msgid "Here you can define the certifications each of your employee has completed so far."
+msgstr "Hier kunt u de certificeringen definiëren die elk van uw werknemer tot nu toe heeft voltooid."
+
+msgid "Here you can keep track of all the languages each employee knows."
+msgstr "Hier kunt u alle talen bijhouden die elke medewerker kent."
+
+msgid "Here you can add all the dependents of each employee."
+msgstr "Hier kunt u alle personen ten laste van elke werknemer toevoegen."
+
+msgid "Here you can record emergency contacts of employees."
+msgstr "Hier kunt u noodcontacten van werknemers opnemen."
+
+msgid "Here you can view all the deativated employees. You can still recover data of a deactivated employee by clicking on Activate."
+msgstr "Hier kunt u alle gedestiveerde werknemers bekijken. U kunt nog steeds gegevens van een gedeactiveerde medewerker herstellen door op Activate te klikken."
+
+msgid "Here you can view the deleted employees. Click on Download to download employee data as a JSON."
+msgstr "Hier kunt u de verwijderde werknemers bekijken. Klik op downloaden om werknemersgegevens als JSON te downloaden."
+
+msgid "Here you can views how employee data changed overtime."
+msgstr "Hier kunt u bekijken hoe de gegevens van werknemers overuren zijn veranderd."
+
+msgid "Here you can define any teams in your organization."
+msgstr "Hier kunt u alle teams in uw organisatie definiëren."
+
+msgid "Here you can add employees to the correct team."
+msgstr "Hier kunt u werknemers toevoegen aan het juiste team."
+
+msgid "Here you can add company documents to share announcements, policies, procedures, etc. with employees. These documents can be shared with specific employees or departments."
+msgstr "Hier kunt u bedrijfsdocumenten toevoegen om aankondigingen, beleid, procedures, etc. te delen met werknemers. Deze documenten kunnen worden gedeeld met specifieke werknemers of afdelingen."
+
+msgid "Here you can define the document types employees can add to the system."
+msgstr "Hier kunt u de documenttypen definiëren die werknemers aan het systeem kunnen toevoegen."
+
+msgid "Here you can add personal employee documents. The visibility of the employee document can be defined when adding the document."
+msgstr "Hier kunt u persoonlijke werknemersdocumenten toevoegen. De zichtbaarheid van het werknemersdocument kan worden gedefinieerd bij het toevoegen van het document."
+
+msgid "Here all the payslips generated through the payroll module. Click on Add New to manually add a payslip."
+msgstr "Hier alle payslips gegenereerd via de Payroll -module. Klik op Nieuw toevoegen om handmatig een PaySlip toe te voegen."
+
+msgid "Here you can attendance records of employees and to view, edit, filter employee attendance records."
+msgstr "Hier kunt u records van werknemers bijwonen en om de aanwezigheidsrecords van werknemers te bekijken, te filteren, te filteren."
+
+msgid "Here you can view whether employees are Clocked In, Clocked Out or Not Clocked In."
+msgstr "Hier kunt u bekijken of werknemers worden ingeklapt, klokken of niet in klokken."
+
+msgid "Here you can assign performance reviews to employees and manage, view, and edit performance reviews."
+msgstr "Hier kunt u prestatiebeoordelingen toewijzen aan werknemers en prestatiebeoordelingen beheren, bekijken en bewerken."
+
+msgid "Here you can request review feedback from a supervisor/peer."
+msgstr "Hier kunt u feedback aanvragen van een supervisor/peer."
+
+msgid "Here you can create custom review templates for the performance review process."
+msgstr "Hier kunt u aangepaste beoordelingsjablonen maken voor het prestatiebeoordelingsproces."
+
+msgid "Here you can monitor the progress of all employee goals."
+msgstr "Hier kunt u de voortgang van alle werknemersdoelen volgen."
+
+msgid "Here you can define leave types available in your organization."
+msgstr "Hier kunt u liettypen definiëren die beschikbaar zijn in uw organisatie."
+
+msgid "Here you can define leave periods by providing a name for the period and by selecting the correct start and end dates."
+msgstr "Hier kunt u verlofperioden definiëren door een naam te geven voor de periode en door de juiste start- en einddatums te selecteren."
+
+msgid "Here you can define the working and non-working days according to your organization or by country."
+msgstr "Hier kunt u de werk- en niet-werkende dagen definiëren volgens uw organisatie of per land."
+
+msgid "Here you need to add all the holidays relevant to a leave period."
+msgstr "Hier moet u alle vakanties toevoegen die relevant zijn voor een verlofperiode."
+
+msgid "Here you can override the behavior of a leave type for job titles, employment statuses, or even individual employees by adding a leave rule."
+msgstr "Hier kunt u het gedrag van een verloftype overschrijven voor functietitels, arbeidsstatussen of zelfs individuele werknemers door een verlofregel toe te voegen."
+
+msgid "Here you can keep track of employee PTO. This can be used to compensate an employee and adjust leave balance from previous years."
+msgstr "Hier kunt u de PTO bij werknemers bijhouden. Dit kan worden gebruikt om een ​​werknemer te compenseren en het verlofsaldo van voorgaande jaren aan te passen."
+
+msgid "Here you can create a leave group so you can group employees and create leave types or leave rules affecting the employees in the group."
+msgstr "Hier kunt u een verlofgroep maken, zodat u werknemers kunt groeperen en verloftypen kunt maken of regels achterlaten die de werknemers in de groep beïnvloeden."
+
+msgid "Here you can add employees to the correct leave group."
+msgstr "Hier kunt u werknemers toevoegen aan de juiste verlofgroep."
+
+msgid "Here you can view all employee leaves and approve leave requests."
+msgstr "Hier kunt u alle werknemersbladeren bekijken en verlofverzoeken goedkeuren."
+
+msgid "Here you can define the types of assets in your organization so you can easily categorize the assets."
+msgstr "Hier kunt u de soorten activa in uw organisatie definiëren, zodat u de activa eenvoudig kunt categoriseren."
+
+msgid "Here you can add and manage company assets each employee or department has."
+msgstr "Hier kunt u bedrijfsactiva toevoegen en beheren die elke werknemer of afdeling heeft."
+
+msgid "Here you can define the different types of expenses in an organization."
+msgstr "Hier kunt u de verschillende soorten uitgaven in een organisatie definiëren."
+
+msgid "Here you can add the different types of payment methods used for expenses in an organization."
+msgstr "Hier kunt u de verschillende soorten betaalmethoden toevoegen die worden gebruikt voor uitgaven in een organisatie."
+
+msgid "Here you can add employee expenses, edit and approve expense requests."
+msgstr "Hier kunt u werknemerskosten toevoegen, kostenverzoeken bewerken en goedkeuren."
+
+msgid "Here you can create custom forms to collect data from employees."
+msgstr "Hier kunt u aangepaste formulieren maken om gegevens van werknemers te verzamelen."
+
+msgid "Here you can assign forms to employees, fill and download forms."
+msgstr "Hier kunt u formulieren toewijzen aan werknemers, formulieren invullen en downloaden."
+
+msgid "Here you can add courses."
+msgstr "Hier kunt u cursussen toevoegen."
+
+msgid "Here you can add different training sessions to a particular course. You can let employees sign up for training sessions or assign training sessions by changing the attendance type."
+msgstr "Hier kunt u verschillende trainingssessies toevoegen aan een bepaalde cursus. U kunt werknemers zich laten aanmelden voor trainingssessies of trainingssessies toewijzen door het aanwezigheidstype te wijzigen."
+
+msgid "Here you can assign training sessions to employees."
+msgstr "Hier kunt u trainingssessies toewijzen aan werknemers."
+
+msgid "Here you can add employee travel requests and view and edit travel requests."
+msgstr "Hier kunt u reisverzoeken van werknemers toevoegen en reisverzoeken bekijken en bewerken."
+
+msgid "Here you can define the different types of overtime available in your organization."
+msgstr "Hier kunt u de verschillende soorten overuren in uw organisatie definiëren."
+
+msgid "Here you can add and manage employee overtime requests."
+msgstr "Hier kunt u werknemersverzoeken toevoegen en beheren."
+
+msgid "Here you can define different types of loans employees are eligible for."
+msgstr "Hier kunt u verschillende soorten leningen definiëren waarnemers waarvoor in aanmerking komt."
+
+msgid "Here you can add employee loans."
+msgstr "Hier kunt u werknemersleningen toevoegen."
+
+msgid "Here you can generate different admin reports."
+msgstr "Hier kunt u verschillende admin -rapporten genereren."
+
+msgid "Here you can export payroll meta data."
+msgstr "Hier kunt u loongegevens exporteren."
+
+msgid "Here you can view all the admin reports generated."
+msgstr "Hier kunt u alle gegenereerde beheerdersrapporten bekijken."
+
+msgid "Here you can create user accounts for employees for them to login to their IceHrm accounts."
+msgstr "Hier kunt u gebruikersaccounts maken voor werknemers om in te loggen op hun IceHRM -accounts."
+
+msgid "Here you can create user roles to give or deny access to certain modules."
+msgstr "Hier kunt u gebruikersrollen maken om de toegang tot bepaalde modules te geven of te weigeren."
+
+msgid "Here you can Enable or Disable modules."
+msgstr "Hier kunt u modules inschakelen of uitschakelen."
+
+msgid "Here you can manage what permissions each user level has."
+msgstr "Hier kunt u beheren welke machtigingen elk gebruikersniveau heeft."
+
+msgid "Here you can view details about your current IceHrm plan."
+msgstr "Hier kunt u details bekijken over uw huidige ICEHRM -plan."
+
+msgid "Here you can view all your pending transactions."
+msgstr "Hier kunt u al uw lopende transacties bekijken."
+
+msgid "Here you can view details about prepaid credit and other IceHrm transactions."
+msgstr "Hier kunt u details over prepaid krediet en andere IceHRM -transacties bekijken."
+
+msgid "Here you can manage the countries you will be able to select within the system."
+msgstr "Hier kunt u de landen beheren die u binnen het systeem kunt selecteren."
+
+msgid "Here you can manage all the provinces you will be able to select within the system."
+msgstr "Hier kunt u alle provincies beheren die u binnen het systeem kunt selecteren."
+
+msgid "Here you can manage all the currencies you will be able to select within the system."
+msgstr "Hier kunt u alle valuta's beheren die u binnen het systeem kunt selecteren."
+
+msgid "Here you can manage all the nationalities you will be able to select within the system."
+msgstr "Hier kunt u alle nationaliteiten beheren die u binnen het systeem kunt selecteren."
+
+msgid "Here you can manage all the ethnicities you will be able to select within the system."
+msgstr "Hier kunt u alle etnische groepen beheren die u binnen het systeem kunt selecteren."
+
+msgid "Here you can manage all the immigration status options you will be able to select within the system."
+msgstr "Hier kunt u alle immigratiestatusopties beheren die u binnen het systeem kunt selecteren."
+
+msgid "Here you can add data importers that can be used to import data to the system."
+msgstr "Hier kunt u data -importeurs toevoegen die kunnen worden gebruikt om gegevens naar het systeem te importeren."
+
+msgid "Here you can import data using the data importers defined in the system."
+msgstr "Hier kunt u gegevens importeren met behulp van de gegevensimporteurs die in het systeem zijn gedefinieerd."
+
+msgid "Here you can make changes to the fields available in the employee form."
+msgstr "Hier kunt u wijzigingen aanbrengen in de beschikbare velden in het werknemersformulier."
+
+msgid "Here you can check attendance time recorded every day for all the employees or a specific employee."
+msgstr "Hier kunt u de aanwezigheidstijd controleren die elke dag is vastgelegd voor alle werknemers of een specifieke werknemer."
+
+msgid "Here you can check how much of a percentage of attendance time goes into timesheets for each employee."
+msgstr "Hier kunt u controleren hoeveel van een percentage van de aanwezigheidstijd in timesheets gaat voor elke werknemer."
+
+msgid "Here you can view approved employee leaves of employees with the leave dates."
+msgstr "Hier kunt u goedgekeurde werknemersbladeren van werknemers bekijken met de verlofdata."
+
+msgid "Here you can define different type of salary components in your organization."
+msgstr "Hier kunt u verschillende soorten salariscomponenten in uw organisatie definiëren."
+
+msgid "Here you can define all the salary components related to the defined salary component types."
+msgstr "Hier kunt u alle salariscomponenten definiëren die verband houden met de types van de gedefinieerde salariscomponent."
+
+msgid "Here you can add all salary components related to each of your employees."
+msgstr "Hier kunt u alle salariscomponenten toevoegen met betrekking tot elk van uw werknemers."
+
+msgid "Here you can add all the employees to the correct payroll group. Each employee should belong to a payroll group."
+msgstr "Hier kunt u alle werknemers toevoegen aan de juiste loongroep. Elke werknemer moet tot een loongroep behoren."
+
+msgid "Here you can create payroll reports for a specific time period."
+msgstr "Hier kunt u payroll -rapporten maken voor een specifieke periode."
+
+msgid "Here you can define the payroll columns that will be used to generate payroll reports."
+msgstr "Hier kunt u de loonkolommen definiëren die worden gebruikt om loonrapporten te genereren."
+
+msgid "Here you can define different payroll groups if you have different payroll calculations for different employees."
+msgstr "Hier kunt u verschillende loongroepen definiëren als u verschillende loonberekeningen hebt voor verschillende werknemers."
+
+msgid "Here you can define different calculation such as tax that can be used in payroll columns."
+msgstr "Hier kunt u verschillende berekeningen definiëren, zoals belasting die kan worden gebruikt in loonkolommen."
+
+msgid "Here you can create custom payslip templates."
+msgstr "Hier kunt u aangepaste Payslip -sjablonen maken."
+
+msgid "Here you can add employment types that will be used when creating job posts."
+msgstr "Hier kunt u werkgelegenheidstypen toevoegen die worden gebruikt bij het maken van taakberichten."
+
+msgid "Here you can add different experience levels that will be used when creating job posts."
+msgstr "Hier kunt u verschillende ervaringsniveaus toevoegen die worden gebruikt bij het maken van taakberichten."
+
+msgid "Here you can add job functions that will be used when creating job posts."
+msgstr "Hier kunt u taakfuncties toevoegen die worden gebruikt bij het maken van taakberichten."
+
+msgid "Here you can add education levels that will be used when creating job posts."
+msgstr "Hier kunt u opleidingsniveaus toevoegen die worden gebruikt bij het maken van vacatures."
+
+msgid "Here you can define the benefits that will be given by your organization to candidates."
+msgstr "Hier kunt u de voordelen definiëren die door uw organisatie aan kandidaten zullen worden gegeven."
+
+msgid "Here you can create job posts and generate job links."
+msgstr "Hier kunt u taakberichten maken en taaklinks genereren."
+
+msgid "Here you can view all the candidates that have applied for job positions through the job links. You can manually candidates by clicking on Add New."
+msgstr "Hier kunt u alle kandidaten bekijken die zijn aangevraagd voor taakposities via de taaklinks. U kunt handmatig kandidaten handmatig door te klikken op Nieuw toevoegen."
+
+msgid "Here you can manage of all the candidates with the hiring stage New."
+msgstr "Hier kunt u alle kandidaten beheren met de nieuwstadium nieuw."
+
+msgid "Here you can manage all the candidates in the Phone Screen hiring stage."
+msgstr "Hier kunt u alle kandidaten beheren in het wervingsfase van het telefoonscherm."
+
+msgid "Here you can manage all the candidates in the Assessment hiring stage."
+msgstr "Hier kunt u alle kandidaten beheren in de beoordelingsfase."
+
+msgid "Here you can manage all the candidates of the candidates in the Interview hiring stage. The candidate will be moved to this stage when an interview is scheduled."
+msgstr "Hier kunt u alle kandidaten van de kandidaten beheren in het interview dat fase aanneemt. De kandidaat wordt naar deze fase verplaatst wanneer een interview is gepland."
+
+msgid "Here you can manage all the candidates in the Offer Sent hiring stage."
+msgstr "Hier kunt u alle kandidaten beheren in het aanbod dat de wervingsfase wordt verzonden."
+
+msgid "Here you can manage all the candidate in the Hired hiring stage."
+msgstr "Hier kunt u alle kandidaten beheren in de ingehuurde wervingsfase."
+
+msgid "Here you can manage all the rejected candidates."
+msgstr "Hier kunt u alle afgewezen kandidaten beheren."
+
+msgid "Here you can add all the skills you have."
+msgstr "Hier kun je alle vaardigheden toevoegen die je hebt."
+
+msgid "Here you can add details about your education levels."
+msgstr "Hier kunt u details toevoegen over uw opleidingsniveau."
+
+msgid "Here you can add all the certifications you have completed."
+msgstr "Hier kunt u alle certificeringen toevoegen die u hebt voltooid."
+
+msgid "Here you can add all the languages you are fluent in."
+msgstr "Hier kunt u alle talen toevoegen waarin u vloeiend bent."
+
+msgid "Here you can add details about your dependents."
+msgstr "Hier kunt u details toevoegen over uw personen ten laste."
+
+msgid "Here you can add details about your emergency contacts."
+msgstr "Hier kunt u details toevoegen over uw noodcontacten."
+
+msgid "Here you can add and manage your leave requests."
+msgstr "Hier kunt u uw verlofverzoeken toevoegen en beheren."
+
+msgid "Here you can view a summary of all leave balances."
+msgstr "Hier kunt u een samenvatting bekijken van alle verlofsaldi."
+
+msgid "Here you can view all your approved leave requests."
+msgstr "Hier kunt u al uw goedgekeurde verlofverzoeken bekijken."
+
+msgid "Here you can view all your pending leave requests."
+msgstr "Hier kunt u al uw aanvragen in afwachting van verlof bekijken."
+
+msgid "Here you can view and approve leave requests from your subordinates."
+msgstr "Hier kunt u vertragingsverzoeken van uw ondergeschikten bekijken en goedkeuren."
+
+msgid "Here you can view all cancellation requests from your subordinates."
+msgstr "Hier kunt u alle annuleringsverzoeken van uw ondergeschikten bekijken."
+
+msgid "Here you can view and approve leave requests if you are an approver to an employee."
+msgstr "Hier kunt u verlofverzoeken bekijken en goedkeuren als u een goedkeurder voor een werknemer bent."
+
+msgid "Here you can view all your leave requests on a calendar."
+msgstr "Hier kunt u al uw verlofverzoeken op een agenda bekijken."
+
+msgid "Here you can add and manage projects you are working on or assigned to."
+msgstr "Hier kunt u projecten toevoegen en beheren waaraan u werkt of toegewezen bent."
+
+msgid "Here you can mark your attendance by punching in and punching out."
+msgstr "Hier kunt u uw aanwezigheid markeren door in te slaan en uit te ponsen."
+
+msgid "Here you can view and manage all pending, approved, rejected and submitted timesheets."
+msgstr "Hier kunt u alle hangende, goedgekeurde, afgewezen en ingediende urenstaten bekijken en beheren."
+
+msgid "Here you can manage of all your approved timesheets."
+msgstr "Hier kunt u al uw goedgekeurde tijdstippen beheren."
+
+msgid "Here you can manage of all your pending timesheets."
+msgstr "Hier kunt u al uw hangende tijdschema's beheren."
+
+msgid "Here you can view and approve timesheetes of your subordinates."
+msgstr "Hier kunt u timesheeten van uw ondergeschikten bekijken en goedkeuren."
+
+msgid "Here you can view and manage all your pending, approved, rejected and submitted attendance sheets."
+msgstr "Hier kunt u al uw lopende, goedgekeurde, afgewezen en ingediende aanwezigheidsbladen bekijken en beheren."
+
+msgid "Here you can view all your approved attendance sheets."
+msgstr "Hier kunt u al uw goedgekeurde aanwezigheidsbladen bekijken."
+
+msgid "Here you can view all your pending attendance sheets."
+msgstr "Hier kunt u al uw hangende aanwezigheidsbladen bekijken."
+
+msgid "Here you can manage and approve attendance sheets of your subordinates."
+msgstr "Hier kunt u de aanwezigheidsbladen van uw ondergeschikten beheren en goedkeuren."
+
+msgid "Here you add an overtime request and view previous overtime requests."
+msgstr "Hier voegt u een overwerkaanvraag toe en bekijkt u eerdere overurenverzoeken."
+
+msgid "Here you can manage and approve overtime requests of your subordinates."
+msgstr "Hier kunt u overwerkverzoeken van uw ondergeschikten beheren en goedkeuren."
+
+msgid "Here you can upload your personal documents to the system."
+msgstr "Hier kunt u uw persoonlijke documenten uploaden naar het systeem."
+
+msgid "Here you can view all the company documents that are shared with you."
+msgstr "Hier kunt u alle bedrijfsdocumenten bekijken die met u worden gedeeld."
+
+msgid "Here you can view all your payslips. You can download your payslips as PDFs."
+msgstr "Hier kunt u al uw payslips bekijken. U kunt uw Payslips downloaden als PDF's."
+
+msgid "Here you will find all the forms you need to fill out and all previous completed forms."
+msgstr "Hier vindt u alle formulieren die u moet invullen en alle eerdere ingevulde formulieren."
+
+msgid "Here you can view all contact information of employees in the organization."
+msgstr "Hier kunt u alle contactgegevens van werknemers in de organisatie bekijken."
+
+msgid "Here you can view all the training sessions available."
+msgstr "Hier kunt u alle beschikbare trainingssessies bekijken."
+
+msgid "Here you can view all training sessions you have signed up for or assigned to."
+msgstr "Hier kunt u alle trainingssessies bekijken waarvoor u zich hebt aangemeld of toegewezen."
+
+msgid "Here you can manage all the training sessions of your subordinates."
+msgstr "Hier kunt u alle trainingssessies van uw ondergeschikten beheren."
+
+msgid "Here you can view all the training sessions coordinated by you."
+msgstr "Hier kunt u alle door u gecoördineerde trainingssessies bekijken."
+
+msgid "Here you can manage all the self assessments you need to work on for your performance reviews."
+msgstr "Hier kunt u alle zelfbeoordelingen beheren waaraan u moet werken voor uw prestatiebeoordelingen."
+
+msgid "Here you can provide feedback to your peers or subordinates."
+msgstr "Hier kunt u feedback geven aan uw collega's of ondergeschikten."
+
+msgid "Here you can submit and manage your travel requests."
+msgstr "Hier kunt u uw reisverzoeken indienen en beheren."
+
+msgid "Here you can view and approve travel requests of your subordinates."
+msgstr "Hier kunt u reisverzoeken van uw ondergeschikten bekijken en goedkeuren."
+
+msgid "Here you can approve travel requests if you are an approver to certain employees."
+msgstr "Hier kunt u reisverzoeken goedkeuren als u een goedkeurder voor bepaalde werknemers bent."
+
+msgid "Here you can submit and manage your expense requests."
+msgstr "Hier kunt u uw kostenverzoeken indienen en beheren."
+
+msgid "Here you can manage and approve expenses requests of your subordinates."
+msgstr "Hier kunt u kostenverzoeken van uw ondergeschikten beheren en goedkeuren."
+
+msgid "Here you can approve expense requests if you are an approver to certain employees."
+msgstr "Hier kunt u kostenverzoeken goedkeuren als u een goedkeurder voor bepaalde werknemers bent."
+
+msgid "Here you can view details of all your salary components."
+msgstr "Hier kunt u details van al uw salariscomponenten bekijken."
+
+msgid "Here you can view details of all the loans you have taken from the company."
+msgstr "Hier kunt u details bekijken van alle leningen die u van het bedrijf hebt afgelegd."
+
+msgid "Position"
+msgstr "Positie"
+
+msgid "Application Date"
+msgstr "Aanvraagdatum"
+
+msgid "Basic"
+msgstr "Fundamenteel"
+
+msgid "All Candidates"
+msgstr "Alle kandidaten"
+
+msgid "New"
+msgstr "Nieuw"
+
+msgid "Screening"
+msgstr "Screening"
+
+msgid "Assessment"
+msgstr "Onderzoek"
+
+msgid "Interview Scheduled"
+msgstr "Interview gepland"
+
+msgid "Offer"
+msgstr "Aanbod"
+
+msgid "Hired"
+msgstr "Gehuurd"
+
+msgid "Member"
+msgstr "Lid"
+
+msgid "Attach File"
+msgstr "Bestand bijvoegen "
+
+msgid "Here you can define the different pay grades in your organization."
+msgstr "Hier kunt u de verschillende salarisschalen in uw organisatie definiëren."

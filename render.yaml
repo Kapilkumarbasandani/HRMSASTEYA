@@ -1,0 +1,83 @@
+# Render Blueprint for IceHrm
+# Documentation: https://render.com/docs/blueprint-spec
+#
+# This blueprint includes a MySQL database as a private service.
+# For production, consider using a managed MySQL provider like PlanetScale or AWS RDS.
+#
+# Deployment:
+#   1. Fork this repository to your GitHub account
+#   2. Go to https://dashboard.render.com/blueprints
+#   3. Click "New Blueprint Instance" and connect your repository
+#   4. Set the APP_BASE_URL environment variable to your Render app URL
+#   5. Deploy
+#
+# Note: The Dockerfile-prod includes a build stage that runs:
+#   - npm install (for root and web directories)
+#   - npm run asset:build:prod (compiles frontend assets)
+
+services:
+  # MySQL Database (Private Service)
+  - type: pserv
+    name: icehrm-mysql
+    runtime: image
+    image:
+      url: mysql:8.0
+    plan: starter
+    disk:
+      name: mysql-data
+      mountPath: /var/lib/mysql
+      sizeGB: 10
+    envVars:
+      - key: MYSQL_ROOT_PASSWORD
+        generateValue: true
+      - key: MYSQL_DATABASE
+        value: icehrm
+      - key: MYSQL_USER
+        value: icehrm
+      - key: MYSQL_PASSWORD
+        generateValue: true
+
+  # Main IceHrm Web Application
+  - type: web
+    name: icehrm
+    runtime: docker
+    dockerContext: .
+    plan: starter
+    healthCheckPath: /app/health.php
+    envVars:
+      - key: APP_BASE_URL
+        sync: false
+      - key: DB_HOST
+        value: icehrm-mysql
+      - key: DB_NAME
+        value: icehrm
+      - key: DB_USER
+        value: icehrm
+      - key: DB_PASSWORD
+        fromService:
+          name: icehrm-mysql
+          type: pserv
+          envVarKey: MYSQL_PASSWORD
+
+  # Background Worker for Cron Jobs
+  - type: worker
+    name: icehrm-worker
+    runtime: docker
+    dockerfilePath: ./Dockerfile-worker
+    dockerContext: .
+    plan: starter
+    dockerCommand: /usr/sbin/crond -f -l 8
+    buildArgs:
+      EXE_ENV: prod
+    envVars:
+      - key: DB_HOST
+        value: icehrm-mysql
+      - key: DB_NAME
+        value: icehrm
+      - key: DB_USER
+        value: icehrm
+      - key: DB_PASSWORD
+        fromService:
+          name: icehrm-mysql
+          type: pserv
+          envVarKey: MYSQL_PASSWORD
