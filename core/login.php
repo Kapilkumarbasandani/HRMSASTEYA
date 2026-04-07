@@ -219,8 +219,8 @@ $csrfToken = sha1(rand(4500, 100000) . time(). CLIENT_BASE_URL);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>IceHrm Login</title>
-    <link rel="shortcut icon" href="https://icehrm.s3.amazonaws.com/images/icon16.png">
+    <title>Asteya Login</title>
+    <link rel="shortcut icon" href="<?=BASE_URL?>images/Asteya.png">
 
     <link href="<?=BASE_URL?>dist/login.css?v=<?=$cssVersion?>" rel="stylesheet">
     <script src="<?=BASE_URL?>dist/login.js"></script>

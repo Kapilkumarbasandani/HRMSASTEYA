@@ -4986,8 +4986,7 @@ var DashboardAdapter = /*#__PURE__*/function (_AdapterBase) {
       this.drawOnlineOfflineEmployeeChart();
       this.drawEmployeeDistributionChart();
       this.showEmployeeList();
-      this.buildTaskList();
-      this.showNews();
+      this.buildTaskList(); // showNews disabled
     }
   }, {
     key: "showConnectionModal",
@@ -5011,7 +5010,7 @@ var DashboardAdapter = /*#__PURE__*/function (_AdapterBase) {
             }, /*#__PURE__*/_react["default"].createElement("img", {
               // eslint-disable-next-line no-undef
               src: "".concat(BASE_URL, "images/logo.png"),
-              alt: "IceHrm",
+              alt: "Asteya",
               style: {
                 maxWidth: 180,
                 height: 'auto',

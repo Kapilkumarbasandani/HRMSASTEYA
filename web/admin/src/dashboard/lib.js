@@ -85,7 +85,7 @@ class DashboardAdapter extends AdapterBase {
     this.drawEmployeeDistributionChart();
     this.showEmployeeList();
     this.buildTaskList();
-    this.showNews();
+    // showNews disabled
   }
 
   showConnectionModal() {
@@ -105,7 +105,7 @@ class DashboardAdapter extends AdapterBase {
               <img
                 // eslint-disable-next-line no-undef
                 src={`${BASE_URL}images/logo.png`}
-                alt="IceHrm"
+                alt="Asteya"
                 style={{ maxWidth: 180, height: 'auto', marginBottom: 20 }}
               />
               <h3 style={{ marginBottom: 12, color: '#333' }}>Connect to IceHrm.com</h3>
