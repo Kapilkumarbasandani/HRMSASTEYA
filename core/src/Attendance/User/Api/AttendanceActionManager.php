@@ -50,16 +50,15 @@ class AttendanceActionManager extends SubActionManager
     {
 
         $limitPunchInOutTimes = SettingsManager::getInstance()->getSetting('Attendance: Limit Punch in-Out Times') === '1';
-        $useServerTime = SettingsManager::getInstance()->getSetting('Attendance: Use Department Time Zone');
         $currentEmployeeTimeZone = BaseService::getInstance()->getCurrentEmployeeTimeZone();
 
-        if ($useServerTime == '1' && !empty($currentEmployeeTimeZone)) {
+        if (!empty($currentEmployeeTimeZone)) {
             date_default_timezone_set('Asia/Colombo');
-
             $date = new \DateTime("now", new \DateTimeZone('Asia/Colombo'));
-
             $date->setTimezone(new \DateTimeZone($currentEmployeeTimeZone));
             $req->time = $date->format('Y-m-d H:i:s');
+        } else {
+            $req->time = date('Y-m-d H:i:s');
         }
 
         $req->date = $req->time;

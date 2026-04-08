@@ -20106,24 +20106,6 @@ var AttendanceAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
   }, {
     key: "getFormFields",
     value: function getFormFields() {
-      if (this.useServerTime === 0) {
-        return [['id', {
-          label: 'ID',
-          type: 'hidden'
-        }], ['time', {
-          label: 'Time',
-          type: 'datetime'
-        }], ['work_from_home', {
-          label: 'Work from Home',
-          type: 'switch',
-          validation: 'none'
-        }], ['note', {
-          label: 'Note',
-          type: 'textarea',
-          validation: 'none'
-        }]];
-      }
-
       return [['id', {
         label: 'ID',
         type: 'hidden'
