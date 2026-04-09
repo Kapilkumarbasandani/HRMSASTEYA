@@ -20109,14 +20109,6 @@ var AttendanceAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
       return [['id', {
         label: 'ID',
         type: 'hidden'
-      }], ['work_from_home', {
-        label: 'Work from Home',
-        type: 'switch',
-        validation: 'none'
-      }], ['note', {
-        label: 'Note',
-        type: 'textarea',
-        validation: 'none'
       }]];
     }
   }, {
@@ -20158,8 +20150,8 @@ var AttendanceAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
         callBackData.callBackSuccess = 'saveSuccessCallback';
         callBackData.callBackFail = 'getPunchFailCallBack';
         that.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
-        callGetFunction();
-        successCallback();
+        if (callGetFunction) callGetFunction();
+        if (successCallback) successCallback();
       };
 
       var params = object;
@@ -20194,6 +20186,7 @@ var AttendanceAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
     key: "saveSuccessCallback",
     value: function saveSuccessCallback(callBackData) {
       this.get([]);
+      var action = this.hasOpenPunch ? 'Punched Out' : 'Punched In';
 
       if (this.hasOpenPunch) {
         this.hasOpenPunch = 0;
@@ -20204,34 +20197,46 @@ var AttendanceAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
       if (this.hasOpenPunch && !this.punchedOutToday) {
         this.punchedOutToday = 1;
       }
+
+      this.showMessage('Success', "".concat(action, " successfully at ").concat(new Date().toLocaleTimeString()));
     }
   }, {
     key: "showPunchDialog",
     value: function showPunchDialog() {
-      if (this.hasOpenPunch) {
-        // Fetch open punch to get work_from_home value
-        var reqJson = JSON.stringify({
-          date: new Date().toISOString().slice(0, 19).replace('T', ' ')
+      var that = this;
+      var params = {};
+
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+          params.latitude = position.coords.latitude;
+          params.longitude = position.coords.longitude;
+          params.cdate = that.getClientDate(new Date()).toISOString().slice(0, 19).replace('T', ' ');
+          var reqJson = JSON.stringify(params);
+          var callBackData = [];
+          callBackData.callBackData = [];
+          callBackData.callBackSuccess = 'saveSuccessCallback';
+          callBackData.callBackFail = 'getPunchFailCallBack';
+          that.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
+        }, function (error) {
+          var msg = 'Location access is required for attendance. ';
+
+          if (error.code === 1) {
+            msg += 'Please allow location permission in your browser and try again.';
+          } else if (error.code === 2) {
+            msg += 'Your location could not be determined. Please check your device settings.';
+          } else {
+            msg += 'Location request timed out. Please try again.';
+          }
+
+          that.showMessage('Location Required', msg);
+        }, {
+          enableHighAccuracy: true,
+          timeout: 15000,
+          maximumAge: 0
         });
-        var callBackData = [];
-        callBackData.callBackData = [];
-        callBackData.callBackSuccess = 'getPunchSuccessCallback';
-        callBackData.callBackFail = 'getPunchFailCallBack';
-        this.customAction('getPunch', 'modules=attendance', reqJson, callBackData);
       } else {
-        modJs.renderForm();
+        that.showMessage('Location Required', 'Your browser does not support geolocation. Please use a modern browser to mark attendance.');
       }
-    }
-  }, {
-    key: "getPunchSuccessCallback",
-    value: function getPunchSuccessCallback(callBackData) {
-      var defaultValues = {};
-
-      if (callBackData && callBackData.work_from_home) {
-        defaultValues.work_from_home = callBackData.work_from_home;
-      }
-
-      modJs.renderForm(defaultValues);
     }
   }, {
     key: "getPunchFailCallBack",

@@ -128,8 +128,6 @@ class AttendanceAdapter extends ReactModalAdapterBase {
   getFormFields() {
     return [
       ['id', { label: 'ID', type: 'hidden' }],
-      ['work_from_home', { label: 'Work from Home', type: 'switch', validation: 'none' }],
-      ['note', { label: 'Note', type: 'textarea', validation: 'none' }],
     ];
   }
 
@@ -162,8 +160,8 @@ class AttendanceAdapter extends ReactModalAdapterBase {
       callBackData.callBackFail = 'getPunchFailCallBack';
 
       that.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
-      callGetFunction();
-      successCallback();
+      if (callGetFunction) callGetFunction();
+      if (successCallback) successCallback();
     };
 
     let params = object;
@@ -196,6 +194,7 @@ class AttendanceAdapter extends ReactModalAdapterBase {
   saveSuccessCallback(callBackData) {
     this.get([]);
 
+    const action = this.hasOpenPunch ? 'Punched Out' : 'Punched In';
     if (this.hasOpenPunch) {
       this.hasOpenPunch = 0;
     } else {
@@ -205,28 +204,43 @@ class AttendanceAdapter extends ReactModalAdapterBase {
     if (this.hasOpenPunch && !this.punchedOutToday) {
       this.punchedOutToday = 1;
     }
+
+    this.showMessage('Success', `${action} successfully at ${new Date().toLocaleTimeString()}`);
   }
 
   showPunchDialog() {
-    if (this.hasOpenPunch) {
-      // Fetch open punch to get work_from_home value
-      const reqJson = JSON.stringify({ date: new Date().toISOString().slice(0, 19).replace('T', ' ') });
-      const callBackData = [];
-      callBackData.callBackData = [];
-      callBackData.callBackSuccess = 'getPunchSuccessCallback';
-      callBackData.callBackFail = 'getPunchFailCallBack';
-      this.customAction('getPunch', 'modules=attendance', reqJson, callBackData);
-    } else {
-      modJs.renderForm();
-    }
-  }
+    const that = this;
+    const params = {};
 
-  getPunchSuccessCallback(callBackData) {
-    const defaultValues = {};
-    if (callBackData && callBackData.work_from_home) {
-      defaultValues.work_from_home = callBackData.work_from_home;
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          params.latitude = position.coords.latitude;
+          params.longitude = position.coords.longitude;
+          params.cdate = that.getClientDate(new Date()).toISOString().slice(0, 19).replace('T', ' ');
+          const reqJson = JSON.stringify(params);
+          const callBackData = [];
+          callBackData.callBackData = [];
+          callBackData.callBackSuccess = 'saveSuccessCallback';
+          callBackData.callBackFail = 'getPunchFailCallBack';
+          that.customAction('savePunch', 'modules=attendance', reqJson, callBackData, true);
+        },
+        (error) => {
+          let msg = 'Location access is required for attendance. ';
+          if (error.code === 1) {
+            msg += 'Please allow location permission in your browser and try again.';
+          } else if (error.code === 2) {
+            msg += 'Your location could not be determined. Please check your device settings.';
+          } else {
+            msg += 'Location request timed out. Please try again.';
+          }
+          that.showMessage('Location Required', msg);
+        },
+        { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }
+      );
+    } else {
+      that.showMessage('Location Required', 'Your browser does not support geolocation. Please use a modern browser to mark attendance.');
     }
-    modJs.renderForm(defaultValues);
   }
 
   getPunchFailCallBack(callBackData) {
