@@ -345,7 +345,10 @@ try {// Domain aware input cleanup
 
                     // Send email
                     $companyName = SettingsManager::getInstance()->getSetting('Company: Name');
-                    $subject = "Your IceHrm Login Code $code";
+                    if (empty($companyName) || $companyName === 'Sample Company Pvt Ltd') {
+                        $companyName = 'Asteya HRMS';
+                    }
+                    $subject = "Your $companyName Login Code $code";
                     $body = "Your login code is: <strong>$code</strong><br><br>";
                     $body .= "This code will expire in 15 minutes.<br><br>";
                     $body .= "If you did not request this code, please ignore this email.";
