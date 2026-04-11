@@ -34,11 +34,13 @@ var modJsList = [];
 
 modJsList['tabEmployeeLeave'] = new EmployeeLeaveAdapter('EmployeeLeave','EmployeeLeave','employee=<?=$employeeId?>','date_start desc');
 modJsList['tabEmployeeLeave'].setObjectTypeName('EmployeeLeave');
+modJsList['tabEmployeeLeave'].setAccess(['get','element','save','delete']);
 modJsList['tabEmployeeLeave'].setDataPipe(new IceDataPipe(modJsList['tabEmployeeLeave']));
 
 modJsList['tabSubEmployeeLeave'] = new SubordinateLeaveAdapter('EmployeeLeave','SubEmployeeLeave','','date_start desc');
 modJsList['tabSubEmployeeLeave'].setRemoteTable(true);
 modJsList['tabSubEmployeeLeave'].setObjectTypeName('EmployeeLeave');
+modJsList['tabSubEmployeeLeave'].setAccess(['get','element','save','delete']);
 modJsList['tabSubEmployeeLeave'].setDataPipe(new IceDataPipe(modJsList['tabSubEmployeeLeave']));
 
 var modJs = modJsList['tabEmployeeLeave'];
