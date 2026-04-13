@@ -22,5 +22,6 @@ class LeavesModulesManager extends AbstractModuleManager
 
     public function setupModuleClassDefinitions()
     {
+        $this->addModelClass('EmployeeLeave');
     }
 }
