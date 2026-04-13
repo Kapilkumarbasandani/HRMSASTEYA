@@ -50,7 +50,7 @@ class EmployeeLeaveAdapter extends ReactModalAdapterBase {
       ['date_start', { label: 'Start Date', type: 'date', validation: 'none' }],
       ['date_end', { label: 'End Date', type: 'date', validation: 'none' }],
       ['details', { label: 'Reason', type: 'textarea' }],
-      ['status', { label: 'Status', type: 'placeholder', default: 'Pending' }],
+      ['status', { label: 'Status', type: 'hidden', default: 'Pending' }],
     ];
   }
 }

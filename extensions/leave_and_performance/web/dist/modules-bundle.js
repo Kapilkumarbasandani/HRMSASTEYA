@@ -153,7 +153,7 @@ var EmployeeLeaveAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
         type: 'textarea'
       }], ['status', {
         label: 'Status',
-        type: 'placeholder',
+        type: 'hidden',
         "default": 'Pending'
       }]];
     }
