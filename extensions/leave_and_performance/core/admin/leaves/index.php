@@ -72,38 +72,47 @@ var modJsList = [];
 
 modJsList['tabLeaveType'] = new LeaveTypeAdapter('LeaveType','LeaveType','','name');
 modJsList['tabLeaveType'].setObjectTypeName('LeaveType');
+modJsList['tabLeaveType'].setAccess(['get','element','save','delete']);
 modJsList['tabLeaveType'].setDataPipe(new IceDataPipe(modJsList['tabLeaveType']));
 
 modJsList['tabLeavePeriod'] = new LeavePeriodAdapter('LeavePeriod','LeavePeriod','','date_start desc');
 modJsList['tabLeavePeriod'].setObjectTypeName('LeavePeriod');
+modJsList['tabLeavePeriod'].setAccess(['get','element','save','delete']);
 modJsList['tabLeavePeriod'].setDataPipe(new IceDataPipe(modJsList['tabLeavePeriod']));
 
 modJsList['tabLeaveRule'] = new LeaveRuleAdapter('LeaveRule','LeaveRule','','leave_type');
 modJsList['tabLeaveRule'].setObjectTypeName('LeaveRule');
+modJsList['tabLeaveRule'].setAccess(['get','element','save','delete']);
 modJsList['tabLeaveRule'].setDataPipe(new IceDataPipe(modJsList['tabLeaveRule']));
 
 modJsList['tabLeaveGroup'] = new LeaveGroupAdapter('LeaveGroup','LeaveGroup','','name');
 modJsList['tabLeaveGroup'].setObjectTypeName('LeaveGroup');
+modJsList['tabLeaveGroup'].setAccess(['get','element','save','delete']);
 modJsList['tabLeaveGroup'].setDataPipe(new IceDataPipe(modJsList['tabLeaveGroup']));
 
 modJsList['tabLeaveGroupEmployee'] = new LeaveGroupEmployeeAdapter('LeaveGroupEmployee','LeaveGroupEmployee','','leave_group');
 modJsList['tabLeaveGroupEmployee'].setObjectTypeName('LeaveGroupEmployee');
+modJsList['tabLeaveGroupEmployee'].setAccess(['get','element','save','delete']);
 modJsList['tabLeaveGroupEmployee'].setDataPipe(new IceDataPipe(modJsList['tabLeaveGroupEmployee']));
 
 modJsList['tabLeaveStartingBalance'] = new LeaveStartingBalanceAdapter('LeaveStartingBalance','LeaveStartingBalance','','leave_type');
 modJsList['tabLeaveStartingBalance'].setObjectTypeName('LeaveStartingBalance');
+modJsList['tabLeaveStartingBalance'].setAccess(['get','element','save','delete']);
 modJsList['tabLeaveStartingBalance'].setDataPipe(new IceDataPipe(modJsList['tabLeaveStartingBalance']));
 
 modJsList['tabEmployeeLeave'] = new EmployeeLeaveAdminAdapter('EmployeeLeave','EmployeeLeave','','date_start desc');
 modJsList['tabEmployeeLeave'].setObjectTypeName('EmployeeLeave');
+modJsList['tabEmployeeLeave'].setAccess(['get','element','save','delete']);
 modJsList['tabEmployeeLeave'].setDataPipe(new IceDataPipe(modJsList['tabEmployeeLeave']));
 
 modJsList['tabHoliDay'] = new HoliDayAdapter('HoliDay','HoliDay','','dateh desc');
 modJsList['tabHoliDay'].setObjectTypeName('HoliDay');
+modJsList['tabHoliDay'].setAccess(['get','element','save','delete']);
 modJsList['tabHoliDay'].setDataPipe(new IceDataPipe(modJsList['tabHoliDay']));
 
 modJsList['tabWorkDay'] = new WorkDayAdapter('WorkDay','WorkDay','','id');
 modJsList['tabWorkDay'].setObjectTypeName('WorkDay');
+modJsList['tabWorkDay'].setAccess(['get','element','save','delete']);
 modJsList['tabWorkDay'].setDataPipe(new IceDataPipe(modJsList['tabWorkDay']));
 
 var modJs = modJsList['tabLeaveType'];
