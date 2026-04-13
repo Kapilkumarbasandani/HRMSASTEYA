@@ -1,11 +1,11 @@
-import {
+const {
   PayrollAdapter,
   PayrollColumnAdapter,
   PayrollColumnTemplateAdapter,
   DeductionGroupAdapter,
   DeductionAdapter,
   PayslipTemplateAdapter,
-} from './lib';
+} = require('./lib');
 
 window.PayrollAdapter = PayrollAdapter;
 window.PayrollColumnAdapter = PayrollColumnAdapter;

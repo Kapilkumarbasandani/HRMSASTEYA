@@ -11264,22 +11264,23 @@ module.exports = {
 },{"../../../api/ReactApproveAdminAdapter":88,"../../../api/ReactIdNameAdapter":90,"antd":"antd","react":"react"}],43:[function(require,module,exports){
 "use strict";
 
-var _lib = require("./lib");
+var _require = require('./lib'),
+    PayrollAdapter = _require.PayrollAdapter,
+    PayrollColumnAdapter = _require.PayrollColumnAdapter,
+    PayrollColumnTemplateAdapter = _require.PayrollColumnTemplateAdapter,
+    DeductionGroupAdapter = _require.DeductionGroupAdapter,
+    DeductionAdapter = _require.DeductionAdapter,
+    PayslipTemplateAdapter = _require.PayslipTemplateAdapter;
 
-window.PayrollAdapter = _lib.PayrollAdapter;
-window.PayrollColumnAdapter = _lib.PayrollColumnAdapter;
-window.PayrollColumnTemplateAdapter = _lib.PayrollColumnTemplateAdapter;
-window.DeductionGroupAdapter = _lib.DeductionGroupAdapter;
-window.DeductionAdapter = _lib.DeductionAdapter;
-window.PayslipTemplateAdapter = _lib.PayslipTemplateAdapter;
+window.PayrollAdapter = PayrollAdapter;
+window.PayrollColumnAdapter = PayrollColumnAdapter;
+window.PayrollColumnTemplateAdapter = PayrollColumnTemplateAdapter;
+window.DeductionGroupAdapter = DeductionGroupAdapter;
+window.DeductionAdapter = DeductionAdapter;
+window.PayslipTemplateAdapter = PayslipTemplateAdapter;
 
 },{"./lib":44}],44:[function(require,module,exports){
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.PayslipTemplateAdapter = exports.DeductionAdapter = exports.DeductionGroupAdapter = exports.PayrollColumnTemplateAdapter = exports.PayrollColumnAdapter = exports.PayrollAdapter = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -11439,8 +11440,6 @@ var PayrollAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
   return PayrollAdapter;
 }(_ReactModalAdapterBase["default"]);
 
-exports.PayrollAdapter = PayrollAdapter;
-
 var PayrollColumnAdapter = /*#__PURE__*/function (_ReactModalAdapterBas2) {
   _inherits(PayrollColumnAdapter, _ReactModalAdapterBas2);
 
@@ -11554,8 +11553,6 @@ var PayrollColumnAdapter = /*#__PURE__*/function (_ReactModalAdapterBas2) {
   return PayrollColumnAdapter;
 }(_ReactModalAdapterBase["default"]);
 
-exports.PayrollColumnAdapter = PayrollColumnAdapter;
-
 var PayrollColumnTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas3) {
   _inherits(PayrollColumnTemplateAdapter, _ReactModalAdapterBas3);
 
@@ -11616,8 +11613,6 @@ var PayrollColumnTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas3
   return PayrollColumnTemplateAdapter;
 }(_ReactModalAdapterBase["default"]);
 
-exports.PayrollColumnTemplateAdapter = PayrollColumnTemplateAdapter;
-
 var DeductionGroupAdapter = /*#__PURE__*/function (_ReactModalAdapterBas4) {
   _inherits(DeductionGroupAdapter, _ReactModalAdapterBas4);
 
@@ -11677,8 +11672,6 @@ var DeductionGroupAdapter = /*#__PURE__*/function (_ReactModalAdapterBas4) {
 
   return DeductionGroupAdapter;
 }(_ReactModalAdapterBase["default"]);
-
-exports.DeductionGroupAdapter = DeductionGroupAdapter;
 
 var DeductionAdapter = /*#__PURE__*/function (_ReactModalAdapterBas5) {
   _inherits(DeductionAdapter, _ReactModalAdapterBas5);
@@ -11755,8 +11748,6 @@ var DeductionAdapter = /*#__PURE__*/function (_ReactModalAdapterBas5) {
 
   return DeductionAdapter;
 }(_ReactModalAdapterBase["default"]);
-
-exports.DeductionAdapter = DeductionAdapter;
 
 var PayslipTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas6) {
   _inherits(PayslipTemplateAdapter, _ReactModalAdapterBas6);
@@ -11837,7 +11828,14 @@ var PayslipTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas6) {
   return PayslipTemplateAdapter;
 }(_ReactModalAdapterBase["default"]);
 
-exports.PayslipTemplateAdapter = PayslipTemplateAdapter;
+module.exports = {
+  PayrollAdapter: PayrollAdapter,
+  PayrollColumnAdapter: PayrollColumnAdapter,
+  PayrollColumnTemplateAdapter: PayrollColumnTemplateAdapter,
+  DeductionGroupAdapter: DeductionGroupAdapter,
+  DeductionAdapter: DeductionAdapter,
+  PayslipTemplateAdapter: PayslipTemplateAdapter
+};
 
 },{"../../../api/ReactModalAdapterBase":92,"antd":"antd","react":"react"}],45:[function(require,module,exports){
 "use strict";
