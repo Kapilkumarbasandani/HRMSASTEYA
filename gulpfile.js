@@ -356,6 +356,7 @@ gulp.task('modules-js', (done) => {
     'employees',
     'loans',
     'overtime',
+    'payslips',
     'qualifications',
     'reports',
     'time_sheets',

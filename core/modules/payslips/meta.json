@@ -1,0 +1,14 @@
+{
+    "label": "My Payslips",
+    "menu": "Finance",
+    "order": "1",
+    "icon": "fa-file-invoice-dollar",
+    "user_levels": [
+        "Admin",
+        "Manager",
+        "Employee"
+    ],
+    "permissions": [],
+    "model_namespace": "\\Documents\\Common\\Model",
+    "manager": "\\Payroll\\User\\Api\\PayrollModulesManager"
+}
