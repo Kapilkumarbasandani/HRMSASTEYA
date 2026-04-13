@@ -9,6 +9,7 @@ var _lib = require("./lib");
 
 window.EmployeeLeaveAdapter = _lib.EmployeeLeaveAdapter;
 window.SubordinateLeaveAdapter = _lib.SubordinateLeaveAdapter;
+window.AllEmployeeLeaveAdapter = _lib.AllEmployeeLeaveAdapter;
 
 },{"./lib":3}],3:[function(require,module,exports){
 "use strict";
@@ -16,7 +17,7 @@ window.SubordinateLeaveAdapter = _lib.SubordinateLeaveAdapter;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.SubordinateLeaveAdapter = exports.EmployeeLeaveAdapter = void 0;
+exports.AllEmployeeLeaveAdapter = exports.SubordinateLeaveAdapter = exports.EmployeeLeaveAdapter = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -281,6 +282,125 @@ var SubordinateLeaveAdapter = /*#__PURE__*/function (_ReactModalAdapterBas2) {
 }(_ReactModalAdapterBase["default"]);
 
 exports.SubordinateLeaveAdapter = SubordinateLeaveAdapter;
+
+var AllEmployeeLeaveAdapter = /*#__PURE__*/function (_ReactModalAdapterBas3) {
+  _inherits(AllEmployeeLeaveAdapter, _ReactModalAdapterBas3);
+
+  var _super3 = _createSuper(AllEmployeeLeaveAdapter);
+
+  function AllEmployeeLeaveAdapter() {
+    _classCallCheck(this, AllEmployeeLeaveAdapter);
+
+    return _super3.apply(this, arguments);
+  }
+
+  _createClass(AllEmployeeLeaveAdapter, [{
+    key: "getDataMapping",
+    value: function getDataMapping() {
+      return ['id', 'employee', 'leave_type', 'leave_period', 'date_start', 'date_end', 'details', 'status'];
+    }
+  }, {
+    key: "getHeaders",
+    value: function getHeaders() {
+      return [{
+        sTitle: 'ID',
+        bVisible: false
+      }, {
+        sTitle: 'Employee'
+      }, {
+        sTitle: 'Leave Type'
+      }, {
+        sTitle: 'Leave Period'
+      }, {
+        sTitle: 'Start Date'
+      }, {
+        sTitle: 'End Date'
+      }, {
+        sTitle: 'Details'
+      }, {
+        sTitle: 'Status'
+      }];
+    }
+  }, {
+    key: "getTableColumns",
+    value: function getTableColumns() {
+      var statusColors = {
+        Approved: 'green',
+        Pending: 'orange',
+        Rejected: 'red',
+        Cancelled: 'default',
+        'Cancellation Requested': 'volcano'
+      };
+      return [{
+        title: 'Employee',
+        dataIndex: 'employee',
+        sorter: true
+      }, {
+        title: 'Leave Type',
+        dataIndex: 'leave_type',
+        sorter: true
+      }, {
+        title: 'Leave Period',
+        dataIndex: 'leave_period'
+      }, {
+        title: 'Start Date',
+        dataIndex: 'date_start',
+        sorter: true
+      }, {
+        title: 'End Date',
+        dataIndex: 'date_end',
+        sorter: true
+      }, {
+        title: 'Status',
+        dataIndex: 'status',
+        render: function render(text) {
+          return /*#__PURE__*/_react["default"].createElement(_antd.Tag, {
+            color: statusColors[text] || 'default'
+          }, text);
+        }
+      }];
+    }
+  }, {
+    key: "getFormFields",
+    value: function getFormFields() {
+      return [['id', {
+        label: 'ID',
+        type: 'hidden'
+      }], ['employee', {
+        label: 'Employee',
+        type: 'select2',
+        'remote-source': ['Employee', 'id', 'first_name+last_name']
+      }], ['leave_type', {
+        label: 'Leave Type',
+        type: 'select2',
+        'remote-source': ['LeaveType', 'id', 'name']
+      }], ['leave_period', {
+        label: 'Leave Period',
+        type: 'select2',
+        'remote-source': ['LeavePeriod', 'id', 'name']
+      }], ['date_start', {
+        label: 'Start Date',
+        type: 'date',
+        validation: 'none'
+      }], ['date_end', {
+        label: 'End Date',
+        type: 'date',
+        validation: 'none'
+      }], ['details', {
+        label: 'Reason',
+        type: 'textarea'
+      }], ['status', {
+        label: 'Status',
+        type: 'select',
+        source: [['Approved', 'Approved'], ['Pending', 'Pending'], ['Rejected', 'Rejected'], ['Cancelled', 'Cancelled'], ['Cancellation Requested', 'Cancellation Requested']]
+      }]];
+    }
+  }]);
+
+  return AllEmployeeLeaveAdapter;
+}(_ReactModalAdapterBase["default"]);
+
+exports.AllEmployeeLeaveAdapter = AllEmployeeLeaveAdapter;
 
 },{"../../../../../../web/api/ReactModalAdapterBase":15,"antd":"antd","react":"react"}],4:[function(require,module,exports){
 // Stub: performance pro user module
