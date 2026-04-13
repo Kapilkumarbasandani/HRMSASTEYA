@@ -2,13 +2,17 @@
 namespace Leaves\User\Api;
 
 use Classes\AbstractModuleManager;
+use Classes\BaseService;
 
 class LeavesModulesManager extends AbstractModuleManager
 {
     public function initializeUserClasses()
     {
         if (defined('MODULE_TYPE') && MODULE_TYPE != 'admin') {
-            $this->addUserClass("EmployeeLeave");
+            $user = BaseService::getInstance()->getCurrentUser();
+            if ($user->user_level !== 'Admin') {
+                $this->addUserClass("EmployeeLeave");
+            }
         }
     }
 
