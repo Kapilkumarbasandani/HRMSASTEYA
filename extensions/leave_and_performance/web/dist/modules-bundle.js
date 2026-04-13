@@ -150,6 +150,10 @@ var EmployeeLeaveAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
       }], ['details', {
         label: 'Reason',
         type: 'textarea'
+      }], ['status', {
+        label: 'Status',
+        type: 'placeholder',
+        "default": 'Pending'
       }]];
     }
   }]);
