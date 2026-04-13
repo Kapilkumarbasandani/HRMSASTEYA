@@ -168,9 +168,29 @@ var LeaveTypeAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
         label: 'Send Notification Emails',
         type: 'select',
         source: [['Yes', 'Yes'], ['No', 'No']]
+      }], ['sandwich_leave', {
+        label: 'Sandwich Leave',
+        type: 'select',
+        source: [['0', 'No'], ['1', 'Yes']]
       }], ['leave_color', {
         label: 'Leave Color',
         type: 'text'
+      }], ['employee_leave_period', {
+        label: 'Employee Leave Period',
+        type: 'select',
+        source: [['No', 'No'], ['Yes', 'Yes']]
+      }], ['leave_lock_period', {
+        label: 'Leave Lock Period (days)',
+        type: 'text',
+        validation: 'number'
+      }], ['notice_period', {
+        label: 'Notice Period (days)',
+        type: 'text',
+        validation: 'number'
+      }], ['attachment_mandatory', {
+        label: 'Attachment Mandatory',
+        type: 'select',
+        source: [['No', 'No'], ['Yes', 'Yes']]
       }]];
     }
   }]);
