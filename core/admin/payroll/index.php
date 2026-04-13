@@ -52,6 +52,7 @@ include APP_BASE_PATH.'modulejslibs.inc.php';
     </div>
 
 </div>
+<div id="dataGroup"></div>
 <?php
 $moduleData = [
     'user_level' => $user->user_level,
@@ -65,43 +66,6 @@ $moduleData = [
     ]];
 ?>
 <script>
-var modJsList = [];
-
-modJsList['tabPayroll'] = new PayrollAdapter('Payroll');
-modJsList['tabPayroll'].setRemoteTable(true);
-modJsList['tabPayroll'].setObjectTypeName('Payroll');
-modJsList['tabPayroll'].setDataPipe(new IceDataPipe(modJsList['tabPayroll']));
-modJsList['tabPayroll'].setAccess(<?=json_encode($moduleData['permissions']['Payroll'])?>);
-
-modJsList['tabPayrollColumn'] = new PayrollColumnAdapter('PayrollColumn');
-modJsList['tabPayrollColumn'].setRemoteTable(true);
-modJsList['tabPayrollColumn'].setObjectTypeName('Payroll Column');
-modJsList['tabPayrollColumn'].setDataPipe(new IceDataPipe(modJsList['tabPayrollColumn']));
-modJsList['tabPayrollColumn'].setAccess(<?=json_encode($moduleData['permissions']['PayrollColumn'])?>);
-
-modJsList['tabPayrollColumnTemplate'] = new PayrollColumnTemplateAdapter('PayrollColumnTemplate');
-modJsList['tabPayrollColumnTemplate'].setObjectTypeName('Column Template');
-modJsList['tabPayrollColumnTemplate'].setDataPipe(new IceDataPipe(modJsList['tabPayrollColumnTemplate']));
-modJsList['tabPayrollColumnTemplate'].setAccess(<?=json_encode($moduleData['permissions']['PayrollColumnTemplate'])?>);
-
-modJsList['tabDeductionGroup'] = new DeductionGroupAdapter('DeductionGroup');
-modJsList['tabDeductionGroup'].setObjectTypeName('Deduction Group');
-modJsList['tabDeductionGroup'].setDataPipe(new IceDataPipe(modJsList['tabDeductionGroup']));
-modJsList['tabDeductionGroup'].setAccess(<?=json_encode($moduleData['permissions']['DeductionGroup'])?>);
-
-modJsList['tabDeduction'] = new DeductionAdapter('Deduction');
-modJsList['tabDeduction'].setRemoteTable(true);
-modJsList['tabDeduction'].setObjectTypeName('Deduction');
-modJsList['tabDeduction'].setDataPipe(new IceDataPipe(modJsList['tabDeduction']));
-modJsList['tabDeduction'].setAccess(<?=json_encode($moduleData['permissions']['Deduction'])?>);
-
-modJsList['tabPayslipTemplate'] = new PayslipTemplateAdapter('PayslipTemplate');
-modJsList['tabPayslipTemplate'].setObjectTypeName('Payslip Template');
-modJsList['tabPayslipTemplate'].setDataPipe(new IceDataPipe(modJsList['tabPayslipTemplate']));
-modJsList['tabPayslipTemplate'].setAccess(<?=json_encode($moduleData['permissions']['PayslipTemplate'])?>);
-
-var modJs = modJsList['tabPayroll'];
-
+  initAdminPayroll(<?=json_encode($moduleData)?>);
 </script>
-<div id="dataGroup"></div>
 <?php include APP_BASE_PATH.'footer.php';?>

@@ -242,7 +242,7 @@ class PayslipTemplateAdapter extends ReactModalAdapterBase {
   }
 }
 
-module.exports = {
+export {
   PayrollAdapter,
   PayrollColumnAdapter,
   PayrollColumnTemplateAdapter,

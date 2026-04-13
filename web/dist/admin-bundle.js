@@ -11264,23 +11264,54 @@ module.exports = {
 },{"../../../api/ReactApproveAdminAdapter":88,"../../../api/ReactIdNameAdapter":90,"antd":"antd","react":"react"}],43:[function(require,module,exports){
 "use strict";
 
-var _require = require('./lib'),
-    PayrollAdapter = _require.PayrollAdapter,
-    PayrollColumnAdapter = _require.PayrollColumnAdapter,
-    PayrollColumnTemplateAdapter = _require.PayrollColumnTemplateAdapter,
-    DeductionGroupAdapter = _require.DeductionGroupAdapter,
-    DeductionAdapter = _require.DeductionAdapter,
-    PayslipTemplateAdapter = _require.PayslipTemplateAdapter;
+var _lib = require("./lib");
 
-window.PayrollAdapter = PayrollAdapter;
-window.PayrollColumnAdapter = PayrollColumnAdapter;
-window.PayrollColumnTemplateAdapter = PayrollColumnTemplateAdapter;
-window.DeductionGroupAdapter = DeductionGroupAdapter;
-window.DeductionAdapter = DeductionAdapter;
-window.PayslipTemplateAdapter = PayslipTemplateAdapter;
+var _IceDataPipe = _interopRequireDefault(require("../../../api/IceDataPipe"));
 
-},{"./lib":44}],44:[function(require,module,exports){
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function init(data) {
+  var modJsList = {};
+  modJsList.tabPayroll = new _lib.PayrollAdapter('Payroll');
+  modJsList.tabPayroll.setRemoteTable(true);
+  modJsList.tabPayroll.setObjectTypeName('Payroll');
+  modJsList.tabPayroll.setDataPipe(new _IceDataPipe["default"](modJsList.tabPayroll));
+  modJsList.tabPayroll.setAccess(data.permissions.Payroll);
+  modJsList.tabPayrollColumn = new _lib.PayrollColumnAdapter('PayrollColumn');
+  modJsList.tabPayrollColumn.setRemoteTable(true);
+  modJsList.tabPayrollColumn.setObjectTypeName('Payroll Column');
+  modJsList.tabPayrollColumn.setDataPipe(new _IceDataPipe["default"](modJsList.tabPayrollColumn));
+  modJsList.tabPayrollColumn.setAccess(data.permissions.PayrollColumn);
+  modJsList.tabPayrollColumnTemplate = new _lib.PayrollColumnTemplateAdapter('PayrollColumnTemplate');
+  modJsList.tabPayrollColumnTemplate.setObjectTypeName('Column Template');
+  modJsList.tabPayrollColumnTemplate.setDataPipe(new _IceDataPipe["default"](modJsList.tabPayrollColumnTemplate));
+  modJsList.tabPayrollColumnTemplate.setAccess(data.permissions.PayrollColumnTemplate);
+  modJsList.tabDeductionGroup = new _lib.DeductionGroupAdapter('DeductionGroup');
+  modJsList.tabDeductionGroup.setObjectTypeName('Deduction Group');
+  modJsList.tabDeductionGroup.setDataPipe(new _IceDataPipe["default"](modJsList.tabDeductionGroup));
+  modJsList.tabDeductionGroup.setAccess(data.permissions.DeductionGroup);
+  modJsList.tabDeduction = new _lib.DeductionAdapter('Deduction');
+  modJsList.tabDeduction.setRemoteTable(true);
+  modJsList.tabDeduction.setObjectTypeName('Deduction');
+  modJsList.tabDeduction.setDataPipe(new _IceDataPipe["default"](modJsList.tabDeduction));
+  modJsList.tabDeduction.setAccess(data.permissions.Deduction);
+  modJsList.tabPayslipTemplate = new _lib.PayslipTemplateAdapter('PayslipTemplate');
+  modJsList.tabPayslipTemplate.setObjectTypeName('Payslip Template');
+  modJsList.tabPayslipTemplate.setDataPipe(new _IceDataPipe["default"](modJsList.tabPayslipTemplate));
+  modJsList.tabPayslipTemplate.setAccess(data.permissions.PayslipTemplate);
+  window.modJs = modJsList.tabPayroll;
+  window.modJsList = modJsList;
+}
+
+window.initAdminPayroll = init;
+
+},{"../../../api/IceDataPipe":83,"./lib":44}],44:[function(require,module,exports){
 "use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.PayslipTemplateAdapter = exports.DeductionAdapter = exports.DeductionGroupAdapter = exports.PayrollColumnTemplateAdapter = exports.PayrollColumnAdapter = exports.PayrollAdapter = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -11440,6 +11471,8 @@ var PayrollAdapter = /*#__PURE__*/function (_ReactModalAdapterBas) {
   return PayrollAdapter;
 }(_ReactModalAdapterBase["default"]);
 
+exports.PayrollAdapter = PayrollAdapter;
+
 var PayrollColumnAdapter = /*#__PURE__*/function (_ReactModalAdapterBas2) {
   _inherits(PayrollColumnAdapter, _ReactModalAdapterBas2);
 
@@ -11553,6 +11586,8 @@ var PayrollColumnAdapter = /*#__PURE__*/function (_ReactModalAdapterBas2) {
   return PayrollColumnAdapter;
 }(_ReactModalAdapterBase["default"]);
 
+exports.PayrollColumnAdapter = PayrollColumnAdapter;
+
 var PayrollColumnTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas3) {
   _inherits(PayrollColumnTemplateAdapter, _ReactModalAdapterBas3);
 
@@ -11613,6 +11648,8 @@ var PayrollColumnTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas3
   return PayrollColumnTemplateAdapter;
 }(_ReactModalAdapterBase["default"]);
 
+exports.PayrollColumnTemplateAdapter = PayrollColumnTemplateAdapter;
+
 var DeductionGroupAdapter = /*#__PURE__*/function (_ReactModalAdapterBas4) {
   _inherits(DeductionGroupAdapter, _ReactModalAdapterBas4);
 
@@ -11672,6 +11709,8 @@ var DeductionGroupAdapter = /*#__PURE__*/function (_ReactModalAdapterBas4) {
 
   return DeductionGroupAdapter;
 }(_ReactModalAdapterBase["default"]);
+
+exports.DeductionGroupAdapter = DeductionGroupAdapter;
 
 var DeductionAdapter = /*#__PURE__*/function (_ReactModalAdapterBas5) {
   _inherits(DeductionAdapter, _ReactModalAdapterBas5);
@@ -11748,6 +11787,8 @@ var DeductionAdapter = /*#__PURE__*/function (_ReactModalAdapterBas5) {
 
   return DeductionAdapter;
 }(_ReactModalAdapterBase["default"]);
+
+exports.DeductionAdapter = DeductionAdapter;
 
 var PayslipTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas6) {
   _inherits(PayslipTemplateAdapter, _ReactModalAdapterBas6);
@@ -11828,14 +11869,7 @@ var PayslipTemplateAdapter = /*#__PURE__*/function (_ReactModalAdapterBas6) {
   return PayslipTemplateAdapter;
 }(_ReactModalAdapterBase["default"]);
 
-module.exports = {
-  PayrollAdapter: PayrollAdapter,
-  PayrollColumnAdapter: PayrollColumnAdapter,
-  PayrollColumnTemplateAdapter: PayrollColumnTemplateAdapter,
-  DeductionGroupAdapter: DeductionGroupAdapter,
-  DeductionAdapter: DeductionAdapter,
-  PayslipTemplateAdapter: PayslipTemplateAdapter
-};
+exports.PayslipTemplateAdapter = PayslipTemplateAdapter;
 
 },{"../../../api/ReactModalAdapterBase":92,"antd":"antd","react":"react"}],45:[function(require,module,exports){
 "use strict";
