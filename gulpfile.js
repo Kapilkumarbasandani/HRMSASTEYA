@@ -295,6 +295,7 @@ gulp.task('admin-js', (done) => {
     'metadata',
     'modules',
     'overtime',
+    'payroll',
     'permissions',
     'projects',
     'qualifications',

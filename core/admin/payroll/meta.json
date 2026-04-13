@@ -1,0 +1,10 @@
+{
+    "label": "Payroll",
+    "menu": "Payroll",
+    "order": "2",
+    "icon": "fa-calculator",
+    "user_levels": ["Admin"],
+    "permissions": [],
+    "model_namespace": "\\Payroll\\Common\\Model",
+    "manager": "\\Payroll\\Admin\\Api\\PayrollAdminManager"
+}
